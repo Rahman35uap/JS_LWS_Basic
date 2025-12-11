@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = "John Doe";
+        console.log(x);
+        let y = new String("John Doe");
+        console.log(y);
+        let z = "John Doe";
+        console.log(z);
+        console.log(x == y);  // true (compare by value)
+        console.log(x === y);  // false (compare by type)
+        console.log(x == z);  // true (compare by value)
+        console.log(x === z);  // true (compare by type)
+        let fruits = ["Banana", "Orange", "Apple"];
+        // function forEveryFruits(value, index, array) {
+        //     array.push(`Mango ${index}`);
+        //     console.log(array + "=>" + value + "=>" + index);
+        // }
+        // fruits.forEach(forEveryFruits);
+        document.write(fruits);
+        document.write("<br>");
+        document.write(typeof fruits);
+        const car = {type:"Fiat", model:"500", color:"white"};
+    </script> 
+</body>
+</html>
