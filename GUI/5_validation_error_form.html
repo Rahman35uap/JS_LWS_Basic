@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォームバリデーションエラー</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styling to match the screenshot's error appearance */
+        .form-control.is-invalid {
+            border-color: #dc3545; /* Red border */
+            border-width: 2px !important; /* Thicker border */
+            /* Ensure background is white, overriding Bootstrap's default appearance for non-editable fields */
+            background-color: #fff !important; 
+        }
+        .text-danger-custom {
+            color: #dc3545; 
+            font-size: 0.875em;
+            margin-top: 0.25rem;
+        }
+        /* Centering the form for the example */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h4 class="text-center mb-4">アカウント登録</h4>
+        <form novalidate>
+            <div class="mb-4">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" class="form-control is-invalid" id="email" value="mail%server.com">
+                <div class="text-danger-custom">指定されている形式で入力してください。</div>
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="form-label">Password*</label>
+                <input type="password" class="form-control is-invalid" id="password" value="">
+                <div class="text-danger-custom">このフィールドを入力してください。</div>
+            </div>
+
+            <div class="mb-5">
+                <label for="confirm_password" class="form-label">Confirm password*</label>
+                <input type="password" class="form-control is-invalid" id="confirm_password" value="••••">
+                <div class="text-danger-custom">パスワードが一致しません</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 py-2">REGISTER</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

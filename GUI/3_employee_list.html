@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社員一覧 - 簡易社員管理システム</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-control:not([readonly]) {
+            background-color: #fff !important; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-2" href="#">簡易社員管理システム</a>
+            <span class="navbar-text me-2">
+                <a href="#" class="text-white text-decoration-none">ログアウト</a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-3">
+        <div class="row mb-3 align-items-center">
+            <div class="col-12 col-md-5">
+                <div class="input-group">
+                    <span class="input-group-text">キーワード検索</span>
+                    <input type="text" class="form-control" placeholder="キーワードを入力">
+                    <button class="btn btn-primary" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.085.122l3.05 3.05a1 1 0 0 0 1.414-1.414l-3.05-3.05c-.06-.04-.117-.082-.122-.085m-5.498.441a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11"/>
+                        </svg>
+                        検索
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="showRetired">
+                    <label class="form-check-label" for="showRetired">
+                        退職者も表示する
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-md-end mt-2 mt-md-0">
+                <button class="btn btn-warning text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                    </svg>
+                    新規登録
+                </button>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr class="table-light">
+                        <th></th>
+                        <th>社員ID<a href="#" class="ms-1 text-decoration-none">↑↓</a></th>
+                        <th>社員名<a href="#" class="ms-1 text-decoration-none">↑↓</a></th>
+                        <th>メールアドレス</th>
+                        <th>性別</th>
+                        <th>退職</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0001</td>
+                        <td>宮崎 太郎</td>
+                        <td>miya1@gmail.com</td>
+                        <td>男性</td>
+                        <td><input type="checkbox" checked disabled></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0002</td>
+                        <td>宮崎 次郎</td>
+                        <td>miya2@gmail.com</td>
+                        <td>男性</td>
+                        <td></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0003</td>
+                        <td>宮崎 三郎</td>
+                        <td>miya3@gmail.com</td>
+                        <td>男性</td>
+                        <td></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0004</td>
+                        <td>宮崎 荘子</td>
+                        <td>miya4@gmail.com</td>
+                        <td>女性</td>
+                        <td><input type="checkbox" checked disabled></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0005</td>
+                        <td>宮崎 美咲</td>
+                        <td>miya5@gmail.com</td>
+                        <td>女性</td>
+                        <td></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-sm btn-outline-secondary">修正</button></td>
+                        <td>0006</td>
+                        <td>宮崎 五郎</td>
+                        <td>miya6@gmail.com</td>
+                        <td>男性</td>
+                        <td></td>
+                        <td><button class="btn btn-sm text-secondary" disabled>⋮</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="d-flex justify-content-end align-items-center mt-3">
+            <span class="me-3">Rows per page:</span>
+            <select class="form-select form-select-sm me-3" style="width: auto;">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="25">25</option>
+            </select>
+            <span class="me-3">1-6 of 10</span>
+            <button class="btn btn-sm btn-outline-secondary me-1" disabled>&lt;</button>
+            <button class="btn btn-sm btn-outline-secondary">&gt;</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
