@@ -1,0 +1,7 @@
+# JLPT N5 Kanji Scraper Requirements
+# Updated for Python 3.14 Compatibility (Feb 2026)
+
+beautifulsoup4>=4.13.0
+requests>=2.32.0
+Pillow>=12.0.0
+lxml>=6.0.0

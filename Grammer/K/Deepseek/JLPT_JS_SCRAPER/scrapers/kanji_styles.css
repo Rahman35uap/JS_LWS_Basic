@@ -1,0 +1,56 @@
+/* JLPT n4 Kanji Styling */
+.kanji-highlight {
+    color: #e74c3c;
+    font-weight: bold;
+    background-color: #fff3cd;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.jp {
+    font-family: "Hiragino Kaku Gothic Pro", "Meiryo", "MS PGothic", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.romaji {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.english {
+    color: #2c3e50;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.example-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+}
+
+.reading-item {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-left: 3px solid #3498db;
+    background-color: #f8f9fa;
+}
+
+.word {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.reading {
+    color: #e74c3c;
+    margin: 0 10px;
+}
+
+.meaning {
+    color: #7f8c8d;
+}

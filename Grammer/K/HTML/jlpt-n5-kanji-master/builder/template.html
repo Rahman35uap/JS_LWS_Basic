@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Learn all 80 JLPT N5 Kanji with stroke diagrams, flashcards, SRS, and interactive quizzes">
+    <meta name="theme-color" content="#3498db">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>JLPT N5 Kanji Master | Learn All 80 Kanji</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="data:application/json;base64,MANIFEST_BASE64_PLACEHOLDER">
+    
+    <!-- Styles -->
+    <style>
+        /* CSS_PLACEHOLDER */
+    </style>
+</head>
+<body data-theme="default">
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-kanji">日</div>
+            <div class="loading-text">Loading Kanji Master...</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+    
+    <!-- Main App Container -->
+    <div id="app" class="app-container hidden">
+        
+        <!-- Header -->
+        <header id="app-header" class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">🎌 JLPT N5 Kanji Master</h1>
+                <div class="header-actions">
+                    <button id="search-btn" class="icon-btn" title="Search & Filter" aria-label="Search">
+                        🔍
+                    </button>
+                    <button id="settings-btn" class="icon-btn" title="Settings" aria-label="Settings">
+                        ⚙️
+                    </button>
+                    <button id="dark-mode-toggle" class="icon-btn" title="Dark Mode" aria-label="Toggle Dark Mode">
+                        🌙
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="progress-label">Progress: 0/80 (0%)</span>
+                    <span id="session-timer">⏱️ 0:00</span>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Mode Selector -->
+        <div class="mode-selector">
+            <button id="mode-study" class="mode-btn active" data-mode="study">
+                📖 Study
+            </button>
+            <button id="mode-game" class="mode-btn" data-mode="game">
+                🎮 Quiz
+            </button>
+            <button id="mode-srs" class="mode-btn" data-mode="srs">
+                🗓️ Review
+            </button>
+            <button id="mode-stats" class="mode-btn" data-mode="stats">
+                📊 Stats
+            </button>
+        </div>
+        
+        <!-- Study Mode -->
+        <main id="study-view" class="view-container active">
+            
+            <!-- Main Kanji Card -->
+            <div id="kanji-card" class="kanji-card" tabindex="0" role="button" aria-label="Click to open detailed view">
+                <div class="kanji-bookmark">
+                    <button id="bookmark-btn" class="bookmark-btn" aria-label="Bookmark this kanji">
+                        ☆
+                    </button>
+                </div>
+                <div id="kanji-char" class="kanji-char">日</div>
+                <div id="kanji-svg-container" class="kanji-svg-container">
+                    <!-- SVG will be injected here -->
+                </div>
+                <div id="kanji-info" class="kanji-info">
+                    <span id="kanji-stroke-count" class="info-badge">4 strokes</span>
+                    <span id="kanji-radical" class="info-badge">日 (sun)</span>
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <div class="navigation-controls">
+                <button id="prev-btn" class="nav-btn nav-btn-prev" aria-label="Previous kanji" aria-keyshortcuts="ArrowLeft">
+                    ← <span class="nav-preview" id="prev-preview">一</span>
+                </button>
+                
+                <div class="position-indicator">
+                    <span id="position-display">1 / 80</span>
+                    <div class="jump-to">
+                        <input 
+                            type="text" 
+                            id="jump-input" 
+                            placeholder="Go to #" 
+                            aria-label="Jump to kanji number"
+                            maxlength="3"
+                        >
+                        <button id="jump-btn" aria-label="Jump">→</button>
+                    </div>
+                </div>
+                
+                <button id="next-btn" class="nav-btn nav-btn-next" aria-label="Next kanji" aria-keyshortcuts="ArrowRight">
+                    <span class="nav-preview" id="next-preview">二</span> →
+                </button>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button id="study-deeply-btn" class="btn btn-primary btn-lg">
+                    📖 Study Deeply
+                </button>
+                <button id="quick-quiz-btn" class="btn btn-secondary btn-lg">
+                    🎮 Quick Quiz
+                </button>
+            </div>
+            
+        </main>
+        
+        <!-- Game Mode -->
+        <section id="game-view" class="view-container">
+            
+            <!-- Game Mode Selection -->
+            <div id="game-mode-select" class="game-mode-select">
+                <h2>Choose Your Challenge</h2>
+                
+                <div class="game-modes-grid">
+                    <div class="game-mode-card" data-mode="study">
+                        <div class="game-mode-icon">📚</div>
+                        <h3>Study Practice</h3>
+                        <p>Unlimited questions, learn at your pace</p>
+                        <button class="btn btn-primary">Start</button>
+                    </div>
+                    
+                    <div class="game-mode-card" data-mode="speed">
+                        <div class="game-mode-icon">⚡</div>
+                        <h3>Speed Round</h3>
+                        <p>30 seconds per question - beat the clock!</p>
+                        <button class="btn btn-primary">Start</button>
+                    </div>
+                    
+                    <div class="game-mode-card" data-mode="survival">
+                        <div class="game-mode-icon">💀</div>
+                        <h3>Survival</h3>
+                        <p>3 lives - don't make mistakes!</p>
+                        <button class="btn btn-primary">Start</button>
+                    </div>
+                    
+                    <div class="game-mode-card" data-mode="perfect">
+                        <div class="game-mode-icon">🏆</div>
+                        <h3>Perfect Run</h3>
+                        <p>20 correct answers in a row</p>
+                        <button class="btn btn-primary">Start</button>
+                    </div>
+                </div>
+                
+                <div class="quiz-settings">
+                    <h3>Settings</h3>
+                    <label>
+                        Difficulty:
+                        <select id="difficulty-select">
+                            <option value="beginner">Beginner</option>
+                            <option value="mixed" selected>Mixed</option>
+                            <option value="hell">Hell Mode</option>
+                        </select>
+                    </label>
+                    
+                    <div class="question-types">
+                        <label><input type="checkbox" checked> Reading Quiz</label>
+                        <label><input type="checkbox" checked> Meaning Quiz</label>
+                        <label><input type="checkbox" checked> Context Quiz</label>
+                        <label><input type="checkbox"> Reverse Quiz</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Active Quiz -->
+            <div id="quiz-active" class="quiz-active hidden">
+                
+                <!-- Streak Display -->
+                <div class="streak-display">
+                    <div class="streak-current">
+                        <span class="streak-label">Current</span>
+                        <span id="current-streak" class="streak-number">0</span>
+                    </div>
+                    <div class="streak-best">
+                        <span class="streak-label">Best</span>
+                        <span id="best-streak" class="streak-number">0</span>
+                    </div>
+                </div>
+                
+                <!-- Lives (Survival Mode) -->
+                <div id="lives-display" class="lives-display hidden">
+                    <span class="life">❤️</span>
+                    <span class="life">❤️</span>
+                    <span class="life">❤️</span>
+                </div>
+                
+                <!-- Timer (Speed Mode) -->
+                <div id="timer-display" class="timer-display hidden">
+                    <div class="timer-bar">
+                        <div id="timer-fill" class="timer-fill"></div>
+                    </div>
+                    <span id="timer-text">30s</span>
+                </div>
+                
+                <!-- Question -->
+                <div id="question-container" class="question-container">
+                    <h2 id="question-text" class="question-text">What is the reading of this word?</h2>
+                    <div id="question-content" class="question-content">
+                        <!-- Dynamic content -->
+                    </div>
+                </div>
+                
+                <!-- Options -->
+                <div id="options-container" class="options-container">
+                    <!-- Dynamic options -->
+                </div>
+                
+                <!-- Feedback -->
+                <div id="quiz-feedback" class="quiz-feedback hidden">
+                    <div class="feedback-content">
+                        <div class="feedback-icon"></div>
+                        <div class="feedback-text"></div>
+                        <div class="feedback-detail"></div>
+                    </div>
+                </div>
+                
+                <!-- Actions -->
+                <div class="quiz-actions">
+                    <button id="quit-quiz-btn" class="btn btn-secondary">Quit</button>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <!-- SRS Review Mode -->
+        <section id="srs-view" class="view-container">
+            <div class="srs-container">
+                <h2>📅 Spaced Repetition Review</h2>
+                
+                <div class="srs-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="srs-due-today">0</div>
+                        <div class="stat-label">Due Today</div>
+                        <button id="start-review-btn" class="btn btn-primary">Start Review</button>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-number" id="srs-due-tomorrow">0</div>
+                        <div class="stat-label">Tomorrow</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-number" id="srs-due-week">0</div>
+                        <div class="stat-label">This Week</div>
+                    </div>
+                </div>
+                
+                <div class="mastery-distribution">
+                    <h3>Mastery Levels</h3>
+                    <div class="mastery-bars">
+                        <div class="mastery-bar">
+                            <span class="mastery-label">⭐☆☆☆☆ New</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span class="mastery-count">0</span>
+                        </div>
+                        <div class="mastery-bar">
+                            <span class="mastery-label">⭐⭐☆☆☆ Learning</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span class="mastery-count">0</span>
+                        </div>
+                        <div class="mastery-bar">
+                            <span class="mastery-label">⭐⭐⭐☆☆ Familiar</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span class="mastery-count">0</span>
+                        </div>
+                        <div class="mastery-bar">
+                            <span class="mastery-label">⭐⭐⭐⭐☆ Proficient</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span class="mastery-count">0</span>
+                        </div>
+                        <div class="mastery-bar">
+                            <span class="mastery-label">⭐⭐⭐⭐⭐ Mastered</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span class="mastery-count">0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="srs-calendar">
+                    <h3>Review Calendar</h3>
+                    <!-- Calendar will be generated here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Mode -->
+        <section id="stats-view" class="view-container">
+            <div class="stats-container">
+                <h2>📊 Your Progress Analytics</h2>
+                
+                <div class="overall-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="total-accuracy">0%</div>
+                        <div class="stat-label">Overall Accuracy</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="total-questions">0</div>
+                        <div class="stat-label">Total Questions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="total-time">0h 0m</div>
+                        <div class="stat-label">Study Time</div>
+                    </div>
+                </div>
+                
+                <div class="performance-breakdown">
+                    <h3>Performance by Question Type</h3>
+                    <div class="performance-bars">
+                        <div class="perf-bar">
+                            <span>Reading Quiz</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span>0%</span>
+                        </div>
+                        <div class="perf-bar">
+                            <span>Meaning Quiz</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span>0%</span>
+                        </div>
+                        <div class="perf-bar">
+                            <span>Context Quiz</span>
+                            <div class="bar"><div class="bar-fill" style="width: 0%"></div></div>
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="kanji-performance">
+                    <div class="performance-section">
+                        <h3>💪 Strongest Kanji</h3>
+                        <div id="strongest-kanji" class="kanji-list"></div>
+                    </div>
+                    <div class="performance-section">
+                        <h3>😅 Needs Practice</h3>
+                        <div id="weakest-kanji" class="kanji-list"></div>
+                    </div>
+                </div>
+                
+                <div class="achievements">
+                    <h3>🏆 Achievements</h3>
+                    <div id="achievements-grid" class="achievements-grid">
+                        <!-- Achievements will be generated -->
+                    </div>
+                </div>
+                
+                <div class="export-section">
+                    <h3>Export Data</h3>
+                    <button id="export-progress-btn" class="btn btn-primary">📥 Export Progress</button>
+                    <button id="import-progress-btn" class="btn btn-secondary">📤 Import Progress</button>
+                    <input type="file" id="import-file" accept=".json" style="display: none;">
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    
+    <!-- Fullscreen Modal (Study Deeply) -->
+    <div id="study-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            
+            <!-- Header -->
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h2 id="modal-title" class="modal-kanji-char">日</h2>
+                    <div class="modal-meta">
+                        <span id="modal-meaning" class="modal-meaning">Day / Sun</span>
+                        <span id="modal-info" class="modal-info">N5 • 4 strokes • Radical: 日</span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button id="modal-bookmark" class="icon-btn" aria-label="Bookmark">🔖</button>
+                    <button id="modal-notes-btn" class="icon-btn" aria-label="Notes">✏️</button>
+                    <button id="modal-close" class="icon-btn" aria-label="Close">×</button>
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <div class="modal-navigation">
+                <button id="modal-prev" class="modal-nav-btn">
+                    ← <span id="modal-prev-char">一</span>
+                </button>
+                <span id="modal-position">1 / 80</span>
+                <button id="modal-next" class="modal-nav-btn">
+                    <span id="modal-next-char">二</span> →
+                </button>
+            </div>
+            
+            <!-- Content Sections -->
+            <div class="modal-body">
+                
+                <!-- Flashcard Section -->
+                <section class="modal-section">
+                    <h3>🎴 Flashcard</h3>
+                    <div class="flashcard-container">
+                        <img id="flashcard-img" class="flashcard-img" alt="Kanji flashcard" />
+                        <div class="flashcard-hint">Click to zoom</div>
+                    </div>
+                </section>
+                
+                <!-- Writing Practice -->
+                <section class="modal-section">
+                    <h3>✍️ Writing Practice</h3>
+                    <div class="writing-practice">
+                        <canvas id="writing-canvas" class="writing-canvas"></canvas>
+                        <div class="writing-controls">
+                            <button id="clear-canvas-btn" class="btn btn-secondary">🔄 Clear</button>
+                            <button id="animate-strokes-btn" class="btn btn-primary">▶️ Animate</button>
+                            <button id="check-writing-btn" class="btn btn-success">✓ Check</button>
+                        </div>
+                        <div id="writing-accuracy" class="writing-accuracy hidden">
+                            Accuracy: <span id="accuracy-percent">0</span>% 🎯
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Audio Pronunciation -->
+                <section class="modal-section">
+                    <h3>🔊 Pronunciation</h3>
+                    <div class="audio-section">
+                        <div class="audio-row">
+                            <span class="audio-label">Onyomi:</span>
+                            <span id="onyomi-text" class="audio-text">ニチ・ジツ</span>
+                            <button class="audio-play-btn" data-type="onyomi" aria-label="Play onyomi">▶️</button>
+                        </div>
+                        <div class="audio-row">
+                            <span class="audio-label">Kunyomi:</span>
+                            <span id="kunyomi-text" class="audio-text">ひ・か</span>
+                            <button class="audio-play-btn" data-type="kunyomi" aria-label="Play kunyomi">▶️</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Readings -->
+                <section class="modal-section">
+                    <h3>📖 Vocabulary</h3>
+                    <div class="readings-container">
+                        <div class="reading-category">
+                            <h4>Onyomi Readings</h4>
+                            <div id="onyomi-list" class="reading-list"></div>
+                        </div>
+                        <div class="reading-category">
+                            <h4>Kunyomi Readings</h4>
+                            <div id="kunyomi-list" class="reading-list"></div>
+                        </div>
+                        <div class="reading-category">
+                            <h4>Special Readings</h4>
+                            <div id="special-list" class="reading-list"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Examples -->
+                <section class="modal-section">
+                    <h3>📚 Example Sentences</h3>
+                    <div id="examples-container" class="examples-container">
+                        <!-- Examples will be injected -->
+                    </div>
+                </section>
+                
+                <!-- Related Kanji -->
+                <section class="modal-section">
+                    <h3>🔗 Related Kanji</h3>
+                    <div class="related-kanji">
+                        <div class="related-group">
+                            <span class="related-label">Same Radical:</span>
+                            <div id="same-radical" class="kanji-chips"></div>
+                        </div>
+                        <div class="related-group">
+                            <span class="related-label">⚠️ Confusion Pairs:</span>
+                            <div id="confusion-pairs" class="kanji-chips"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Personal Notes -->
+                <section class="modal-section" id="notes-section">
+                    <h3>📝 My Notes</h3>
+                    <textarea 
+                        id="personal-notes" 
+                        class="notes-textarea" 
+                        placeholder="Add your own notes, mnemonics, or reminders here..."
+                    ></textarea>
+                    <button id="save-notes-btn" class="btn btn-primary">💾 Save Notes</button>
+                </section>
+                
+                <!-- SRS Status -->
+                <section class="modal-section">
+                    <h3>🗓️ SRS Status</h3>
+                    <div class="srs-status">
+                        <div class="srs-stat">
+                            <span class="srs-label">Last Reviewed:</span>
+                            <span id="last-reviewed">Never</span>
+                        </div>
+                        <div class="srs-stat">
+                            <span class="srs-label">Next Review:</span>
+                            <span id="next-review">-</span>
+                        </div>
+                        <div class="srs-stat">
+                            <span class="srs-label">Mastery:</span>
+                            <span id="mastery-stars">⭐☆☆☆☆</span>
+                        </div>
+                        <div class="srs-stat">
+                            <span class="srs-label">Success Rate:</span>
+                            <span id="success-rate">0/0 (0%)</span>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Search & Filter Panel -->
+    <div id="search-panel" class="side-panel">
+        <div class="panel-header">
+            <h2>🔍 Search & Filter</h2>
+            <button id="close-search-panel" class="icon-btn">×</button>
+        </div>
+        <div class="panel-body">
+            <input 
+                type="text" 
+                id="search-input" 
+                class="search-input" 
+                placeholder="Search by character, reading, or meaning..."
+            >
+            
+            <div class="filter-section">
+                <h3>Filters</h3>
+                <label><input type="checkbox" id="filter-bookmarked"> Bookmarked Only</label>
+                <label><input type="checkbox" id="filter-due"> Due for Review</label>
+                <label><input type="checkbox" id="filter-weak"> Needs Practice (&lt;60%)</label>
+            </div>
+            
+            <div class="sort-section">
+                <h3>Sort By</h3>
+                <label><input type="radio" name="sort" value="default" checked> Default (1-80)</label>
+                <label><input type="radio" name="sort" value="stroke"> Stroke Count</label>
+                <label><input type="radio" name="sort" value="frequency"> Frequency</label>
+                <label><input type="radio" name="sort" value="mastery"> Mastery Level</label>
+                <label><input type="radio" name="sort" value="recent"> Recently Reviewed</label>
+            </div>
+            
+            <div class="search-results">
+                <h3>Results: <span id="results-count">80</span></h3>
+                <div id="search-results-list" class="kanji-grid">
+                    <!-- Results will be populated -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Settings Panel -->
+    <div id="settings-panel" class="side-panel">
+        <div class="panel-header">
+            <h2>⚙️ Settings</h2>
+            <button id="close-settings-panel" class="icon-btn">×</button>
+        </div>
+        <div class="panel-body">
+            
+            <div class="setting-group">
+                <h3>Display</h3>
+                <label>
+                    <input type="checkbox" id="auto-reveal"> Auto-Reveal Mode
+                    <small>Automatically show all details in modal</small>
+                </label>
+                
+                <label>
+                    Theme:
+                    <select id="theme-select">
+                        <option value="default">🌊 Ocean Blue</option>
+                        <option value="sakura">🌸 Sakura Pink</option>
+                        <option value="forest">🌲 Forest Green</option>
+                        <option value="midnight">🌙 Midnight Purple</option>
+                        <option value="high-contrast">🔆 High Contrast</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="setting-group">
+                <h3>Study</h3>
+                <label>
+                    <input type="checkbox" id="stroke-animation"> Enable Stroke Animation
+                </label>
+                <label>
+                    <input type="checkbox" id="auto-play-audio"> Auto-Play Audio
+                </label>
+            </div>
+            
+            <div class="setting-group">
+                <h3>Quiz</h3>
+                <label>
+                    <input type="checkbox" id="sound-effects"> Sound Effects
+                </label>
+                <label>
+                    <input type="checkbox" id="haptic-feedback"> Haptic Feedback (Mobile)
+                </label>
+                <label>
+                    <input type="checkbox" id="confetti-enabled" checked> Confetti Animations
+                </label>
+            </div>
+            
+            <div class="setting-group">
+                <h3>Data</h3>
+                <button id="reset-progress-btn" class="btn btn-danger">🗑️ Reset All Progress</button>
+                <button id="clear-cache-btn" class="btn btn-secondary">🔄 Clear Cache</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Fullscreen Image Overlay -->
+    <div id="fullscreen-overlay" class="fullscreen-overlay">
+        <img id="fullscreen-img" alt="Fullscreen view">
+        <button id="close-fullscreen" class="close-fullscreen">×</button>
+    </div>
+    
+    <!-- Confetti Container -->
+    <div id="confetti-container" class="confetti-container"></div>
+    
+    <!-- Notification Toast -->
+    <div id="notification-toast" class="notification-toast">
+        <div class="toast-content"></div>
+    </div>
+    
+    <!-- Data Script -->
+    <script id="kanji-data">
+        // KANJI_DATA_PLACEHOLDER
+        const KANJI_DATA = {};
+    </script>
+    
+    <!-- Application Script -->
+    <script>
+        // APP_SCRIPT_PLACEHOLDER
+    </script>
+    
+</body>
+</html>

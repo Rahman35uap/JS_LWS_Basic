@@ -1,0 +1,639 @@
+title,price,rating
+It's Only the Himalayas,Â£45.17,Two
+Full Moon over Noahâs Ark: An Odyssey to Mount Ararat and Beyond,Â£49.43,Four
+See America: A Celebration of Our National Parks & Treasured Sites,Â£48.87,Three
+Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel,Â£36.94,Two
+Under the Tuscan Sun,Â£37.33,Three
+A Summer In Europe,Â£44.34,Two
+The Great Railway Bazaar,Â£30.54,One
+A Year in Provence (Provence #1),Â£56.88,Four
+The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2),Â£23.21,One
+Neither Here nor There: Travels in Europe,Â£38.95,Three
+"1,000 Places to See Before You Die",Â£26.08,Five
+Sharp Objects,Â£47.82,Four
+"In a Dark, Dark Wood",Â£19.63,One
+The Past Never Ends,Â£56.50,Four
+A Murder in Time,Â£16.64,One
+The Murder of Roger Ackroyd (Hercule Poirot #4),Â£44.10,Four
+The Last Mile (Amos Decker #2),Â£54.21,Two
+That Darkness (Gardiner and Renner #1),Â£13.92,One
+Tastes Like Fear (DI Marnie Rome #3),Â£10.69,One
+A Time of Torment (Charlie Parker #14),Â£48.35,Five
+A Study in Scarlet (Sherlock Holmes #1),Â£16.73,Two
+Poisonous (Max Revere Novels #3),Â£26.80,Three
+Murder at the 42nd Street Library (Raymond Ambler #1),Â£54.36,Four
+Most Wanted,Â£35.28,Three
+Hide Away (Eve Duncan #20),Â£11.84,One
+Boar Island (Anna Pigeon #19),Â£59.48,Three
+The Widow,Â£27.26,Two
+Playing with Fire,Â£13.71,Three
+What Happened on Beale Street (Secrets of the South Mysteries #2),Â£25.37,Five
+The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1),Â£52.30,Five
+Delivering the Truth (Quaker Midwife Mystery #1),Â£20.89,Four
+It's Only the Himalayas,Â£45.17,Two
+Full Moon over Noahâs Ark: An Odyssey to Mount Ararat and Beyond,Â£49.43,Four
+See America: A Celebration of Our National Parks & Treasured Sites,Â£48.87,Three
+Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel,Â£36.94,Two
+Under the Tuscan Sun,Â£37.33,Three
+A Summer In Europe,Â£44.34,Two
+The Great Railway Bazaar,Â£30.54,One
+A Year in Provence (Provence #1),Â£56.88,Four
+The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2),Â£23.21,One
+Neither Here nor There: Travels in Europe,Â£38.95,Three
+"1,000 Places to See Before You Die",Â£26.08,Five
+Sharp Objects,Â£47.82,Four
+"In a Dark, Dark Wood",Â£19.63,One
+The Past Never Ends,Â£56.50,Four
+A Murder in Time,Â£16.64,One
+The Murder of Roger Ackroyd (Hercule Poirot #4),Â£44.10,Four
+The Last Mile (Amos Decker #2),Â£54.21,Two
+That Darkness (Gardiner and Renner #1),Â£13.92,One
+Tastes Like Fear (DI Marnie Rome #3),Â£10.69,One
+A Time of Torment (Charlie Parker #14),Â£48.35,Five
+A Study in Scarlet (Sherlock Holmes #1),Â£16.73,Two
+Poisonous (Max Revere Novels #3),Â£26.80,Three
+Murder at the 42nd Street Library (Raymond Ambler #1),Â£54.36,Four
+Most Wanted,Â£35.28,Three
+Hide Away (Eve Duncan #20),Â£11.84,One
+Boar Island (Anna Pigeon #19),Â£59.48,Three
+The Widow,Â£27.26,Two
+Playing with Fire,Â£13.71,Three
+What Happened on Beale Street (Secrets of the South Mysteries #2),Â£25.37,Five
+The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1),Â£52.30,Five
+Delivering the Truth (Quaker Midwife Mystery #1),Â£20.89,Four
+1,日,"-び, うち、, だ(す)、",nichi jitsuニチ ジツhi -bi -kaひ -かday sun Japan counter for days2一ichiイチhito(tsu)ひと(つ)one3国kokuコクkuniくにc
+2,一,"うち、, だ(す)、, ギョウ、",ichiイチhito(tsu)ひと(つ)one3国kokuコクkuniくにcountry4人jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter fo
+3,国,"うち、, だ(す)、, ギョウ、",kokuコクkuniくにcountry4人jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(
+4,人,"うち、, だ(す)、, ギョウ、",jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(kii)おお(きい)large big7十
+5,年,"うち、, だ(す)、, ギョウ、",nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(kii)おお(きい)large big7十juuジュウtou toとお、 とten 108二ni
+6,大,"うち、, だ(す)、, ギョウ、",dai taiダイ、 タイoo(kii)おお(きい)large big7十juuジュウtou toとお、 とten 108二ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmot
+7,十,"うち、, だ(す)、, ギョウ、",juuジュウtou toとお、 とten 108二ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmotoもとbook present true counter for long
+8,二,"うち、, だ(す)、, ギョウ、",ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmotoもとbook present true counter for long cylindrical things10中chu
+9,本,"うち、, だ(す)、, ギョウ、",honホンmotoもとbook present true counter for long cylindrical things10中chuuチュウnaka uchi ata(ru)なか、 あた(る)
+10,中,"うち、, だ(す)、, ギョウ、",chuuチュウnaka uchi ata(ru)なか、 あた(る)in inside middle mean center11長chouチョウnaga(i) osaなが(い)、 おさlong lead
+11,長,"だ(す)、, ギョウ、, ゆ(く)、",chouチョウnaga(i) osaなが(い)、 おさlong leader superior senior12出shutsu suiシュツ、 スイde(ru) da(su) i(deru)で(る)、
+12,出,"だ(す)、, ギョウ、, ゆ(く)、",shutsu suiシュツ、 スイde(ru) da(su) i(deru)で(る)、 い(でる)exit leave go out13三sanサンmi(tsu)み(つ)three 314時jiジto
+13,三,"ギョウ、, ゆ(く)、, フン、",sanサンmi(tsu)み(つ)three 314時jiジtoki dokiとき、 -どきtime hour15行kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、
+14,時,"ギョウ、, ゆ(く)、, フン、",jiジtoki dokiとき、 -どきtime hour15行kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、 おこな(う)going journey carry
+15,行,"ギョウ、, ゆ(く)、, フン、",kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、 おこな(う)going journey carry out line row16見kenケンmi(ru) mi(
+16,見,"フン、, うし(ろ)、, う(む)、",kenケンmi(ru) mi(seru)み(る)、 み(せる)see hopes chances idea opinion look at visible17月getsu gatsuゲツ、 ガツtsu
+17,月,"フン、, うし(ろ)、, う(む)、",getsu gatsuゲツ、 ガツtsukiつきmonth moon18分bun fun buブン、 ブwa(keru)わ(ける)part minute of time understand19後go
+18,分,"フン、, うし(ろ)、, う(む)、",bun fun buブン、 ブwa(keru)わ(ける)part minute of time understand19後go kouゴ、 コウnochi ushi(ro) atoのち、 あとbehi
+19,後,"うし(ろ)、, う(む)、, お(う)、",go kouゴ、 コウnochi ushi(ro) atoのち、 あとbehind back later20前zenゼンmaeまえin front before21生sei shouセイ、 ショウi(
+20,前,"う(む)、, お(う)、, は(える)、",zenゼンmaeまえin front before21生sei shouセイ、 ショウi(kiru) u(mu) o(u) ha(eru) namaい(きる)、 なまlife genuine birt
+21,生,"う(む)、, お(う)、, は(える)、",sei shouセイ、 ショウi(kiru) u(mu) o(u) ha(eru) namaい(きる)、 なまlife genuine birth22五goゴitsu(tsu)いつ(つ)five 52
+22,五,"ま、, ショウ、, うわ-、",goゴitsu(tsu)いつ(つ)five 523間kan kenカン、 ケンaida ma aiあいだ、 あいinterval space24上jou shou shanジョウ、 シャンue uwa
+23,間,"ま、, ショウ、, うわ-、",kan kenカン、 ケンaida ma aiあいだ、 あいinterval space24上jou shou shanジョウ、 シャンue uwa kami a(geru) nobo(ru) tat
+24,上,"ショウ、, うわ-、, かみ、",jou shou shanジョウ、 シャンue uwa kami a(geru) nobo(ru) tatematsu(ru)うえ、 たてまつ(る)above up25東touトウhigashiひがし
+25,東,"コン、, かな-、, ス、",touトウhigashiひがしeast26四shiシyo(tsu) yonよ(つ)、 よんfour 427今kon kinコン、 キンimaいまnow; the present28金kin kon g
+26,四,"コン、, かな-、, ス、",shiシyo(tsu) yonよ(つ)、 よんfour 427今kon kinコン、 キンimaいまnow; the present28金kin kon gonキン、 ゴンkane kana gane
+27,今,"コン、, かな-、, ス、",kon kinコン、 キンimaいまnow; the present28金kin kon gonキン、 ゴンkane kana ganeかね、 -がねgold29九kyuu kuキュウ、 クkokon
+28,金,"コン、, かな-、, ス、",kin kon gonキン、 ゴンkane kana ganeかね、 -がねgold29九kyuu kuキュウ、 クkokono(tsu)ここの(つ)nine 930入nyuuニュウi(ru) hai
+29,九,"ス、, ほか、, はず(す)、",kyuu kuキュウ、 クkokono(tsu)ここの(つ)nine 930入nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな
+30,入,"ス、, ほか、, はず(す)、",nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i
+30,入,"ス、, ほか、, はず(す)、",nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i
+31,学,"ス、, ほか、, はず(す)、",gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i)たか(い)tall high expensive33円enエンmaru(i)まる(い)c
+32,高,"ス、, ほか、, はず(す)、",kouコウtaka(i)たか(い)tall high expensive33円enエンmaru(i)まる(い)circle yen round34子shi su tsuシ、 ツko neこ、 ねchi
+33,円,"ス、, ほか、, はず(す)、",enエンmaru(i)まる(い)circle yen round34子shi su tsuシ、 ツko neこ、 ねchild35外gai geガイ、 ゲsoto hoka hazu- to-そと、 
+34,子,"ス、, ほか、, はず(す)、",shi su tsuシ、 ツko neこ、 ねchild35外gai geガイ、 ゲsoto hoka hazu- to-そと、 と-outside36八hachiハチya(tsu) youや(つ)、
+35,外,"ほか、, はず(す)、, しも、",gai geガイ、 ゲsoto hoka hazu- to-そと、 と-outside36八hachiハチya(tsu) youや(つ)、 ようeight 837六rokuロクmu(tsu) muiむ
+36,八,"しも、, もと、, さ(げる)、",hachiハチya(tsu) youや(つ)、 ようeight 837六rokuロクmu(tsu) muiむ(つ)、 むいsix 638下ka geカ、 ゲshita shimo moto sa(ge
+37,六,"しも、, もと、, さ(げる)、",rokuロクmu(tsu) muiむ(つ)、 むいsix 638下ka geカ、 ゲshita shimo moto sa(geru) kuda(ru) o(rosu)した、 お(ろす)below d
+38,下,"しも、, もと、, さ(げる)、",ka geカ、 ゲshita shimo moto sa(geru) kuda(ru) o(rosu)した、 お(ろす)below down descend give low inferior39来r
+39,来,"きた.る、, き、, こ-、",rai taiライ、 タイkuru kitaru ki koく.る、 こcome due next cause become40気ki keキ、 ケikiいきspirit mind air atmos
+40,気,"こ-、, お-、, た(べる)、",ki keキ、 ケikiいきspirit mind air atmosphere mood41小shouショウchii(sai) ko- o- sa-ちい(さい)、 さ-little small42七
+41,小,"こ-、, お-、, た(べる)、",shouショウchii(sai) ko- o- sa-ちい(さい)、 さ-little small42七shichiシチnana(tsu) nanoなな(つ)、 なのseven 743山san sen
+42,七,"た(べる)、, 10, -び、",shichiシチnana(tsu) nanoなな(つ)、 なのseven 743山san senサン、 センyamaやまmountain44話waワhana(su) hanashiはな(す)、 はなし
+43,山,"た(べる)、, 10, -び、",san senサン、 センyamaやまmountain44話waワhana(su) hanashiはな(す)、 はなしtale talk45女joジョonnna meおんな、 めwoman femal
+44,話,"た(べる)、, 10, -び、",waワhana(su) hanashiはな(す)、 はなしtale talk45女joジョonnna meおんな、 めwoman female46北hokuホクkitaきたnorth47午goゴuma
+45,女,"た(べる)、, 10, -び、",joジョonnna meおんな、 めwoman female46北hokuホクkitaきたnorth47午goゴumaうまnoon sign of the horse48百hyaku byakuヒャク
+46,北,"た(べる)、, 10, -び、",hokuホクkitaきたnorth47午goゴumaうまnoon sign of the horse48百hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く
+47,午,"た(べる)、, 10, -び、",goゴumaうまnoon sign of the horse48百hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く)write50先senセンsaki m
+48,百,"た(べる)、, 10, -び、",hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く)write50先senセンsaki ma(zu)さき、 ま(ず)before ahead previou
+49,書,"た(べる)、, 10, -び、",shoショkakuか(く)write50先senセンsaki ma(zu)さき、 ま(ず)before ahead previous future precedence51名mei myouメイ、 ミ
+50,先,"た(べる)、, 10, -び、",senセンsaki ma(zu)さき、 ま(ず)before ahead previous future precedence51名mei myouメイ、 ミョウnaなname noted disti
+51,名,"た(べる)、, 10, -び、",mei myouメイ、 ミョウnaなname noted distinguished reputation52川senセンkawaかわriver stream53千senセンchiちthousand5
+52,川,"た(べる)、, 10, -び、",senセンkawaかわriver stream53千senセンchiちthousand54水suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd n
+53,千,"た(べる)、, 10, -び、",senセンchiちthousand54水suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナ
+54,水,"た(べる)、, 10, -び、",suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナンotoko oおとこ、 おmale; 
+55,半,"た(べる)、, 10, -び、",hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナンotoko oおとこ、 おmale; man57西sei saiセイ、 サイ
+56,男,"た(べる)、, 10, -び、",dan nanダン、 ナンotoko oおとこ、 おmale; man57西sei saiセイ、 サイnishiにしwest58電denデンelectricity; electric powered5
+57,西,"た(べる)、, 10, -び、",sei saiセイ、 サイnishiにしwest58電denデンelectricity; electric powered59校kouコウschool exam60語goゴkata(ru)かた(る)w
+58,電,"た(べる)、, 10, -び、",denデンelectricity; electric powered59校kouコウschool exam60語goゴkata(ru)かた(る)word speech language61土do to
+59,校,"た(べる)、, 10, -び、",kouコウschool exam60語goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku 
+60,語,"た(べる)、, 10, -び、",goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ
+60,語,"た(べる)、, 10, -び、",goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ
+61,土,"た(べる)、, 10, -び、",do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ-tree wood63聞bun monブン、 モンki(ku)き(く)to 
+62,木,"た(べる)、, 10, -び、",boku mokuボク、 モクki koき、 こ-tree wood63聞bun monブン、 モンki(ku)き(く)to hear; to listen; to ask64食shoku jikiシ
+63,聞,"た(べる)、, 10, -び、",bun monブン、 モンki(ku)き(く)to hear; to listen; to ask64食shoku jikiショク、 ジキk(u) ta(beru) ha(mu)く(う)、 は(む)e
+64,食,"た(べる)、, 10, -び、",shoku jikiショク、 ジキk(u) ta(beru) ha(mu)く(う)、 は(む)eat food65車shaシャkurumaくるまcar wheel66何kaカnani nanなに、 な
+65,車,"10, -び、, トク、",shaシャkurumaくるまcar wheel66何kaカnani nanなに、 なんwhat67南nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thous
+66,何,"10, -び、, トク、",kaカnani nanなに、 なんwhat67南nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(
+67,南,"10, -び、, トク、",nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(に)every70白haku byakuハク、 
+68,万,"10, -び、, トク、",man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(に)every70白haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテ
+69,毎,"-び、, トク、, -び、",maiマイgoto(ni)ごと(に)every70白haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテンamatsuあまつheavens sky imperial72
+70,白,"-び、, トク、, -び、",haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテンamatsuあまつheavens sky imperial72母boボhaha kaaはは、 かあmother73
+71,天,"-び、, トク、, -び、",tenテンamatsuあまつheavens sky imperial72母boボhaha kaaはは、 かあmother73火kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigi
+72,母,"-び、, トク、, -び、",boボhaha kaaはは、 かあmother73火kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク
+73,火,"-び、, トク、, -び、",kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク、 トウyo(mu)よ(む)to read76友yu
+74,右,"トク、, トク、, トク、",u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク、 トウyo(mu)よ(む)to read76友yuuユウtomoともfriend77左sa sh
+75,読,"トク、, トク、, トク、",doku toku touドク、 トウyo(mu)よ(む)to read76友yuuユウtomoともfriend77左sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu
+76,友,N/A,yuuユウtomoともfriend77左sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフch
+77,左,N/A,sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフchichi touちち、 とうfather
+78,休,N/A,kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain 休kyu
+79,父,N/A,fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain 父fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain fuフ
+80,雨,N/A,uウame amaあめ、 あまrain 雨uウame amaあめ、 あまrain uウame amaあめ、 あまrain ame amaあめ、 あまrain rain
+1,会,"ケイ、, や、, ク、",kaiカイa(u)あ(う)meeting; meet2同douドウonajiおな(じ)same agree equal3事jiジkotoことmatter thing fact business rea
+2,同,"ケイ、, や、, ク、",douドウonajiおな(じ)same agree equal3事jiジkotoことmatter thing fact business reason possibly4自ji shiジ、 シmizu
+3,事,"ケイ、, や、, ク、",jiジkotoことmatter thing fact business reason possibly4自ji shiジ、 シmizuka(ra)みずか(ら)oneself5社shaシャyashiro
+4,自,"ケイ、, や、, ク、",ji shiジ、 シmizuka(ra)みずか(ら)oneself5社shaシャyashiroやしろcompany firm office association shrine6発hatsu hots
+5,社,"ケイ、, や、, ク、",shaシャyashiroやしろcompany firm office association shrine6発hatsu hotsuハツ、 ホツdeparture discharge emit sta
+6,発,"ケイ、, や、, ク、",hatsu hotsuハツ、 ホツdeparture discharge emit start from7者shaシャmonoものsomeone person8地chi jiチ、 ジground ea
+7,者,"ケイ、, や、, ク、",shaシャmonoものsomeone person8地chi jiチ、 ジground earth9業gyouギョウwazaわざbusiness vocation arts performance10
+8,地,"ケイ、, や、, ク、",chi jiチ、 ジground earth9業gyouギョウwazaわざbusiness vocation arts performance10方houホウkataかたdirection perso
+9,業,"ケイ、, や、, ク、",gyouギョウwazaわざbusiness vocation arts performance10方houホウkataかたdirection person alternative11新shinシンat
+10,方,"ケイ、, や、, ク、",houホウkataかたdirection person alternative11新shinシンatara(shii) ara(ta)あたら(しい)、 あら(た)new12場jouジョウbaばloca
+11,新,"ケイ、, や、, ク、",shinシンatara(shii) ara(ta)あたら(しい)、 あら(た)new12場jouジョウbaばlocation place13員inインemployee member number th
+12,場,"ケイ、, や、, ク、",jouジョウbaばlocation place13員inインemployee member number the one in charge14立ritsuリツta(tsu)た(つ)stand up 
+13,員,"ケイ、, や、, ク、",inインemployee member number the one in charge14立ritsuリツta(tsu)た(つ)stand up rise15開kaiカイhira(ku) a(ker
+14,立,"ケイ、, や、, ク、",ritsuリツta(tsu)た(つ)stand up rise15開kaiカイhira(ku) a(keru)ひら(く)、 あ(ける)open unfold unseal16手shuシュteてhand
+15,開,"ケイ、, や、, ク、",kaiカイhira(ku) a(keru)ひら(く)、 あ(ける)open unfold unseal16手shuシュteてhand17力ryoku rikiリョク、 リキchikaraちからpowe
+16,手,"ケイ、, や、, ク、",shuシュteてhand17力ryoku rikiリョク、 リキchikaraちからpower strength strong strain bear up exert18問monモンto(u)と(う
+17,力,"ケイ、, や、, ク、",ryoku rikiリョク、 リキchikaraちからpower strength strong strain bear up exert18問monモンto(u)と(う)question ask p
+18,問,"ケイ、, や、, ク、",monモンto(u)と(う)question ask problem19代daiダイka(wari)か(わり)substitute change convert replace period20明me
+19,代,"ケイ、, や、, ク、",daiダイka(wari)か(わり)substitute change convert replace period20明mei myouメイ、 ミョウaka(rui)あか(るい)bright lig
+20,明,"ケイ、, や、, ク、",mei myouメイ、 ミョウaka(rui)あか(るい)bright light21動douドウugo(ku)うご(く)move motion change22京kyou kei kinキョウ、 キ
+21,動,"ケイ、, や、, ク、",douドウugo(ku)うご(く)move motion change22京kyou kei kinキョウ、 キンmiyakoみやこcapital23目moku bokuモク、 ボクmeめeye cl
+22,京,"ケイ、, や、, ク、",kyou kei kinキョウ、 キンmiyakoみやこcapital23目moku bokuモク、 ボクmeめeye class look insight experience24通tsuuツウto
+23,目,"や、, ク、, から、",moku bokuモク、 ボクmeめeye class look insight experience24通tsuuツウtoo(ru) kayo(u)とお(る)、かよ(う)traffic pass t
+24,通,"や、, ク、, から、",tsuuツウtoo(ru) kayo(u)とお(る)、かよ(う)traffic pass through avenue commute25言gen gonゲン、 ゴンi(u) kotoい（う）、 こと
+25,言,"や、, ク、, から、",gen gonゲン、 ゴンi(u) kotoい（う）、 ことsay word26理riリlogic arrangement reason justice truth27体taiタイkaradaからだb
+26,理,"や、, ク、, から、",riリlogic arrangement reason justice truth27体taiタイkaradaからだbody substance object reality28田denデンtaたri
+27,体,"や、, ク、, から、",taiタイkaradaからだbody substance object reality28田denデンtaたrice field rice paddy29主shuシュnushi omoぬし、 おもlo
+28,田,"や、, ク、, から、",denデンtaたrice field rice paddy29主shuシュnushi omoぬし、 おもlord chief master main thing principal30題daiダイto
+29,主,"や、, ク、, から、",shuシュnushi omoぬし、 おもlord chief master main thing principal30題daiダイtopic subject31意iイidea mind heart 
+30,題,"や、, ク、, から、",daiダイtopic subject31意iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuk
+30,題,"や、, ク、, から、",daiダイtopic subject31意iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuk
+31,意,"や、, ク、, から、",iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuku(ru)つく(る)make produc
+32,不,"や、, ク、, から、",fu buフ、 ブnegative non- bad33作saku saサク、 サtsuku(ru)つく(る)make production prepare build34用youヨウmochi(ir
+33,作,"や、, ク、, から、",saku saサク、 サtsuku(ru)つく(る)make production prepare build34用youヨウmochi(iru)もち(いる)utilize business serv
+34,用,"や、, ク、, から、",youヨウmochi(iru)もち(いる)utilize business service use employ35度do takuド、 タクtabi ta(i)たび、 た(い)degrees occ
+35,度,"や、, ク、, から、",do takuド、 タクtabi ta(i)たび、 た(い)degrees occurrence time counter for occurrences36強kyou gouキョウ、 ゴウtsuyo
+36,強,"や、, ク、, から、",kyou gouキョウ、 ゴウtsuyo(i)つよ(い)strong37公kouコウpublic prince official governmental38持jiジmo(tsu)も(つ)hold h
+37,公,"や、, ク、, から、",kouコウpublic prince official governmental38持jiジmo(tsu)も(つ)hold have39野yaヤnoのplains field rustic civil
+38,持,"や、, ク、, から、",jiジmo(tsu)も(つ)hold have39野yaヤnoのplains field rustic civilian life40以iイmo(tte)もっ(て)by means of becaus
+39,野,"や、, ク、, から、",yaヤnoのplains field rustic civilian life40以iイmo(tte)もっ(て)by means of because in view of compared with
+40,以,"や、, ク、, から、",iイmo(tte)もっ(て)by means of because in view of compared with41思shiシomo(u)おも(う)think42家kaカie ya uchiいえ、
+41,思,"や、, ク、, から、",shiシomo(u)おも(う)think42家kaカie ya uchiいえ、 うちhouse home family professional expert43世sei seセイ、 セyoよgene
+42,家,"や、, ク、, から、",kaカie ya uchiいえ、 うちhouse home family professional expert43世sei seセイ、 セyoよgeneration world society pu
+43,世,"ク、, から、, あ(く)、",sei seセイ、 セyoよgeneration world society public44多taタoo(i)おお(い)many frequent much45正sei shouセイ、 ショウtad
+44,多,"ク、, から、, あ(く)、",taタoo(i)おお(い)many frequent much45正sei shouセイ、 ショウtada(shii) masa(ni)ただ(しい)、 まさ(に)correct justice rig
+45,正,"ク、, から、, あ(く)、",sei shouセイ、 ショウtada(shii) masa(ni)ただ(しい)、 まさ(に)correct justice righteous46安anアンyasu(i)やす(い)safe peac
+46,安,"ク、, から、, あ(く)、",anアンyasu(i)やす(い)safe peaceful cheap47院inインinstitution temple mansion school48心shinシンkokoroこころheart m
+47,院,"ク、, から、, あ(く)、",inインinstitution temple mansion school48心shinシンkokoroこころheart mind spirit49界kaiカイworld boundary50教kyo
+48,心,"ク、, から、, あ(く)、",shinシンkokoroこころheart mind spirit49界kaiカイworld boundary50教kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)tea
+49,界,"ク、, から、, あ(く)、",kaiカイworld boundary50教kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)teach faith doctrine51文bun monブン、 モンfu
+50,教,"ク、, から、, あ(く)、",kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)teach faith doctrine51文bun monブン、 モンfumiふみsentence literatur
+51,文,"ク、, から、, あ(く)、",bun monブン、 モンfumiふみsentence literature style art52元gen ganゲン、 ガンmotoもとbeginning former time origin53
+52,元,"ク、, から、, あ(く)、",gen ganゲン、 ガンmotoもとbeginning former time origin53重juu chouジュウ、 チョウomo(i) kasa(neru)おも(い)、 かさ(ねる)heav
+53,重,"ク、, から、, あ(く)、",juu chouジュウ、 チョウomo(i) kasa(neru)おも(い)、 かさ(ねる)heavy important esteem respect54近kinキンchika(i)ちか(い)nea
+54,近,"ク、, から、, あ(く)、",kinキンchika(i)ちか(い)near early akin tantamount55考kouコウkanga(eru)かんが(える)consider think over56画ga kakuガ、
+55,考,"ク、, から、, あ(く)、",kouコウkanga(eru)かんが(える)consider think over56画ga kakuガ、 カクkaku(suru)かく(する)brush-stroke picture57海kaiカイ
+56,画,"ク、, から、, あ(く)、",ga kakuガ、 カクkaku(suru)かく(する)brush-stroke picture57海kaiカイumiうみsea ocean58売baiバイu(ru)う(る)sell59知chiチsh
+57,海,"ク、, から、, あ(く)、",kaiカイumiうみsea ocean58売baiバイu(ru)う(る)sell59知chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street 
+58,売,"ク、, から、, あ(く)、",baiバイu(ru)う(る)sell59知chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street district journey cours
+59,知,"ク、, から、, あ(く)、",chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)
+60,道,"ク、, から、, あ(く)、",douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwa
+60,道,"ク、, から、, あ(く)、",douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwa
+61,集,"ク、, から、, あ(く)、",shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwaka(reru) wa(keru)わか(れる)、 わ(ける)separate branch off dive
+62,別,"ク、, から、, あ(く)、",betsuベツwaka(reru) wa(keru)わか(れる)、 わ(ける)separate branch off diverge63物butsu motsuブツ、 モツmonoものthing ob
+63,物,"ク、, から、, あ(く)、",butsu motsuブツ、 モツmonoものthing object matter64使shiシtsuka(u)つか(う)use order messenger ambassador65品hinヒン
+64,使,"ク、, から、, あ(く)、",shiシtsuka(u)つか(う)use order messenger ambassador65品hinヒンshinaしなgoods refinement dignity article66計kei
+65,品,"ク、, から、, あ(く)、",hinヒンshinaしなgoods refinement dignity article66計keiケイhaka(ru)はか(る)plot plan scheme measure67死shiシshi(
+66,計,"ク、, から、, あ(く)、",keiケイhaka(ru)はか(る)plot plan scheme measure67死shiシshi(nu)し(ぬ)death die68特tokuトクspecial69私shiシwatakush
+67,死,"ク、, から、, あ(く)、",shiシshi(nu)し(ぬ)death die68特tokuトクspecial69私shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(mer
+68,特,"ク、, から、, あ(く)、",tokuトクspecial69私shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(meru)はじ(める)commence begin71朝ch
+69,私,"ク、, から、, あ(く)、",shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(meru)はじ(める)commence begin71朝chouチョウasaあさmornin
+70,始,"ク、, から、, あ(く)、",shiシhaji(meru)はじ(める)commence begin71朝chouチョウasaあさmorning72運unウンhako(bu)はこ(ぶ)carry luck destiny fate 
+71,朝,"ク、, から、, あ(く)、",chouチョウasaあさmorning72運unウンhako(bu)はこ(ぶ)carry luck destiny fate transport73終shuuシュウo(waru)お(わる)end fi
+72,運,"ク、, から、, あ(く)、",unウンhako(bu)はこ(ぶ)carry luck destiny fate transport73終shuuシュウo(waru)お(わる)end finish74台dai taiダイ、 タイut
+73,終,"ク、, から、, あ(く)、",shuuシュウo(waru)お(わる)end finish74台dai taiダイ、 タイutenaうてなpedestal a stand counter for machines and vehic
+74,台,"ク、, から、, あ(く)、",dai taiダイ、 タイutenaうてなpedestal a stand counter for machines and vehicles75広kouコウhiro(i)ひろ(い)wide broa
+75,広,"ク、, から、, あ(く)、",kouコウhiro(i)ひろ(い)wide broad spacious76住juu chuuジュウ、 チュウsu(mu)す(む)dwell reside live inhabit77無mu buム、
+76,住,"ク、, から、, あ(く)、",juu chuuジュウ、 チュウsu(mu)す(む)dwell reside live inhabit77無mu buム、 ブna(i)な(い)nothingness none ain't nothi
+77,無,"ク、, から、, あ(く)、",mu buム、 ブna(i)な(い)nothingness none ain't nothing nil not78真shinシンma makotoま、 まことtrue reality Buddhis
+78,真,"ク、, から、, あ(く)、",shinシンma makotoま、 まことtrue reality Buddhist sect79有yuu uユウ、 ウa(ru)あ(る)possess have exist happen80口kou
+79,有,"ク、, から、, あ(く)、",yuu uユウ、 ウa(ru)あ(る)possess have exist happen80口kouコウkuchiくちmouth81少shouショウsuku(nai) suko(shi)すく(ない)、
+80,口,"ク、, から、, あ(く)、",kouコウkuchiくちmouth81少shouショウsuku(nai) suko(shi)すく(ない)、 すこ(し)few little82町chouチョウmachiまちtown village b
+81,少,"ク、, から、, あ(く)、",shouショウsuku(nai) suko(shi)すく(ない)、 すこ(し)few little82町chouチョウmachiまちtown village block street83料ryouリョ
+82,町,"ク、, から、, あ(く)、",chouチョウmachiまちtown village block street83料ryouリョウfee materials84工kou ku guコウ、 グcraft construction85建
+83,料,"ク、, から、, あ(く)、",ryouリョウfee materials84工kou ku guコウ、 グcraft construction85建ken konケン、 コンta(teru)た(てる)build86空kuuクウsor
+84,工,"ク、, から、, あ(く)、",kou ku guコウ、 グcraft construction85建ken konケン、 コンta(teru)た(てる)build86空kuuクウsora kara a(ku) su(ku) mun
+85,建,"から、, あ(く)、, す(く)、",ken konケン、 コンta(teru)た(てる)build86空kuuクウsora kara a(ku) su(ku) muna(shii)そら、 むな(しい)empty sky void vac
+86,空,"から、, あ(く)、, す(く)、",kuuクウsora kara a(ku) su(ku) muna(shii)そら、 むな(しい)empty sky void vacant vacuum87急kyuuキュウiso(gu)いそ(ぐ)hu
+87,急,"とど(まる)、, や(める)、, とど(まる)、",kyuuキュウiso(gu)いそ(ぐ)hurry emergency sudden steep88止shiシto(maru) todo(maru) ya(meru) yo(su)と(まる)、 よ(す)
+88,止,"とど(まる)、, や(める)、, とど(まる)、",shiシto(maru) todo(maru) ya(meru) yo(su)と(まる)、 よ(す)stop halt89送souソウoku(ru)おく(る)escort send90切setsu s
+89,送,N/A,souソウoku(ru)おく(る)escort send90切setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)r
+90,切,N/A,setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)revolve turn around change92研ken
+90,切,N/A,setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)revolve turn around change92研ken
+91,転,N/A,tenテンkoro(garu)ころ(がる)revolve turn around change92研kenケンto(gu)と(ぐ)polish study of sharpen93足sokuソクash
+92,研,N/A,kenケンto(gu)と(ぐ)polish study of sharpen93足sokuソクashi ta(riru)あし、 た(りる)leg foot be sufficient94究kyuuキュ
+93,足,N/A,sokuソクashi ta(riru)あし、 た(りる)leg foot be sufficient94究kyuuキュウresearch study95楽gaku rakuガク、 ラクtano(shi
+94,究,N/A,kyuuキュウresearch study95楽gaku rakuガク、 ラクtano(shii)たの(しい)music comfort ease96起kiキo(kiru) oko(su)お(きる)、
+95,楽,N/A,gaku rakuガク、 ラクtano(shii)たの(しい)music comfort ease96起kiキo(kiru) oko(su)お(きる)、 おこ(す)wake up get up; ro
+96,起,N/A,kiキo(kiru) oko(su)お(きる)、 おこ(す)wake up get up; rouse97着chakuチャクki(ru) tsu(ku)き(る)、つ(く)arrive wear cou
+97,着,N/A,chakuチャクki(ru) tsu(ku)き(る)、つ(く)arrive wear counter for suits of clothing98店tenテンmiseみせstore shop99病b
+98,店,N/A,tenテンmiseみせstore shop99病byouビョウya(mu)や(む)ill sick100質shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)subst
+99,病,N/A,byouビョウya(mu)や(む)ill sick100質shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)substance quality matter temp
+100,質,N/A,shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)substance quality matter temperament 質shitsu shichiシツ、 シチt
+1,政,"ガッ、, マイ、, ま(ぜる)、",seiセイmatsurigotoまつりごとpolitics government2議giギdeliberation consultation debate3民minミンtamiたみpeople nat
+2,議,"ガッ、, マイ、, ま(ぜる)、",giギdeliberation consultation debate3民minミンtamiたみpeople nation subjects4連renレンtsura(naru) tsu(reru)つら
+3,民,"ガッ、, マイ、, ま(ぜる)、",minミンtamiたみpeople nation subjects4連renレンtsura(naru) tsu(reru)つら(なる)、つ(れる)take along lead join connec
+4,連,"ガッ、, マイ、, ま(ぜる)、",renレンtsura(naru) tsu(reru)つら(なる)、つ(れる)take along lead join connect5対tai tsuiタイ、 ツイopposite even equa
+5,対,"ガッ、, マイ、, ま(ぜる)、",tai tsuiタイ、 ツイopposite even equal versus anti- compare6部buブsection bureau dept class copy part porti
+6,部,"ガッ、, マイ、, ま(ぜる)、",buブsection bureau dept class copy part portion7合gou ga kaゴウ、 カッa(u) aiあ(う)、あいfit suit join 0.18市shiシ
+7,合,"ガッ、, マイ、, ま(ぜる)、",gou ga kaゴウ、 カッa(u) aiあ(う)、あいfit suit join 0.18市shiシichiいちmarket city town9内naiナイuchiうちinside within
+8,市,"マイ、, ま(ぜる)、, &",shiシichiいちmarket city town9内naiナイuchiうちinside within between among house home10相sou shouソウ、 ショウaiあいi
+9,内,"マイ、, ま(ぜる)、, &",naiナイuchiうちinside within between among house home10相sou shouソウ、 ショウaiあいinter- mutual together each o
+10,相,"マイ、, ま(ぜる)、, &",sou shouソウ、 ショウaiあいinter- mutual together each other minister of state11定tei jouテイ、 ジョウsada(meru)さだ(
+11,定,"マイ、, ま(ぜる)、, &",tei jouテイ、 ジョウsada(meru)さだ(める)determine fix establish decide12回kaiカイmawa(su)まわ(す)-times round revolv
+12,回,"マイ、, ま(ぜる)、, &",kaiカイmawa(su)まわ(す)-times round revolve counter13選senセンera(bu)えら(ぶ)elect select choose prefer14米bei m
+13,選,"マイ、, ま(ぜる)、, &",senセンera(bu)えら(ぶ)elect select choose prefer14米bei mai meetoruベイ、 メエトルkomeこめrice USA meter15実jitsuジツm
+14,米,"マイ、, ま(ぜる)、, &",bei mai meetoruベイ、 メエトルkomeこめrice USA meter15実jitsuジツmi mino(ru)み、みの(る)reality truth16関kanカンseki kak
+15,実,"ま(ぜる)、, &, ま(ぜる)、",jitsuジツmi mino(ru)み、みの(る)reality truth16関kanカンseki kaka(waru)せき、 かか(わる)connection barrier gateway in
+16,関,"ま(ぜる)、, &, ま(ぜる)、",kanカンseki kaka(waru)せき、 かか(わる)connection barrier gateway involve concerning17決ketsuケツki(meru)き(める)de
+17,決,"ま(ぜる)、, &, ま(ぜる)、",ketsuケツki(meru)き(める)decide fix agree upon appoint18全zenゼンmatta(ku) sube(te)まった(く)、 すべ(て)whole entire
+18,全,"ま(ぜる)、, &, ま(ぜる)、",zenゼンmatta(ku) sube(te)まった(く)、 すべ(て)whole entire all complete fulfill19表hyouヒョウomote arawa(su)おもて、 あ
+19,表,"ま(ぜる)、, &, ま(ぜる)、",hyouヒョウomote arawa(su)おもて、 あらわ(す)surface table chart diagram20戦senセンikusa tataka(u)いくさ、 たたか(う)war ba
+20,戦,"ま(ぜる)、, &, ま(ぜる)、",senセンikusa tataka(u)いくさ、 たたか(う)war battle match21経keiケイhe(ru) ta(tsu)へ(る)、 た(つ)longitude pass thru e
+21,経,"ま(ぜる)、, &, ま(ぜる)、",keiケイhe(ru) ta(tsu)へ(る)、 た(つ)longitude pass thru expire warp22最saiサイmotto(mo)もっと(も)utmost most extre
+22,最,"ま(ぜる)、, &, ま(ぜる)、",saiサイmotto(mo)もっと(も)utmost most extreme23現genゲンarawa(reru) utsu(tsu)あらわ(れる)、 うつ(つ)present existing a
+23,現,"ま(ぜる)、, &, ま(ぜる)、",genゲンarawa(reru) utsu(tsu)あらわ(れる)、 うつ(つ)present existing actual24調chouチョウshira(beru) tono(u)しら(べる)、と
+24,調,"ま(ぜる)、, &, ま(ぜる)、",chouチョウshira(beru) tono(u)しら(べる)、ととの(う)tune tone meter prepare investigate25化ka keカ、 ケba(keru) fu(ke
+25,化,"ま(ぜる)、, &, ま(ぜる)、",ka keカ、 ケba(keru) fu(keru)ば(ける)、 ふ(ける)change take the form of influence enchant delude -ization26当to
+26,当,"ま(ぜる)、, &, ま(ぜる)、",touトウa(taru)あ(たる)hit right appropriate27約yakuヤクtsuzu(maru)つづ(まる)promise approximately shrink28首shuシュ
+27,約,"ま(ぜる)、, &, ま(ぜる)、",yakuヤクtsuzu(maru)つづ(まる)promise approximately shrink28首shuシュkubiくびneck29法houホウnoriのりmethod law rule p
+28,首,"ま(ぜる)、, &, ま(ぜる)、",shuシュkubiくびneck29法houホウnoriのりmethod law rule principle model system30性sei shouセイ、 ショウsex gender natu
+29,法,"ま(ぜる)、, &, ま(ぜる)、",houホウnoriのりmethod law rule principle model system30性sei shouセイ、 ショウsex gender nature31的tekiテキmark ta
+30,性,"ま(ぜる)、, &, ま(ぜる)、",sei shouセイ、 ショウsex gender nature31的tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)
+30,性,"ま(ぜる)、, &, ま(ぜる)、",sei shouセイ、 ショウsex gender nature31的tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)
+31,的,"ま(ぜる)、, &, ま(ぜる)、",tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)、 かなめneed main point essence pivot3
+32,要,"ま(ぜる)、, &, ま(ぜる)、",youヨウi(ru) kanameい(る)、 かなめneed main point essence pivot33制seiセイsystem law rule34治ji chiジ、チnasa(meru)
+33,制,"ま(ぜる)、, &, ま(ぜる)、",seiセイsystem law rule34治ji chiジ、チnasa(meru) nao(ru)おさ(める)、なお(る)reign cure heal35務muムtsuto(meru)つと(める)
+34,治,"ま(ぜる)、, &, ま(ぜる)、",ji chiジ、チnasa(meru) nao(ru)おさ(める)、なお(る)reign cure heal35務muムtsuto(meru)つと(める)task duties36成sei jouセイ
+35,務,"ま(ぜる)、, &, ま(ぜる)、",muムtsuto(meru)つと(める)task duties36成sei jouセイ、 ジョウna(ru)な(る)turn into become get grow elapse37期ki goキ、
+36,成,"ま(ぜる)、, &, ま(ぜる)、",sei jouセイ、 ジョウna(ru)な(る)turn into become get grow elapse37期ki goキ、 ゴperiod time date term38取shuシュto(
+37,期,"ま(ぜる)、, &, ま(ぜる)、",ki goキ、 ゴperiod time date term38取shuシュto(ru)と(る)take fetch39都to tsuト、ツmiyakoみやこmetropolis capital40和
+38,取,"ま(ぜる)、, &, ま(ぜる)、",shuシュto(ru)と(る)take fetch39都to tsuト、ツmiyakoみやこmetropolis capital40和wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、
+39,都,"ま(ぜる)、, &, ま(ぜる)、",to tsuト、ツmiyakoみやこmetropolis capital40和wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、なご(む)harmony Japanese style 
+40,和,"ま(ぜる)、, &, ま(ぜる)、",wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、なご(む)harmony Japanese style peace41機kiキhataはたmachine airplane oppor
+41,機,"ま(ぜる)、, &, ま(ぜる)、",kiキhataはたmachine airplane opportunity42平hei byouヘイ、ビョウtai(ra) hiraたい(ら)、ひらeven flat peace43加kaカkuwa(
+42,平,"ま(ぜる)、, &, ま(ぜる)、",hei byouヘイ、ビョウtai(ra) hiraたい(ら)、ひらeven flat peace43加kaカkuwa(eru)くわ(える)add addition increase join44受j
+43,加,"ま(ぜる)、, &, ま(ぜる)、",kaカkuwa(eru)くわ(える)add addition increase join44受juジュu(keru)う(ける)accept undergo answer (phone) take45続
+44,受,"ま(ぜる)、, &, ま(ぜる)、",juジュu(keru)う(ける)accept undergo answer (phone) take45続zokuゾクtsuzukuつづ(く)continue series sequel46進shin
+45,続,"ま(ぜる)、, &, ま(ぜる)、",zokuゾクtsuzukuつづ(く)continue series sequel46進shinシンsusu(mu)すす(む)advance proceed47数suuスウkazu kazo(eru)か
+46,進,"ま(ぜる)、, &, ま(ぜる)、",shinシンsusu(mu)すす(む)advance proceed47数suuスウkazu kazo(eru)かず、 かぞ(える)number strength fate law figures48
+47,数,"ま(ぜる)、, &, ま(ぜる)、",suuスウkazu kazo(eru)かず、 かぞ(える)number strength fate law figures48記kiキshiru(su)しる(す)scribe account narr
+48,記,"ま(ぜる)、, &, ま(ぜる)、",kiキshiru(su)しる(す)scribe account narrative49初shoショhaji(me) hatsuはじ(め)、はつfirst time beginning50指shiシyu
+49,初,"ま(ぜる)、, &, ま(ぜる)、",shoショhaji(me) hatsuはじ(め)、はつfirst time beginning50指shiシyubi sa(su)ゆび、さ(す)finger point to indicate51権k
+50,指,"ま(ぜる)、, &, ま(ぜる)、",shiシyubi sa(su)ゆび、さ(す)finger point to indicate51権kenケンauthority power rights52支shiシsasa(eru)ささ(える)br
+51,権,"ま(ぜる)、, &, ま(ぜる)、",kenケンauthority power rights52支shiシsasa(eru)ささ(える)branch support sustain53産sanサンu(mu) mu(su)う(む)、 む(す
+52,支,"ま(ぜる)、, &, ま(ぜる)、",shiシsasa(eru)ささ(える)branch support sustain53産sanサンu(mu) mu(su)う(む)、 む(す)products bear give birth54点te
+53,産,"ま(ぜる)、, &, ま(ぜる)、",sanサンu(mu) mu(su)う(む)、 む(す)products bear give birth54点tenテンtsu(keru)つ(ける)spot point mark55報houホウmukk
+54,点,"ま(ぜる)、, &, ま(ぜる)、",tenテンtsu(keru)つ(ける)spot point mark55報houホウmukku(iru)むく(いる)report news reward56済sai seiサイ、セイsu(mu)す(む
+55,報,"ま(ぜる)、, &, ま(ぜる)、",houホウmukku(iru)むく(いる)report news reward56済sai seiサイ、セイsu(mu)す(む)settle relieve finish57活katsuカツlivin
+56,済,"ま(ぜる)、, &, ま(ぜる)、",sai seiサイ、セイsu(mu)す(む)settle relieve finish57活katsuカツliving58原genゲンharaはらoriginal primitive field59共
+57,活,"ま(ぜる)、, &, ま(ぜる)、",katsuカツliving58原genゲンharaはらoriginal primitive field59共kyouキョウtomoともtogether both neither60得tokuトクe(r
+58,原,"ま(ぜる)、, &, ま(ぜる)、",genゲンharaはらoriginal primitive field59共kyouキョウtomoともtogether both neither60得tokuトクe(ru)え(る)gain get f
+59,共,"ま(ぜる)、, &, ま(ぜる)、",kyouキョウtomoともtogether both neither60得tokuトクe(ru)え(る)gain get find earn acquire can may able to profi
+60,得,"ま(ぜる)、, &, ま(ぜる)、",tokuトクe(ru)え(る)gain get find earn acquire can may able to profit61解kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(
+60,得,"ま(ぜる)、, &, ま(ぜる)、",tokuトクe(ru)え(る)gain get find earn acquire can may able to profit61解kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(
+61,解,"ま(ぜる)、, &, ま(ぜる)、",kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(く)unravel explanation62交kouコウmaji(waru) ma(zeru) ka(wasu)まじ(わる)、 か(
+62,交,"ま(ぜる)、, &, ま(ぜる)、",kouコウmaji(waru) ma(zeru) ka(wasu)まじ(わる)、 か(わす)mingle mixing association coming going63資shiシassets re
+63,資,N/A,shiシassets resources capital funds data be conducive to64予yo shaヨ、 シャarakaji(me)あらかじ(め)beforehand pr
+64,予,N/A,yo shaヨ、 シャarakaji(me)あらかじ(め)beforehand previous myself I65向kouコウmu(ku) muka(i)む(く)、むか(い)facing beyo
+65,向,N/A,kouコウmu(ku) muka(i)む(く)、むか(い)facing beyond66際saiサイkiwaきわoccasion time67勝shouショウka(tsu) masa(ru)か(つ)、
+66,際,N/A,saiサイkiwaきわoccasion time67勝shouショウka(tsu) masa(ru)か(つ)、 まさ(る)victory win68面menメンomo omote tsuraおも、おも
+67,勝,N/A,shouショウka(tsu) masa(ru)か(つ)、 まさ(る)victory win68面menメンomo omote tsuraおも、おもて、つらmask face features surf
+68,面,N/A,menメンomo omote tsuraおも、おもて、つらmask face features surface69告kokuコクtsu(geru)つ(げる)revelation inform70反ha
+69,告,N/A,kokuコクtsu(geru)つ(げる)revelation inform70反hanハンso(ru)そ(る)anti-71判hanハンjudgement signature72認ninニンmito(
+70,反,N/A,hanハンso(ru)そ(る)anti-71判hanハンjudgement signature72認ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowl
+71,判,N/A,hanハンjudgement signature72認ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowledge witness recognize7
+72,認,N/A,ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowledge witness recognize73参sanサンmai(ru)まい(る)going co
+73,参,N/A,sanサンmai(ru)まい(る)going coming participate74利riリki(ku)き(く)profit advantage benefit75組soソku(mu) kumiく(
+74,利,N/A,riリki(ku)き(く)profit advantage benefit75組soソku(mu) kumiく(む)、くみassociation assemble unite76信shinシンfait
+75,組,N/A,soソku(mu) kumiく(む)、くみassociation assemble unite76信shinシンfaith truth trust77在zaiザイa(ru)あ(る)exist outs
+76,信,N/A,shinシンfaith truth trust77在zaiザイa(ru)あ(る)exist outskirts78件kenケンkudanくだんaffair case matter79側sokuソクga
+77,在,N/A,zaiザイa(ru)あ(る)exist outskirts78件kenケンkudanくだんaffair case matter79側sokuソクgawa sobaがわ、そばside lean oppo
+78,件,N/A,kenケンkudanくだんaffair case matter79側sokuソクgawa sobaがわ、そばside lean oppose80任ninニンmaka(seru)まか(せる)respon
+79,側,N/A,sokuソクgawa sobaがわ、そばside lean oppose80任ninニンmaka(seru)まか(せる)responsibility duty81引inインhi(ku)ひ(く)pull
+80,任,N/A,ninニンmaka(seru)まか(せる)responsibility duty81引inインhi(ku)ひ(く)pull tug jerk82求kyuuキュウmoto(meru)もと(める)requ
+81,引,N/A,inインhi(ku)ひ(く)pull tug jerk82求kyuuキュウmoto(meru)もと(める)request want demand83所shoショtokoroところplace exten
+82,求,N/A,kyuuキュウmoto(meru)もと(める)request want demand83所shoショtokoroところplace extent84次ji shiジ、シtsu(gu) tsugiつ(ぐ)
+83,所,N/A,shoショtokoroところplace extent84次ji shiジ、シtsu(gu) tsugiつ(ぐ)、つぎnext order85昨sakuサクyesterday previous86論ro
+84,次,N/A,ji shiジ、シtsu(gu) tsugiつ(ぐ)、つぎnext order85昨sakuサクyesterday previous86論ronロンagetsura(u)あげつら(う)argument
+85,昨,N/A,sakuサクyesterday previous86論ronロンagetsura(u)あげつら(う)argument discourse87官kanカンbureaucrat the governmen
+86,論,N/A,ronロンagetsura(u)あげつら(う)argument discourse87官kanカンbureaucrat the government organ88増zouゾウma(su) fu(er
+87,官,N/A,kanカンbureaucrat the government organ88増zouゾウma(su) fu(eru)ま(す)、 ふ(える)increase add89係keiケイkaka(ru) ka
+88,増,N/A,zouゾウma(su) fu(eru)ま(す)、 ふ(える)increase add89係keiケイkaka(ru) kakariかか(る)、かかりperson in charge connectio
+89,係,N/A,keiケイkaka(ru) kakariかか(る)、かかりperson in charge connection90感kanカンemotion feeling sensation91情jou seiジ
+90,感,N/A,kanカンemotion feeling sensation91情jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な
+90,感,N/A,kanカンemotion feeling sensation91情jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な
+91,情,N/A,jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な(げる)throw discard93示ji shiジ、シshim
+92,投,N/A,touトウna(geru)な(げる)throw discard93示ji shiジ、シshime(su)しめ(す)show indicate display94変henヘンka(waru)か(わる)u
+93,示,N/A,ji shiジ、シshime(su)しめ(す)show indicate display94変henヘンka(waru)か(わる)unusual change strange95打daダu(tsu) 
+94,変,N/A,henヘンka(waru)か(わる)unusual change strange95打daダu(tsu) bu(tsu)う(つ)、ぶ(つ)strike hit knock96直choku jikiチョ
+95,打,N/A,daダu(tsu) bu(tsu)う(つ)、ぶ(つ)strike hit knock96直choku jikiチョク、 ジキtada(chini) su(gu)ただ(ちに)、 す(ぐ)straight
+96,直,N/A,choku jikiチョク、 ジキtada(chini) su(gu)ただ(ちに)、 す(ぐ)straightaway honesty frankness fix repair97両ryouリョウbo
+97,両,N/A,ryouリョウboth98式shikiシキstyle ceremony99確kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)
+98,式,N/A,shikiシキstyle ceremony99確kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)fruit reward c
+99,確,N/A,kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)fruit reward carry out achieve complet
+100,果,N/A,kaカha(tasu)は(たす)fruit reward carry out achieve complete 果kaカha(tasu)は(たす)fruit reward carry out achi
+1,日,"-び, うち、, だ(す)、",nichi jitsuニチ ジツhi -bi -kaひ -かday sun Japan counter for days2一ichiイチhito(tsu)ひと(つ)one3国kokuコクkuniくにc
+2,一,"うち、, だ(す)、, ギョウ、",ichiイチhito(tsu)ひと(つ)one3国kokuコクkuniくにcountry4人jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter fo
+3,国,"うち、, だ(す)、, ギョウ、",kokuコクkuniくにcountry4人jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(
+4,人,"うち、, だ(す)、, ギョウ、",jin ninジン、 ニンhitoひとperson5年nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(kii)おお(きい)large big7十
+5,年,"うち、, だ(す)、, ギョウ、",nenネンtoshiとしyear counter for years6大dai taiダイ、 タイoo(kii)おお(きい)large big7十juuジュウtou toとお、 とten 108二ni
+6,大,"うち、, だ(す)、, ギョウ、",dai taiダイ、 タイoo(kii)おお(きい)large big7十juuジュウtou toとお、 とten 108二ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmot
+7,十,"うち、, だ(す)、, ギョウ、",juuジュウtou toとお、 とten 108二ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmotoもとbook present true counter for long
+8,二,"うち、, だ(す)、, ギョウ、",ni jiニ、 ジfuta(tsu)ふた(つ)two 29本honホンmotoもとbook present true counter for long cylindrical things10中chu
+9,本,"うち、, だ(す)、, ギョウ、",honホンmotoもとbook present true counter for long cylindrical things10中chuuチュウnaka uchi ata(ru)なか、 あた(る)
+10,中,"うち、, だ(す)、, ギョウ、",chuuチュウnaka uchi ata(ru)なか、 あた(る)in inside middle mean center11長chouチョウnaga(i) osaなが(い)、 おさlong lead
+11,長,"だ(す)、, ギョウ、, ゆ(く)、",chouチョウnaga(i) osaなが(い)、 おさlong leader superior senior12出shutsu suiシュツ、 スイde(ru) da(su) i(deru)で(る)、
+12,出,"だ(す)、, ギョウ、, ゆ(く)、",shutsu suiシュツ、 スイde(ru) da(su) i(deru)で(る)、 い(でる)exit leave go out13三sanサンmi(tsu)み(つ)three 314時jiジto
+13,三,"ギョウ、, ゆ(く)、, フン、",sanサンmi(tsu)み(つ)three 314時jiジtoki dokiとき、 -どきtime hour15行kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、
+14,時,"ギョウ、, ゆ(く)、, フン、",jiジtoki dokiとき、 -どきtime hour15行kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、 おこな(う)going journey carry
+15,行,"ギョウ、, ゆ(く)、, フン、",kou gyou anコウ、 アンi(ku) yu(ku) okona(u)い(く)、 おこな(う)going journey carry out line row16見kenケンmi(ru) mi(
+16,見,"フン、, うし(ろ)、, う(む)、",kenケンmi(ru) mi(seru)み(る)、 み(せる)see hopes chances idea opinion look at visible17月getsu gatsuゲツ、 ガツtsu
+17,月,"フン、, うし(ろ)、, う(む)、",getsu gatsuゲツ、 ガツtsukiつきmonth moon18分bun fun buブン、 ブwa(keru)わ(ける)part minute of time understand19後go
+18,分,"フン、, うし(ろ)、, う(む)、",bun fun buブン、 ブwa(keru)わ(ける)part minute of time understand19後go kouゴ、 コウnochi ushi(ro) atoのち、 あとbehi
+19,後,"うし(ろ)、, う(む)、, お(う)、",go kouゴ、 コウnochi ushi(ro) atoのち、 あとbehind back later20前zenゼンmaeまえin front before21生sei shouセイ、 ショウi(
+20,前,"う(む)、, お(う)、, は(える)、",zenゼンmaeまえin front before21生sei shouセイ、 ショウi(kiru) u(mu) o(u) ha(eru) namaい(きる)、 なまlife genuine birt
+21,生,"う(む)、, お(う)、, は(える)、",sei shouセイ、 ショウi(kiru) u(mu) o(u) ha(eru) namaい(きる)、 なまlife genuine birth22五goゴitsu(tsu)いつ(つ)five 52
+22,五,"ま、, ショウ、, うわ-、",goゴitsu(tsu)いつ(つ)five 523間kan kenカン、 ケンaida ma aiあいだ、 あいinterval space24上jou shou shanジョウ、 シャンue uwa
+23,間,"ま、, ショウ、, うわ-、",kan kenカン、 ケンaida ma aiあいだ、 あいinterval space24上jou shou shanジョウ、 シャンue uwa kami a(geru) nobo(ru) tat
+24,上,"ショウ、, うわ-、, かみ、",jou shou shanジョウ、 シャンue uwa kami a(geru) nobo(ru) tatematsu(ru)うえ、 たてまつ(る)above up25東touトウhigashiひがし
+25,東,"コン、, かな-、, ス、",touトウhigashiひがしeast26四shiシyo(tsu) yonよ(つ)、 よんfour 427今kon kinコン、 キンimaいまnow; the present28金kin kon g
+26,四,"コン、, かな-、, ス、",shiシyo(tsu) yonよ(つ)、 よんfour 427今kon kinコン、 キンimaいまnow; the present28金kin kon gonキン、 ゴンkane kana gane
+27,今,"コン、, かな-、, ス、",kon kinコン、 キンimaいまnow; the present28金kin kon gonキン、 ゴンkane kana ganeかね、 -がねgold29九kyuu kuキュウ、 クkokon
+28,金,"コン、, かな-、, ス、",kin kon gonキン、 ゴンkane kana ganeかね、 -がねgold29九kyuu kuキュウ、 クkokono(tsu)ここの(つ)nine 930入nyuuニュウi(ru) hai
+29,九,"ス、, ほか、, はず(す)、",kyuu kuキュウ、 クkokono(tsu)ここの(つ)nine 930入nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな
+30,入,"ス、, ほか、, はず(す)、",nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i
+30,入,"ス、, ほか、, はず(す)、",nyuuニュウi(ru) hai(ru)い(る)、はい(る)enter insert31学gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i
+31,学,"ス、, ほか、, はず(す)、",gakuガクmana(bu)まな(ぶ)study learning science32高kouコウtaka(i)たか(い)tall high expensive33円enエンmaru(i)まる(い)c
+32,高,"ス、, ほか、, はず(す)、",kouコウtaka(i)たか(い)tall high expensive33円enエンmaru(i)まる(い)circle yen round34子shi su tsuシ、 ツko neこ、 ねchi
+33,円,"ス、, ほか、, はず(す)、",enエンmaru(i)まる(い)circle yen round34子shi su tsuシ、 ツko neこ、 ねchild35外gai geガイ、 ゲsoto hoka hazu- to-そと、 
+34,子,"ス、, ほか、, はず(す)、",shi su tsuシ、 ツko neこ、 ねchild35外gai geガイ、 ゲsoto hoka hazu- to-そと、 と-outside36八hachiハチya(tsu) youや(つ)、
+35,外,"ほか、, はず(す)、, しも、",gai geガイ、 ゲsoto hoka hazu- to-そと、 と-outside36八hachiハチya(tsu) youや(つ)、 ようeight 837六rokuロクmu(tsu) muiむ
+36,八,"しも、, もと、, さ(げる)、",hachiハチya(tsu) youや(つ)、 ようeight 837六rokuロクmu(tsu) muiむ(つ)、 むいsix 638下ka geカ、 ゲshita shimo moto sa(ge
+37,六,"しも、, もと、, さ(げる)、",rokuロクmu(tsu) muiむ(つ)、 むいsix 638下ka geカ、 ゲshita shimo moto sa(geru) kuda(ru) o(rosu)した、 お(ろす)below d
+38,下,"しも、, もと、, さ(げる)、",ka geカ、 ゲshita shimo moto sa(geru) kuda(ru) o(rosu)した、 お(ろす)below down descend give low inferior39来r
+39,来,"きた.る、, き、, こ-、",rai taiライ、 タイkuru kitaru ki koく.る、 こcome due next cause become40気ki keキ、 ケikiいきspirit mind air atmos
+40,気,"こ-、, お-、, た(べる)、",ki keキ、 ケikiいきspirit mind air atmosphere mood41小shouショウchii(sai) ko- o- sa-ちい(さい)、 さ-little small42七
+41,小,"こ-、, お-、, た(べる)、",shouショウchii(sai) ko- o- sa-ちい(さい)、 さ-little small42七shichiシチnana(tsu) nanoなな(つ)、 なのseven 743山san sen
+42,七,"た(べる)、, 10, -び、",shichiシチnana(tsu) nanoなな(つ)、 なのseven 743山san senサン、 センyamaやまmountain44話waワhana(su) hanashiはな(す)、 はなし
+43,山,"た(べる)、, 10, -び、",san senサン、 センyamaやまmountain44話waワhana(su) hanashiはな(す)、 はなしtale talk45女joジョonnna meおんな、 めwoman femal
+44,話,"た(べる)、, 10, -び、",waワhana(su) hanashiはな(す)、 はなしtale talk45女joジョonnna meおんな、 めwoman female46北hokuホクkitaきたnorth47午goゴuma
+45,女,"た(べる)、, 10, -び、",joジョonnna meおんな、 めwoman female46北hokuホクkitaきたnorth47午goゴumaうまnoon sign of the horse48百hyaku byakuヒャク
+46,北,"た(べる)、, 10, -び、",hokuホクkitaきたnorth47午goゴumaうまnoon sign of the horse48百hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く
+47,午,"た(べる)、, 10, -び、",goゴumaうまnoon sign of the horse48百hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く)write50先senセンsaki m
+48,百,"た(べる)、, 10, -び、",hyaku byakuヒャク、 ビャクmomoももhundred49書shoショkakuか(く)write50先senセンsaki ma(zu)さき、 ま(ず)before ahead previou
+49,書,"た(べる)、, 10, -び、",shoショkakuか(く)write50先senセンsaki ma(zu)さき、 ま(ず)before ahead previous future precedence51名mei myouメイ、 ミ
+50,先,"た(べる)、, 10, -び、",senセンsaki ma(zu)さき、 ま(ず)before ahead previous future precedence51名mei myouメイ、 ミョウnaなname noted disti
+51,名,"た(べる)、, 10, -び、",mei myouメイ、 ミョウnaなname noted distinguished reputation52川senセンkawaかわriver stream53千senセンchiちthousand5
+52,川,"た(べる)、, 10, -び、",senセンkawaかわriver stream53千senセンchiちthousand54水suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd n
+53,千,"た(べる)、, 10, -び、",senセンchiちthousand54水suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナ
+54,水,"た(べる)、, 10, -び、",suiスイmizuみずwater55半hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナンotoko oおとこ、 おmale; 
+55,半,"た(べる)、, 10, -び、",hanハンnaka(ba)なか(ば)half middle odd number semi-56男dan nanダン、 ナンotoko oおとこ、 おmale; man57西sei saiセイ、 サイ
+56,男,"た(べる)、, 10, -び、",dan nanダン、 ナンotoko oおとこ、 おmale; man57西sei saiセイ、 サイnishiにしwest58電denデンelectricity; electric powered5
+57,西,"た(べる)、, 10, -び、",sei saiセイ、 サイnishiにしwest58電denデンelectricity; electric powered59校kouコウschool exam60語goゴkata(ru)かた(る)w
+58,電,"た(べる)、, 10, -び、",denデンelectricity; electric powered59校kouコウschool exam60語goゴkata(ru)かた(る)word speech language61土do to
+59,校,"た(べる)、, 10, -び、",kouコウschool exam60語goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku 
+60,語,"た(べる)、, 10, -び、",goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ
+60,語,"た(べる)、, 10, -び、",goゴkata(ru)かた(る)word speech language61土do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ
+61,土,"た(べる)、, 10, -び、",do toド、 トtsuchiつちsoil earth ground62木boku mokuボク、 モクki koき、 こ-tree wood63聞bun monブン、 モンki(ku)き(く)to 
+62,木,"た(べる)、, 10, -び、",boku mokuボク、 モクki koき、 こ-tree wood63聞bun monブン、 モンki(ku)き(く)to hear; to listen; to ask64食shoku jikiシ
+63,聞,"た(べる)、, 10, -び、",bun monブン、 モンki(ku)き(く)to hear; to listen; to ask64食shoku jikiショク、 ジキk(u) ta(beru) ha(mu)く(う)、 は(む)e
+64,食,"た(べる)、, 10, -び、",shoku jikiショク、 ジキk(u) ta(beru) ha(mu)く(う)、 は(む)eat food65車shaシャkurumaくるまcar wheel66何kaカnani nanなに、 な
+65,車,"10, -び、, トク、",shaシャkurumaくるまcar wheel66何kaカnani nanなに、 なんwhat67南nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thous
+66,何,"10, -び、, トク、",kaカnani nanなに、 なんwhat67南nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(
+67,南,"10, -び、, トク、",nan naナン、 ナminamiみなみsouth68万man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(に)every70白haku byakuハク、 
+68,万,"10, -び、, トク、",man banマン、 バンten thousand 00069毎maiマイgoto(ni)ごと(に)every70白haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテ
+69,毎,"-び、, トク、, -び、",maiマイgoto(ni)ごと(に)every70白haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテンamatsuあまつheavens sky imperial72
+70,白,"-び、, トク、, -び、",haku byakuハク、 ビャクshiro(i)しろ(い)white71天tenテンamatsuあまつheavens sky imperial72母boボhaha kaaはは、 かあmother73
+71,天,"-び、, トク、, -び、",tenテンamatsuあまつheavens sky imperial72母boボhaha kaaはは、 かあmother73火kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigi
+72,母,"-び、, トク、, -び、",boボhaha kaaはは、 かあmother73火kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク
+73,火,"-び、, トク、, -び、",kaカhi bi hoひ、 ほ-fire74右u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク、 トウyo(mu)よ(む)to read76友yu
+74,右,"トク、, トク、, トク、",u yuuウ、 ユウmigiみぎright (direction)75読doku toku touドク、 トウyo(mu)よ(む)to read76友yuuユウtomoともfriend77左sa sh
+75,読,"トク、, トク、, トク、",doku toku touドク、 トウyo(mu)よ(む)to read76友yuuユウtomoともfriend77左sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu
+76,友,N/A,yuuユウtomoともfriend77左sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフch
+77,左,N/A,sa shaサ、 シャhidariひだりleft78休kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフchichi touちち、 とうfather
+78,休,N/A,kyuuキュウyasu(mu)やす(む)rest day off retire sleep79父fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain 休kyu
+79,父,N/A,fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain 父fuフchichi touちち、 とうfather80雨uウame amaあめ、 あまrain fuフ
+80,雨,N/A,uウame amaあめ、 あまrain 雨uウame amaあめ、 あまrain uウame amaあめ、 あまrain ame amaあめ、 あまrain rain
+1,会,"ケイ、, や、, ク、",kaiカイa(u)あ(う)meeting; meet2同douドウonajiおな(じ)same agree equal3事jiジkotoことmatter thing fact business rea
+2,同,"ケイ、, や、, ク、",douドウonajiおな(じ)same agree equal3事jiジkotoことmatter thing fact business reason possibly4自ji shiジ、 シmizu
+3,事,"ケイ、, や、, ク、",jiジkotoことmatter thing fact business reason possibly4自ji shiジ、 シmizuka(ra)みずか(ら)oneself5社shaシャyashiro
+4,自,"ケイ、, や、, ク、",ji shiジ、 シmizuka(ra)みずか(ら)oneself5社shaシャyashiroやしろcompany firm office association shrine6発hatsu hots
+5,社,"ケイ、, や、, ク、",shaシャyashiroやしろcompany firm office association shrine6発hatsu hotsuハツ、 ホツdeparture discharge emit sta
+6,発,"ケイ、, や、, ク、",hatsu hotsuハツ、 ホツdeparture discharge emit start from7者shaシャmonoものsomeone person8地chi jiチ、 ジground ea
+7,者,"ケイ、, や、, ク、",shaシャmonoものsomeone person8地chi jiチ、 ジground earth9業gyouギョウwazaわざbusiness vocation arts performance10
+8,地,"ケイ、, や、, ク、",chi jiチ、 ジground earth9業gyouギョウwazaわざbusiness vocation arts performance10方houホウkataかたdirection perso
+9,業,"ケイ、, や、, ク、",gyouギョウwazaわざbusiness vocation arts performance10方houホウkataかたdirection person alternative11新shinシンat
+10,方,"ケイ、, や、, ク、",houホウkataかたdirection person alternative11新shinシンatara(shii) ara(ta)あたら(しい)、 あら(た)new12場jouジョウbaばloca
+11,新,"ケイ、, や、, ク、",shinシンatara(shii) ara(ta)あたら(しい)、 あら(た)new12場jouジョウbaばlocation place13員inインemployee member number th
+12,場,"ケイ、, や、, ク、",jouジョウbaばlocation place13員inインemployee member number the one in charge14立ritsuリツta(tsu)た(つ)stand up 
+13,員,"ケイ、, や、, ク、",inインemployee member number the one in charge14立ritsuリツta(tsu)た(つ)stand up rise15開kaiカイhira(ku) a(ker
+14,立,"ケイ、, や、, ク、",ritsuリツta(tsu)た(つ)stand up rise15開kaiカイhira(ku) a(keru)ひら(く)、 あ(ける)open unfold unseal16手shuシュteてhand
+15,開,"ケイ、, や、, ク、",kaiカイhira(ku) a(keru)ひら(く)、 あ(ける)open unfold unseal16手shuシュteてhand17力ryoku rikiリョク、 リキchikaraちからpowe
+16,手,"ケイ、, や、, ク、",shuシュteてhand17力ryoku rikiリョク、 リキchikaraちからpower strength strong strain bear up exert18問monモンto(u)と(う
+17,力,"ケイ、, や、, ク、",ryoku rikiリョク、 リキchikaraちからpower strength strong strain bear up exert18問monモンto(u)と(う)question ask p
+18,問,"ケイ、, や、, ク、",monモンto(u)と(う)question ask problem19代daiダイka(wari)か(わり)substitute change convert replace period20明me
+19,代,"ケイ、, や、, ク、",daiダイka(wari)か(わり)substitute change convert replace period20明mei myouメイ、 ミョウaka(rui)あか(るい)bright lig
+20,明,"ケイ、, や、, ク、",mei myouメイ、 ミョウaka(rui)あか(るい)bright light21動douドウugo(ku)うご(く)move motion change22京kyou kei kinキョウ、 キ
+21,動,"ケイ、, や、, ク、",douドウugo(ku)うご(く)move motion change22京kyou kei kinキョウ、 キンmiyakoみやこcapital23目moku bokuモク、 ボクmeめeye cl
+22,京,"ケイ、, や、, ク、",kyou kei kinキョウ、 キンmiyakoみやこcapital23目moku bokuモク、 ボクmeめeye class look insight experience24通tsuuツウto
+23,目,"や、, ク、, から、",moku bokuモク、 ボクmeめeye class look insight experience24通tsuuツウtoo(ru) kayo(u)とお(る)、かよ(う)traffic pass t
+24,通,"や、, ク、, から、",tsuuツウtoo(ru) kayo(u)とお(る)、かよ(う)traffic pass through avenue commute25言gen gonゲン、 ゴンi(u) kotoい（う）、 こと
+25,言,"や、, ク、, から、",gen gonゲン、 ゴンi(u) kotoい（う）、 ことsay word26理riリlogic arrangement reason justice truth27体taiタイkaradaからだb
+26,理,"や、, ク、, から、",riリlogic arrangement reason justice truth27体taiタイkaradaからだbody substance object reality28田denデンtaたri
+27,体,"や、, ク、, から、",taiタイkaradaからだbody substance object reality28田denデンtaたrice field rice paddy29主shuシュnushi omoぬし、 おもlo
+28,田,"や、, ク、, から、",denデンtaたrice field rice paddy29主shuシュnushi omoぬし、 おもlord chief master main thing principal30題daiダイto
+29,主,"や、, ク、, から、",shuシュnushi omoぬし、 おもlord chief master main thing principal30題daiダイtopic subject31意iイidea mind heart 
+30,題,"や、, ク、, から、",daiダイtopic subject31意iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuk
+30,題,"や、, ク、, から、",daiダイtopic subject31意iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuk
+31,意,"や、, ク、, から、",iイidea mind heart taste thought32不fu buフ、 ブnegative non- bad33作saku saサク、 サtsuku(ru)つく(る)make produc
+32,不,"や、, ク、, から、",fu buフ、 ブnegative non- bad33作saku saサク、 サtsuku(ru)つく(る)make production prepare build34用youヨウmochi(ir
+33,作,"や、, ク、, から、",saku saサク、 サtsuku(ru)つく(る)make production prepare build34用youヨウmochi(iru)もち(いる)utilize business serv
+34,用,"や、, ク、, から、",youヨウmochi(iru)もち(いる)utilize business service use employ35度do takuド、 タクtabi ta(i)たび、 た(い)degrees occ
+35,度,"や、, ク、, から、",do takuド、 タクtabi ta(i)たび、 た(い)degrees occurrence time counter for occurrences36強kyou gouキョウ、 ゴウtsuyo
+36,強,"や、, ク、, から、",kyou gouキョウ、 ゴウtsuyo(i)つよ(い)strong37公kouコウpublic prince official governmental38持jiジmo(tsu)も(つ)hold h
+37,公,"や、, ク、, から、",kouコウpublic prince official governmental38持jiジmo(tsu)も(つ)hold have39野yaヤnoのplains field rustic civil
+38,持,"や、, ク、, から、",jiジmo(tsu)も(つ)hold have39野yaヤnoのplains field rustic civilian life40以iイmo(tte)もっ(て)by means of becaus
+39,野,"や、, ク、, から、",yaヤnoのplains field rustic civilian life40以iイmo(tte)もっ(て)by means of because in view of compared with
+40,以,"や、, ク、, から、",iイmo(tte)もっ(て)by means of because in view of compared with41思shiシomo(u)おも(う)think42家kaカie ya uchiいえ、
+41,思,"や、, ク、, から、",shiシomo(u)おも(う)think42家kaカie ya uchiいえ、 うちhouse home family professional expert43世sei seセイ、 セyoよgene
+42,家,"や、, ク、, から、",kaカie ya uchiいえ、 うちhouse home family professional expert43世sei seセイ、 セyoよgeneration world society pu
+43,世,"ク、, から、, あ(く)、",sei seセイ、 セyoよgeneration world society public44多taタoo(i)おお(い)many frequent much45正sei shouセイ、 ショウtad
+44,多,"ク、, から、, あ(く)、",taタoo(i)おお(い)many frequent much45正sei shouセイ、 ショウtada(shii) masa(ni)ただ(しい)、 まさ(に)correct justice rig
+45,正,"ク、, から、, あ(く)、",sei shouセイ、 ショウtada(shii) masa(ni)ただ(しい)、 まさ(に)correct justice righteous46安anアンyasu(i)やす(い)safe peac
+46,安,"ク、, から、, あ(く)、",anアンyasu(i)やす(い)safe peaceful cheap47院inインinstitution temple mansion school48心shinシンkokoroこころheart m
+47,院,"ク、, から、, あ(く)、",inインinstitution temple mansion school48心shinシンkokoroこころheart mind spirit49界kaiカイworld boundary50教kyo
+48,心,"ク、, から、, あ(く)、",shinシンkokoroこころheart mind spirit49界kaiカイworld boundary50教kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)tea
+49,界,"ク、, から、, あ(く)、",kaiカイworld boundary50教kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)teach faith doctrine51文bun monブン、 モンfu
+50,教,"ク、, から、, あ(く)、",kyouキョウoshi(eru) oso(waru)おし(える)、 おそ(わる)teach faith doctrine51文bun monブン、 モンfumiふみsentence literatur
+51,文,"ク、, から、, あ(く)、",bun monブン、 モンfumiふみsentence literature style art52元gen ganゲン、 ガンmotoもとbeginning former time origin53
+52,元,"ク、, から、, あ(く)、",gen ganゲン、 ガンmotoもとbeginning former time origin53重juu chouジュウ、 チョウomo(i) kasa(neru)おも(い)、 かさ(ねる)heav
+53,重,"ク、, から、, あ(く)、",juu chouジュウ、 チョウomo(i) kasa(neru)おも(い)、 かさ(ねる)heavy important esteem respect54近kinキンchika(i)ちか(い)nea
+54,近,"ク、, から、, あ(く)、",kinキンchika(i)ちか(い)near early akin tantamount55考kouコウkanga(eru)かんが(える)consider think over56画ga kakuガ、
+55,考,"ク、, から、, あ(く)、",kouコウkanga(eru)かんが(える)consider think over56画ga kakuガ、 カクkaku(suru)かく(する)brush-stroke picture57海kaiカイ
+56,画,"ク、, から、, あ(く)、",ga kakuガ、 カクkaku(suru)かく(する)brush-stroke picture57海kaiカイumiうみsea ocean58売baiバイu(ru)う(る)sell59知chiチsh
+57,海,"ク、, から、, あ(く)、",kaiカイumiうみsea ocean58売baiバイu(ru)う(る)sell59知chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street 
+58,売,"ク、, から、, あ(く)、",baiバイu(ru)う(る)sell59知chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street district journey cours
+59,知,"ク、, から、, あ(く)、",chiチshi(ru)し(る)know wisdom60道douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)
+60,道,"ク、, から、, あ(く)、",douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwa
+60,道,"ク、, から、, あ(く)、",douドウmichiみちroad-way street district journey course61集shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwa
+61,集,"ク、, から、, あ(く)、",shuuシュウatsu(meru)あつ(める)gather meet62別betsuベツwaka(reru) wa(keru)わか(れる)、 わ(ける)separate branch off dive
+62,別,"ク、, から、, あ(く)、",betsuベツwaka(reru) wa(keru)わか(れる)、 わ(ける)separate branch off diverge63物butsu motsuブツ、 モツmonoものthing ob
+63,物,"ク、, から、, あ(く)、",butsu motsuブツ、 モツmonoものthing object matter64使shiシtsuka(u)つか(う)use order messenger ambassador65品hinヒン
+64,使,"ク、, から、, あ(く)、",shiシtsuka(u)つか(う)use order messenger ambassador65品hinヒンshinaしなgoods refinement dignity article66計kei
+65,品,"ク、, から、, あ(く)、",hinヒンshinaしなgoods refinement dignity article66計keiケイhaka(ru)はか(る)plot plan scheme measure67死shiシshi(
+66,計,"ク、, から、, あ(く)、",keiケイhaka(ru)はか(る)plot plan scheme measure67死shiシshi(nu)し(ぬ)death die68特tokuトクspecial69私shiシwatakush
+67,死,"ク、, から、, あ(く)、",shiシshi(nu)し(ぬ)death die68特tokuトクspecial69私shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(mer
+68,特,"ク、, から、, あ(く)、",tokuトクspecial69私shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(meru)はじ(める)commence begin71朝ch
+69,私,"ク、, から、, あ(く)、",shiシwatakushi watashiわたくし、 わたしprivate I me70始shiシhaji(meru)はじ(める)commence begin71朝chouチョウasaあさmornin
+70,始,"ク、, から、, あ(く)、",shiシhaji(meru)はじ(める)commence begin71朝chouチョウasaあさmorning72運unウンhako(bu)はこ(ぶ)carry luck destiny fate 
+71,朝,"ク、, から、, あ(く)、",chouチョウasaあさmorning72運unウンhako(bu)はこ(ぶ)carry luck destiny fate transport73終shuuシュウo(waru)お(わる)end fi
+72,運,"ク、, から、, あ(く)、",unウンhako(bu)はこ(ぶ)carry luck destiny fate transport73終shuuシュウo(waru)お(わる)end finish74台dai taiダイ、 タイut
+73,終,"ク、, から、, あ(く)、",shuuシュウo(waru)お(わる)end finish74台dai taiダイ、 タイutenaうてなpedestal a stand counter for machines and vehic
+74,台,"ク、, から、, あ(く)、",dai taiダイ、 タイutenaうてなpedestal a stand counter for machines and vehicles75広kouコウhiro(i)ひろ(い)wide broa
+75,広,"ク、, から、, あ(く)、",kouコウhiro(i)ひろ(い)wide broad spacious76住juu chuuジュウ、 チュウsu(mu)す(む)dwell reside live inhabit77無mu buム、
+76,住,"ク、, から、, あ(く)、",juu chuuジュウ、 チュウsu(mu)す(む)dwell reside live inhabit77無mu buム、 ブna(i)な(い)nothingness none ain't nothi
+77,無,"ク、, から、, あ(く)、",mu buム、 ブna(i)な(い)nothingness none ain't nothing nil not78真shinシンma makotoま、 まことtrue reality Buddhis
+78,真,"ク、, から、, あ(く)、",shinシンma makotoま、 まことtrue reality Buddhist sect79有yuu uユウ、 ウa(ru)あ(る)possess have exist happen80口kou
+79,有,"ク、, から、, あ(く)、",yuu uユウ、 ウa(ru)あ(る)possess have exist happen80口kouコウkuchiくちmouth81少shouショウsuku(nai) suko(shi)すく(ない)、
+80,口,"ク、, から、, あ(く)、",kouコウkuchiくちmouth81少shouショウsuku(nai) suko(shi)すく(ない)、 すこ(し)few little82町chouチョウmachiまちtown village b
+81,少,"ク、, から、, あ(く)、",shouショウsuku(nai) suko(shi)すく(ない)、 すこ(し)few little82町chouチョウmachiまちtown village block street83料ryouリョ
+82,町,"ク、, から、, あ(く)、",chouチョウmachiまちtown village block street83料ryouリョウfee materials84工kou ku guコウ、 グcraft construction85建
+83,料,"ク、, から、, あ(く)、",ryouリョウfee materials84工kou ku guコウ、 グcraft construction85建ken konケン、 コンta(teru)た(てる)build86空kuuクウsor
+84,工,"ク、, から、, あ(く)、",kou ku guコウ、 グcraft construction85建ken konケン、 コンta(teru)た(てる)build86空kuuクウsora kara a(ku) su(ku) mun
+85,建,"から、, あ(く)、, す(く)、",ken konケン、 コンta(teru)た(てる)build86空kuuクウsora kara a(ku) su(ku) muna(shii)そら、 むな(しい)empty sky void vac
+86,空,"から、, あ(く)、, す(く)、",kuuクウsora kara a(ku) su(ku) muna(shii)そら、 むな(しい)empty sky void vacant vacuum87急kyuuキュウiso(gu)いそ(ぐ)hu
+87,急,"とど(まる)、, や(める)、, とど(まる)、",kyuuキュウiso(gu)いそ(ぐ)hurry emergency sudden steep88止shiシto(maru) todo(maru) ya(meru) yo(su)と(まる)、 よ(す)
+88,止,"とど(まる)、, や(める)、, とど(まる)、",shiシto(maru) todo(maru) ya(meru) yo(su)と(まる)、 よ(す)stop halt89送souソウoku(ru)おく(る)escort send90切setsu s
+89,送,N/A,souソウoku(ru)おく(る)escort send90切setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)r
+90,切,N/A,setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)revolve turn around change92研ken
+90,切,N/A,setsu saiセツ、 サイki(ru)き(る)cut cutoff be sharp91転tenテンkoro(garu)ころ(がる)revolve turn around change92研ken
+91,転,N/A,tenテンkoro(garu)ころ(がる)revolve turn around change92研kenケンto(gu)と(ぐ)polish study of sharpen93足sokuソクash
+92,研,N/A,kenケンto(gu)と(ぐ)polish study of sharpen93足sokuソクashi ta(riru)あし、 た(りる)leg foot be sufficient94究kyuuキュ
+93,足,N/A,sokuソクashi ta(riru)あし、 た(りる)leg foot be sufficient94究kyuuキュウresearch study95楽gaku rakuガク、 ラクtano(shi
+94,究,N/A,kyuuキュウresearch study95楽gaku rakuガク、 ラクtano(shii)たの(しい)music comfort ease96起kiキo(kiru) oko(su)お(きる)、
+95,楽,N/A,gaku rakuガク、 ラクtano(shii)たの(しい)music comfort ease96起kiキo(kiru) oko(su)お(きる)、 おこ(す)wake up get up; ro
+96,起,N/A,kiキo(kiru) oko(su)お(きる)、 おこ(す)wake up get up; rouse97着chakuチャクki(ru) tsu(ku)き(る)、つ(く)arrive wear cou
+97,着,N/A,chakuチャクki(ru) tsu(ku)き(る)、つ(く)arrive wear counter for suits of clothing98店tenテンmiseみせstore shop99病b
+98,店,N/A,tenテンmiseみせstore shop99病byouビョウya(mu)や(む)ill sick100質shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)subst
+99,病,N/A,byouビョウya(mu)や(む)ill sick100質shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)substance quality matter temp
+100,質,N/A,shitsu shichiシツ、 シチtachi tada(su)たち、 ただ(す)substance quality matter temperament 質shitsu shichiシツ、 シチt
+1,政,"ガッ、, マイ、, ま(ぜる)、",seiセイmatsurigotoまつりごとpolitics government2議giギdeliberation consultation debate3民minミンtamiたみpeople nat
+2,議,"ガッ、, マイ、, ま(ぜる)、",giギdeliberation consultation debate3民minミンtamiたみpeople nation subjects4連renレンtsura(naru) tsu(reru)つら
+3,民,"ガッ、, マイ、, ま(ぜる)、",minミンtamiたみpeople nation subjects4連renレンtsura(naru) tsu(reru)つら(なる)、つ(れる)take along lead join connec
+4,連,"ガッ、, マイ、, ま(ぜる)、",renレンtsura(naru) tsu(reru)つら(なる)、つ(れる)take along lead join connect5対tai tsuiタイ、 ツイopposite even equa
+5,対,"ガッ、, マイ、, ま(ぜる)、",tai tsuiタイ、 ツイopposite even equal versus anti- compare6部buブsection bureau dept class copy part porti
+6,部,"ガッ、, マイ、, ま(ぜる)、",buブsection bureau dept class copy part portion7合gou ga kaゴウ、 カッa(u) aiあ(う)、あいfit suit join 0.18市shiシ
+7,合,"ガッ、, マイ、, ま(ぜる)、",gou ga kaゴウ、 カッa(u) aiあ(う)、あいfit suit join 0.18市shiシichiいちmarket city town9内naiナイuchiうちinside within
+8,市,"マイ、, ま(ぜる)、, &",shiシichiいちmarket city town9内naiナイuchiうちinside within between among house home10相sou shouソウ、 ショウaiあいi
+9,内,"マイ、, ま(ぜる)、, &",naiナイuchiうちinside within between among house home10相sou shouソウ、 ショウaiあいinter- mutual together each o
+10,相,"マイ、, ま(ぜる)、, &",sou shouソウ、 ショウaiあいinter- mutual together each other minister of state11定tei jouテイ、 ジョウsada(meru)さだ(
+11,定,"マイ、, ま(ぜる)、, &",tei jouテイ、 ジョウsada(meru)さだ(める)determine fix establish decide12回kaiカイmawa(su)まわ(す)-times round revolv
+12,回,"マイ、, ま(ぜる)、, &",kaiカイmawa(su)まわ(す)-times round revolve counter13選senセンera(bu)えら(ぶ)elect select choose prefer14米bei m
+13,選,"マイ、, ま(ぜる)、, &",senセンera(bu)えら(ぶ)elect select choose prefer14米bei mai meetoruベイ、 メエトルkomeこめrice USA meter15実jitsuジツm
+14,米,"マイ、, ま(ぜる)、, &",bei mai meetoruベイ、 メエトルkomeこめrice USA meter15実jitsuジツmi mino(ru)み、みの(る)reality truth16関kanカンseki kak
+15,実,"ま(ぜる)、, &, ま(ぜる)、",jitsuジツmi mino(ru)み、みの(る)reality truth16関kanカンseki kaka(waru)せき、 かか(わる)connection barrier gateway in
+16,関,"ま(ぜる)、, &, ま(ぜる)、",kanカンseki kaka(waru)せき、 かか(わる)connection barrier gateway involve concerning17決ketsuケツki(meru)き(める)de
+17,決,"ま(ぜる)、, &, ま(ぜる)、",ketsuケツki(meru)き(める)decide fix agree upon appoint18全zenゼンmatta(ku) sube(te)まった(く)、 すべ(て)whole entire
+18,全,"ま(ぜる)、, &, ま(ぜる)、",zenゼンmatta(ku) sube(te)まった(く)、 すべ(て)whole entire all complete fulfill19表hyouヒョウomote arawa(su)おもて、 あ
+19,表,"ま(ぜる)、, &, ま(ぜる)、",hyouヒョウomote arawa(su)おもて、 あらわ(す)surface table chart diagram20戦senセンikusa tataka(u)いくさ、 たたか(う)war ba
+20,戦,"ま(ぜる)、, &, ま(ぜる)、",senセンikusa tataka(u)いくさ、 たたか(う)war battle match21経keiケイhe(ru) ta(tsu)へ(る)、 た(つ)longitude pass thru e
+21,経,"ま(ぜる)、, &, ま(ぜる)、",keiケイhe(ru) ta(tsu)へ(る)、 た(つ)longitude pass thru expire warp22最saiサイmotto(mo)もっと(も)utmost most extre
+22,最,"ま(ぜる)、, &, ま(ぜる)、",saiサイmotto(mo)もっと(も)utmost most extreme23現genゲンarawa(reru) utsu(tsu)あらわ(れる)、 うつ(つ)present existing a
+23,現,"ま(ぜる)、, &, ま(ぜる)、",genゲンarawa(reru) utsu(tsu)あらわ(れる)、 うつ(つ)present existing actual24調chouチョウshira(beru) tono(u)しら(べる)、と
+24,調,"ま(ぜる)、, &, ま(ぜる)、",chouチョウshira(beru) tono(u)しら(べる)、ととの(う)tune tone meter prepare investigate25化ka keカ、 ケba(keru) fu(ke
+25,化,"ま(ぜる)、, &, ま(ぜる)、",ka keカ、 ケba(keru) fu(keru)ば(ける)、 ふ(ける)change take the form of influence enchant delude -ization26当to
+26,当,"ま(ぜる)、, &, ま(ぜる)、",touトウa(taru)あ(たる)hit right appropriate27約yakuヤクtsuzu(maru)つづ(まる)promise approximately shrink28首shuシュ
+27,約,"ま(ぜる)、, &, ま(ぜる)、",yakuヤクtsuzu(maru)つづ(まる)promise approximately shrink28首shuシュkubiくびneck29法houホウnoriのりmethod law rule p
+28,首,"ま(ぜる)、, &, ま(ぜる)、",shuシュkubiくびneck29法houホウnoriのりmethod law rule principle model system30性sei shouセイ、 ショウsex gender natu
+29,法,"ま(ぜる)、, &, ま(ぜる)、",houホウnoriのりmethod law rule principle model system30性sei shouセイ、 ショウsex gender nature31的tekiテキmark ta
+30,性,"ま(ぜる)、, &, ま(ぜる)、",sei shouセイ、 ショウsex gender nature31的tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)
+30,性,"ま(ぜる)、, &, ま(ぜる)、",sei shouセイ、 ショウsex gender nature31的tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)
+31,的,"ま(ぜる)、, &, ま(ぜる)、",tekiテキmark target object adjective ending32要youヨウi(ru) kanameい(る)、 かなめneed main point essence pivot3
+32,要,"ま(ぜる)、, &, ま(ぜる)、",youヨウi(ru) kanameい(る)、 かなめneed main point essence pivot33制seiセイsystem law rule34治ji chiジ、チnasa(meru)
+33,制,"ま(ぜる)、, &, ま(ぜる)、",seiセイsystem law rule34治ji chiジ、チnasa(meru) nao(ru)おさ(める)、なお(る)reign cure heal35務muムtsuto(meru)つと(める)
+34,治,"ま(ぜる)、, &, ま(ぜる)、",ji chiジ、チnasa(meru) nao(ru)おさ(める)、なお(る)reign cure heal35務muムtsuto(meru)つと(める)task duties36成sei jouセイ
+35,務,"ま(ぜる)、, &, ま(ぜる)、",muムtsuto(meru)つと(める)task duties36成sei jouセイ、 ジョウna(ru)な(る)turn into become get grow elapse37期ki goキ、
+36,成,"ま(ぜる)、, &, ま(ぜる)、",sei jouセイ、 ジョウna(ru)な(る)turn into become get grow elapse37期ki goキ、 ゴperiod time date term38取shuシュto(
+37,期,"ま(ぜる)、, &, ま(ぜる)、",ki goキ、 ゴperiod time date term38取shuシュto(ru)と(る)take fetch39都to tsuト、ツmiyakoみやこmetropolis capital40和
+38,取,"ま(ぜる)、, &, ま(ぜる)、",shuシュto(ru)と(る)take fetch39都to tsuト、ツmiyakoみやこmetropolis capital40和wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、
+39,都,"ま(ぜる)、, &, ま(ぜる)、",to tsuト、ツmiyakoみやこmetropolis capital40和wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、なご(む)harmony Japanese style 
+40,和,"ま(ぜる)、, &, ま(ぜる)、",wa oワ、オyawa(ragu) nago(mu)やわ(らぐ)、なご(む)harmony Japanese style peace41機kiキhataはたmachine airplane oppor
+41,機,"ま(ぜる)、, &, ま(ぜる)、",kiキhataはたmachine airplane opportunity42平hei byouヘイ、ビョウtai(ra) hiraたい(ら)、ひらeven flat peace43加kaカkuwa(
+42,平,"ま(ぜる)、, &, ま(ぜる)、",hei byouヘイ、ビョウtai(ra) hiraたい(ら)、ひらeven flat peace43加kaカkuwa(eru)くわ(える)add addition increase join44受j
+43,加,"ま(ぜる)、, &, ま(ぜる)、",kaカkuwa(eru)くわ(える)add addition increase join44受juジュu(keru)う(ける)accept undergo answer (phone) take45続
+44,受,"ま(ぜる)、, &, ま(ぜる)、",juジュu(keru)う(ける)accept undergo answer (phone) take45続zokuゾクtsuzukuつづ(く)continue series sequel46進shin
+45,続,"ま(ぜる)、, &, ま(ぜる)、",zokuゾクtsuzukuつづ(く)continue series sequel46進shinシンsusu(mu)すす(む)advance proceed47数suuスウkazu kazo(eru)か
+46,進,"ま(ぜる)、, &, ま(ぜる)、",shinシンsusu(mu)すす(む)advance proceed47数suuスウkazu kazo(eru)かず、 かぞ(える)number strength fate law figures48
+47,数,"ま(ぜる)、, &, ま(ぜる)、",suuスウkazu kazo(eru)かず、 かぞ(える)number strength fate law figures48記kiキshiru(su)しる(す)scribe account narr
+48,記,"ま(ぜる)、, &, ま(ぜる)、",kiキshiru(su)しる(す)scribe account narrative49初shoショhaji(me) hatsuはじ(め)、はつfirst time beginning50指shiシyu
+49,初,"ま(ぜる)、, &, ま(ぜる)、",shoショhaji(me) hatsuはじ(め)、はつfirst time beginning50指shiシyubi sa(su)ゆび、さ(す)finger point to indicate51権k
+50,指,"ま(ぜる)、, &, ま(ぜる)、",shiシyubi sa(su)ゆび、さ(す)finger point to indicate51権kenケンauthority power rights52支shiシsasa(eru)ささ(える)br
+51,権,"ま(ぜる)、, &, ま(ぜる)、",kenケンauthority power rights52支shiシsasa(eru)ささ(える)branch support sustain53産sanサンu(mu) mu(su)う(む)、 む(す
+52,支,"ま(ぜる)、, &, ま(ぜる)、",shiシsasa(eru)ささ(える)branch support sustain53産sanサンu(mu) mu(su)う(む)、 む(す)products bear give birth54点te
+53,産,"ま(ぜる)、, &, ま(ぜる)、",sanサンu(mu) mu(su)う(む)、 む(す)products bear give birth54点tenテンtsu(keru)つ(ける)spot point mark55報houホウmukk
+54,点,"ま(ぜる)、, &, ま(ぜる)、",tenテンtsu(keru)つ(ける)spot point mark55報houホウmukku(iru)むく(いる)report news reward56済sai seiサイ、セイsu(mu)す(む
+55,報,"ま(ぜる)、, &, ま(ぜる)、",houホウmukku(iru)むく(いる)report news reward56済sai seiサイ、セイsu(mu)す(む)settle relieve finish57活katsuカツlivin
+56,済,"ま(ぜる)、, &, ま(ぜる)、",sai seiサイ、セイsu(mu)す(む)settle relieve finish57活katsuカツliving58原genゲンharaはらoriginal primitive field59共
+57,活,"ま(ぜる)、, &, ま(ぜる)、",katsuカツliving58原genゲンharaはらoriginal primitive field59共kyouキョウtomoともtogether both neither60得tokuトクe(r
+58,原,"ま(ぜる)、, &, ま(ぜる)、",genゲンharaはらoriginal primitive field59共kyouキョウtomoともtogether both neither60得tokuトクe(ru)え(る)gain get f
+59,共,"ま(ぜる)、, &, ま(ぜる)、",kyouキョウtomoともtogether both neither60得tokuトクe(ru)え(る)gain get find earn acquire can may able to profi
+60,得,"ま(ぜる)、, &, ま(ぜる)、",tokuトクe(ru)え(る)gain get find earn acquire can may able to profit61解kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(
+60,得,"ま(ぜる)、, &, ま(ぜる)、",tokuトクe(ru)え(る)gain get find earn acquire can may able to profit61解kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(
+61,解,"ま(ぜる)、, &, ま(ぜる)、",kai geカイ、ゲto(ku) hodo(ku)と(く)、ほど(く)unravel explanation62交kouコウmaji(waru) ma(zeru) ka(wasu)まじ(わる)、 か(
+62,交,"ま(ぜる)、, &, ま(ぜる)、",kouコウmaji(waru) ma(zeru) ka(wasu)まじ(わる)、 か(わす)mingle mixing association coming going63資shiシassets re
+63,資,N/A,shiシassets resources capital funds data be conducive to64予yo shaヨ、 シャarakaji(me)あらかじ(め)beforehand pr
+64,予,N/A,yo shaヨ、 シャarakaji(me)あらかじ(め)beforehand previous myself I65向kouコウmu(ku) muka(i)む(く)、むか(い)facing beyo
+65,向,N/A,kouコウmu(ku) muka(i)む(く)、むか(い)facing beyond66際saiサイkiwaきわoccasion time67勝shouショウka(tsu) masa(ru)か(つ)、
+66,際,N/A,saiサイkiwaきわoccasion time67勝shouショウka(tsu) masa(ru)か(つ)、 まさ(る)victory win68面menメンomo omote tsuraおも、おも
+67,勝,N/A,shouショウka(tsu) masa(ru)か(つ)、 まさ(る)victory win68面menメンomo omote tsuraおも、おもて、つらmask face features surf
+68,面,N/A,menメンomo omote tsuraおも、おもて、つらmask face features surface69告kokuコクtsu(geru)つ(げる)revelation inform70反ha
+69,告,N/A,kokuコクtsu(geru)つ(げる)revelation inform70反hanハンso(ru)そ(る)anti-71判hanハンjudgement signature72認ninニンmito(
+70,反,N/A,hanハンso(ru)そ(る)anti-71判hanハンjudgement signature72認ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowl
+71,判,N/A,hanハンjudgement signature72認ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowledge witness recognize7
+72,認,N/A,ninニンmito(meru) shitata(meru)みと(める)、したた(める)acknowledge witness recognize73参sanサンmai(ru)まい(る)going co
+73,参,N/A,sanサンmai(ru)まい(る)going coming participate74利riリki(ku)き(く)profit advantage benefit75組soソku(mu) kumiく(
+74,利,N/A,riリki(ku)き(く)profit advantage benefit75組soソku(mu) kumiく(む)、くみassociation assemble unite76信shinシンfait
+75,組,N/A,soソku(mu) kumiく(む)、くみassociation assemble unite76信shinシンfaith truth trust77在zaiザイa(ru)あ(る)exist outs
+76,信,N/A,shinシンfaith truth trust77在zaiザイa(ru)あ(る)exist outskirts78件kenケンkudanくだんaffair case matter79側sokuソクga
+77,在,N/A,zaiザイa(ru)あ(る)exist outskirts78件kenケンkudanくだんaffair case matter79側sokuソクgawa sobaがわ、そばside lean oppo
+78,件,N/A,kenケンkudanくだんaffair case matter79側sokuソクgawa sobaがわ、そばside lean oppose80任ninニンmaka(seru)まか(せる)respon
+79,側,N/A,sokuソクgawa sobaがわ、そばside lean oppose80任ninニンmaka(seru)まか(せる)responsibility duty81引inインhi(ku)ひ(く)pull
+80,任,N/A,ninニンmaka(seru)まか(せる)responsibility duty81引inインhi(ku)ひ(く)pull tug jerk82求kyuuキュウmoto(meru)もと(める)requ
+81,引,N/A,inインhi(ku)ひ(く)pull tug jerk82求kyuuキュウmoto(meru)もと(める)request want demand83所shoショtokoroところplace exten
+82,求,N/A,kyuuキュウmoto(meru)もと(める)request want demand83所shoショtokoroところplace extent84次ji shiジ、シtsu(gu) tsugiつ(ぐ)
+83,所,N/A,shoショtokoroところplace extent84次ji shiジ、シtsu(gu) tsugiつ(ぐ)、つぎnext order85昨sakuサクyesterday previous86論ro
+84,次,N/A,ji shiジ、シtsu(gu) tsugiつ(ぐ)、つぎnext order85昨sakuサクyesterday previous86論ronロンagetsura(u)あげつら(う)argument
+85,昨,N/A,sakuサクyesterday previous86論ronロンagetsura(u)あげつら(う)argument discourse87官kanカンbureaucrat the governmen
+86,論,N/A,ronロンagetsura(u)あげつら(う)argument discourse87官kanカンbureaucrat the government organ88増zouゾウma(su) fu(er
+87,官,N/A,kanカンbureaucrat the government organ88増zouゾウma(su) fu(eru)ま(す)、 ふ(える)increase add89係keiケイkaka(ru) ka
+88,増,N/A,zouゾウma(su) fu(eru)ま(す)、 ふ(える)increase add89係keiケイkaka(ru) kakariかか(る)、かかりperson in charge connectio
+89,係,N/A,keiケイkaka(ru) kakariかか(る)、かかりperson in charge connection90感kanカンemotion feeling sensation91情jou seiジ
+90,感,N/A,kanカンemotion feeling sensation91情jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な
+90,感,N/A,kanカンemotion feeling sensation91情jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な
+91,情,N/A,jou seiジョウ、セイnasa(ke)なさ(け)feelings emotion passion92投touトウna(geru)な(げる)throw discard93示ji shiジ、シshim
+92,投,N/A,touトウna(geru)な(げる)throw discard93示ji shiジ、シshime(su)しめ(す)show indicate display94変henヘンka(waru)か(わる)u
+93,示,N/A,ji shiジ、シshime(su)しめ(す)show indicate display94変henヘンka(waru)か(わる)unusual change strange95打daダu(tsu) 
+94,変,N/A,henヘンka(waru)か(わる)unusual change strange95打daダu(tsu) bu(tsu)う(つ)、ぶ(つ)strike hit knock96直choku jikiチョ
+95,打,N/A,daダu(tsu) bu(tsu)う(つ)、ぶ(つ)strike hit knock96直choku jikiチョク、 ジキtada(chini) su(gu)ただ(ちに)、 す(ぐ)straight
+96,直,N/A,choku jikiチョク、 ジキtada(chini) su(gu)ただ(ちに)、 す(ぐ)straightaway honesty frankness fix repair97両ryouリョウbo
+97,両,N/A,ryouリョウboth98式shikiシキstyle ceremony99確kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)
+98,式,N/A,shikiシキstyle ceremony99確kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)fruit reward c
+99,確,N/A,kakuカクtashi(ka)たし(か)assurance firm confirm100果kaカha(tasu)は(たす)fruit reward carry out achieve complet
+100,果,N/A,kaカha(tasu)は(たす)fruit reward carry out achieve complete 果kaカha(tasu)は(たす)fruit reward carry out achi

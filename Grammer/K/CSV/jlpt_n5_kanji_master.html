@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn 80 JLPT N5 Kanji with SRS, quizzes, stroke practice, and analytics">
+    <meta name="theme-color" content="#3498db">
+    <title>🎌 JLPT N5 Kanji Master</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <style>
+        /* ===== CSS RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            /* Default Ocean Blue Theme */
+            --primary: #3498db;
+            --primary-dark: #2980b9;
+            --accent: #2ecc71;
+            --accent-dark: #27ae60;
+            --danger: #e74c3c;
+            --warning: #f39c12;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --background: #ffffff;
+            --text: #2c3e50;
+            --text-light: #7f8c8d;
+            --border: #bdc3c7;
+            --shadow: rgba(0, 0, 0, 0.1);
+            --shadow-lg: rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Theme: Sakura Pink */
+        [data-theme="sakura"] {
+            --primary: #ff6b9d;
+            --primary-dark: #c44569;
+            --accent: #c44569;
+            --background: #fff0f5;
+        }
+        
+        /* Theme: Forest Green */
+        [data-theme="forest"] {
+            --primary: #27ae60;
+            --primary-dark: #16a085;
+            --accent: #16a085;
+            --background: #f0f8f0;
+        }
+        
+        /* Theme: Midnight Purple */
+        [data-theme="midnight"] {
+            --primary: #8e44ad;
+            --primary-dark: #6c3483;
+            --accent: #9b59b6;
+            --background: #1a1a2e;
+            --text: #eee;
+            --text-light: #bbb;
+            --border: #444;
+            --shadow: rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Theme: High Contrast */
+        [data-theme="high-contrast"] {
+            --primary: #0000ff;
+            --primary-dark: #0000cc;
+            --accent: #ffff00;
+            --background: #000000;
+            --text: #ffffff;
+            --text-light: #cccccc;
+            --border: #ffffff;
+            --shadow: rgba(255, 255, 255, 0.3);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+        }
+        
+        /* ===== HEADER ===== */
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .header-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .btn-icon {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+        
+        .btn-icon:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* ===== PROGRESS BAR ===== */
+        .progress-section {
+            padding: 1rem 2rem;
+            background: var(--light);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            height: 20px;
+            background: var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent-dark));
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+        
+        /* ===== MAIN KANJI DISPLAY ===== */
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .kanji-display-card {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 10px 30px var(--shadow);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        [data-theme="midnight"] .kanji-display-card,
+        [data-theme="high-contrast"] .kanji-display-card {
+            background: var(--dark);
+        }
+        
+        .kanji-character {
+            font-size: 8rem;
+            font-weight: bold;
+            margin: 2rem 0;
+            color: var(--primary);
+            text-shadow: 2px 2px 4px var(--shadow);
+        }
+        
+        .kanji-svg-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 2rem auto;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .kanji-svg-container svg {
+            width: 100%;
+            height: 100%;
+            stroke: var(--primary);
+            fill: none;
+            stroke-width: 3;
+        }
+        
+        .bookmark-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 2rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .bookmark-btn:hover {
+            transform: scale(1.2);
+        }
+        
+        .bookmark-btn.bookmarked {
+            color: var(--warning);
+        }
+        
+        /* ===== NAVIGATION ===== */
+        .kanji-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 0;
+            gap: 1rem;
+        }
+        
+        .nav-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .nav-btn:hover:not(:disabled) {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px var(--shadow);
+        }
+        
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .kanji-counter {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        /* ===== ACTION BUTTONS ===== */
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--shadow-lg);
+        }
+        
+        .btn-secondary {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn-secondary:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+        }
+        
+        /* ===== SESSION TIMER ===== */
+        .session-timer {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+        
+        /* ===== MODAL ===== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 2000;
+            overflow-y: auto;
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .modal-content {
+            background: var(--background);
+            border-radius: 20px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px var(--shadow-lg);
+            margin: 2rem auto;
+            position: relative;
+        }
+        
+        .modal-header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 1.5rem 2rem;
+            border-radius: 20px 20px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .modal-header h2 {
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .modal-close {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: background 0.3s;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .modal-body {
+            padding: 2rem;
+        }
+        
+        .modal-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--light);
+            border-radius: 10px;
+        }
+        
+        [data-theme="midnight"] .modal-section,
+        [data-theme="high-contrast"] .modal-section {
+            background: var(--dark);
+        }
+        
+        .modal-section h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        /* ===== READINGS ===== */
+        .readings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .reading-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        [data-theme="midnight"] .reading-item,
+        [data-theme="high-contrast"] .reading-item {
+            background: var(--dark);
+        }
+        
+        .reading-word {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        
+        .reading-reading {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
+        
+        .reading-meaning {
+            color: var(--text);
+        }
+        
+        /* ===== EXAMPLES ===== */
+        .example-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--accent);
+        }
+        
+        [data-theme="midnight"] .example-item,
+        [data-theme="high-contrast"] .example-item {
+            background: var(--dark);
+        }
+        
+        .example-japanese {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+        
+        .example-japanese .color {
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        .example-furigana {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .example-romaji {
+            color: var(--text-light);
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .example-english {
+            color: var(--text);
+            font-size: 1rem;
+        }
+        
+        /* ===== QUIZ MODE ===== */
+        .quiz-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+        
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .quiz-question {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 20px var(--shadow);
+            text-align: center;
+        }
+        
+        [data-theme="midnight"] .quiz-question,
+        [data-theme="high-contrast"] .quiz-question {
+            background: var(--dark);
+        }
+        
+        .quiz-question-text {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .quiz-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .quiz-option {
+            background: var(--light);
+            border: 2px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        
+        .quiz-option:hover {
+            border-color: var(--primary);
+            background: rgba(52, 152, 219, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .quiz-option.correct {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent-dark);
+        }
+        
+        .quiz-option.wrong {
+            background: var(--danger);
+            color: white;
+            border-color: #c0392b;
+        }
+        
+        .quiz-option.disabled {
+            pointer-events: none;
+            opacity: 0.6;
+        }
+        
+        .quiz-feedback {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .quiz-feedback.correct {
+            color: var(--accent);
+        }
+        
+        .quiz-feedback.wrong {
+            color: var(--danger);
+        }
+        
+        .quiz-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: var(--light);
+            border-radius: 10px;
+        }
+        
+        /* ===== STREAK DISPLAY ===== */
+        .streak-display {
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+            color: white;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        
+        .streak-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        /* ===== SEARCH PANEL ===== */
+        .search-panel {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100vh;
+            background: var(--background);
+            box-shadow: -5px 0 20px var(--shadow-lg);
+            z-index: 1500;
+            transition: right 0.3s;
+            overflow-y: auto;
+        }
+        
+        .search-panel.active {
+            right: 0;
+        }
+        
+        .search-panel-header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            margin: 1rem;
+        }
+        
+        /* ===== SETTINGS PANEL ===== */
+        .settings-panel {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100vh;
+            background: var(--background);
+            box-shadow: -5px 0 20px var(--shadow-lg);
+            z-index: 1500;
+            transition: right 0.3s;
+            overflow-y: auto;
+        }
+        
+        .settings-panel.active {
+            right: 0;
+        }
+        
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes draw-stroke {
+            to { stroke-dashoffset: 0; }
+        }
+        
+        @keyframes confetti {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease;
+        }
+        
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .kanji-character {
+                font-size: 5rem;
+            }
+            
+            .kanji-navigation {
+                flex-direction: column;
+            }
+            
+            .quiz-options {
+                grid-template-columns: 1fr;
+            }
+            
+            .modal-content {
+                margin: 1rem;
+                max-height: 95vh;
+            }
+            
+            .search-panel,
+            .settings-panel {
+                width: 100%;
+                right: -100%;
+            }
+        }
+        
+        /* ===== ACCESSIBILITY ===== */
+        @media (prefers-contrast: high) {
+            :root {
+                --primary: #0000ff;
+                --accent: #008000;
+                --danger: #ff0000;
+                --border: #000000;
+            }
+            
+            .kanji-display-card,
+            .quiz-question {
+                border: 3px solid var(--border);
+            }
+        }
+        
+        button:focus,
+        .quiz-option:focus {
+            outline: 3px solid var(--primary);
+            outline-offset: 2px;
+        }
+        
+        /* ===== UTILITY CLASSES ===== */
+        .hidden {
+            display: none !important;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .mt-1 { margin-top: 1rem; }
+        .mt-2 { margin-top: 2rem; }
+        .mb-1 { margin-bottom: 1rem; }
+        .mb-2 { margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>🎌 JLPT N5 Kanji Master</h1>
+        <div class="header-controls">
+            <button class="btn-icon" id="search-btn" aria-label="Search">🔍</button>
+            <button class="btn-icon" id="settings-btn" aria-label="Settings">⚙️</button>
+            <button class="btn-icon" id="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+        </div>
+    </header>
+    
+    <!-- Progress Section -->
+    <section class="progress-section">
+        <div class="progress-info">
+            <span id="progress-text">Progress: 0/80 (0%)</span>
+            <span id="session-timer" class="session-timer">⏱️ Session: 0m 0s</span>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar" style="width: 0%">0%</div>
+        </div>
+    </section>
+    
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Kanji Display Card -->
+        <div class="kanji-display-card fade-in">
+            <button class="bookmark-btn" id="bookmark-btn" aria-label="Bookmark">☆</button>
+            <div class="kanji-character" id="kanji-character">日</div>
+            <div class="kanji-svg-container" id="kanji-svg-container">
+                <!-- SVG will be inserted here -->
+            </div>
+            <div class="kanji-navigation">
+                <button class="nav-btn" id="prev-btn" aria-label="Previous kanji">← Prev</button>
+                <div class="kanji-counter" id="kanji-counter">1/80 (日)</div>
+                <button class="nav-btn" id="next-btn" aria-label="Next kanji">Next →</button>
+            </div>
+            <div class="action-buttons">
+                <button class="btn-primary" id="study-btn">📖 Study Deeply</button>
+                <button class="btn-secondary" id="quiz-btn">🎮 Quiz</button>
+            </div>
+        </div>
+        
+        <!-- Streak Display -->
+        <div class="streak-display">
+            <div>🔥 Streak: <span id="streak-count">0</span> (🏆 Best: <span id="best-streak">0</span>)</div>
+        </div>
+    </main>
+    
+    <!-- Study Modal -->
+    <div class="modal" id="study-modal" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Study: 日 (Day)</h2>
+                <button class="modal-close" id="modal-close" aria-label="Close modal">×</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quiz Container (initially hidden) -->
+    <div class="quiz-container hidden" id="quiz-container">
+        <div class="quiz-header">
+            <h2>🎮 Quiz Mode</h2>
+            <div class="quiz-stats">
+                <div>Score: <span id="quiz-score">0</span></div>
+                <div>Question: <span id="quiz-question-num">1</span>/<span id="quiz-total">10</span></div>
+                <div>Accuracy: <span id="quiz-accuracy">0%</span></div>
+            </div>
+        </div>
+        <div class="quiz-question" id="quiz-question">
+            <!-- Quiz content will be inserted here -->
+        </div>
+    </div>
+    
+    <!-- Search Panel -->
+    <div class="search-panel" id="search-panel">
+        <div class="search-panel-header">
+            <h3>🔍 Search & Filter</h3>
+            <button class="modal-close" id="search-close">×</button>
+        </div>
+        <input type="text" class="search-input" id="search-input" placeholder="Type to search...">
+        <div id="search-results"></div>
+    </div>
+    
+    <!-- Settings Panel -->
+    <div class="settings-panel" id="settings-panel">
+        <div class="search-panel-header">
+            <h3>⚙️ Settings</h3>
+            <button class="modal-close" id="settings-close">×</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <h3>🎨 Theme</h3>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <button class="btn-primary" data-theme="default">🌊 Ocean</button>
+                    <button class="btn-primary" data-theme="sakura">🌸 Sakura</button>
+                    <button class="btn-primary" data-theme="forest">🌲 Forest</button>
+                    <button class="btn-primary" data-theme="midnight">🌙 Midnight</button>
+                    <button class="btn-primary" data-theme="high-contrast">🔆 High Contrast</button>
+                </div>
+            </div>
+            <div class="modal-section">
+                <h3>📊 Export/Import</h3>
+                <button class="btn-primary" id="export-btn">💾 Export Progress</button>
+                <input type="file" id="import-input" accept=".json" style="display: none;">
+                <button class="btn-primary" id="import-btn">📥 Import Progress</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // ===== GLOBAL STATE =====
+        let KANJI_DATA = {
+            metadata: {
+                total_kanji: 0,
+                version: '2.0'
+            },
+            kanji: []
+        };
+        
+        let AppState = {
+            currentIndex: 0,
+            currentStreak: 0,
+            bestStreak: 0,
+            sessionStartTime: Date.now(),
+            quizMode: false,
+            quizScore: 0,
+            quizTotal: 0,
+            quizCorrect: 0
+        };
+        
+        // ===== INITIALIZATION =====
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeApp();
+            setupEventListeners();
+            loadKanjiData();
+        });
+        
+        async function initializeApp() {
+            // Load from localStorage or use default
+            AppState.currentStreak = parseInt(localStorage.getItem('currentStreak') || '0');
+            AppState.bestStreak = parseInt(localStorage.getItem('bestStreak') || '0');
+            AppState.currentIndex = parseInt(localStorage.getItem('currentIndex') || '0');
+            
+            updateStreakDisplay();
+            updateSessionTimer();
+            setInterval(updateSessionTimer, 1000);
+        }
+        
+        function setupEventListeners() {
+            // Navigation
+            document.getElementById('prev-btn').addEventListener('click', () => navigateKanji(-1));
+            document.getElementById('next-btn').addEventListener('click', () => navigateKanji(1));
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft' && !e.target.matches('input, textarea')) {
+                    navigateKanji(-1);
+                } else if (e.key === 'ArrowRight' && !e.target.matches('input, textarea')) {
+                    navigateKanji(1);
+                } else if (e.key === 'Escape') {
+                    closeModals();
+                } else if (e.key === ' ' && !e.target.matches('input, textarea')) {
+                    e.preventDefault();
+                    openStudyModal();
+                }
+            });
+            
+            // Study & Quiz buttons
+            document.getElementById('study-btn').addEventListener('click', openStudyModal);
+            document.getElementById('quiz-btn').addEventListener('click', startQuiz);
+            
+            // Bookmark
+            document.getElementById('bookmark-btn').addEventListener('click', toggleBookmark);
+            
+            // Modal close
+            document.getElementById('modal-close').addEventListener('click', closeModals);
+            
+            // Search & Settings
+            document.getElementById('search-btn').addEventListener('click', () => {
+                document.getElementById('search-panel').classList.toggle('active');
+            });
+            document.getElementById('settings-btn').addEventListener('click', () => {
+                document.getElementById('settings-panel').classList.toggle('active');
+            });
+            document.getElementById('search-close').addEventListener('click', () => {
+                document.getElementById('search-panel').classList.remove('active');
+            });
+            document.getElementById('settings-close').addEventListener('click', () => {
+                document.getElementById('settings-panel').classList.remove('active');
+            });
+            
+            // Theme toggle
+            document.getElementById('theme-btn').addEventListener('click', toggleTheme);
+            
+            // Theme buttons
+            document.querySelectorAll('[data-theme]').forEach(btn => {
+                if (btn.dataset.theme) {
+                    btn.addEventListener('click', () => setTheme(btn.dataset.theme));
+                }
+            });
+            
+            // Export/Import
+            document.getElementById('export-btn').addEventListener('click', exportProgress);
+            document.getElementById('import-btn').addEventListener('click', () => {
+                document.getElementById('import-input').click();
+            });
+            document.getElementById('import-input').addEventListener('change', importProgress);
+            
+            // Search
+            document.getElementById('search-input').addEventListener('input', handleSearch);
+        }
+        
+        // ===== DATA LOADING =====
+        async function loadKanjiData() {
+            try {
+                // Try to load from JSON file
+                const response = await fetch('kanji_data_enhanced.json');
+                if (response.ok) {
+                    KANJI_DATA = await response.json();
+                } else {
+                    // Fallback: Use sample data
+                    KANJI_DATA = getSampleData();
+                }
+                
+                // Initialize user data if not present
+                KANJI_DATA.kanji.forEach(kanji => {
+                    if (!kanji.user_data) {
+                        kanji.user_data = {
+                            mastery_level: 0,
+                            last_reviewed: null,
+                            next_review: null,
+                            times_correct: 0,
+                            times_wrong: 0,
+                            bookmarked: false,
+                            notes: ''
+                        };
+                    }
+                });
+                
+                displayKanji(AppState.currentIndex);
+                updateProgress();
+            } catch (error) {
+                console.error('Error loading kanji data:', error);
+                KANJI_DATA = getSampleData();
+                displayKanji(AppState.currentIndex);
+            }
+        }
+        
+        function getSampleData() {
+            // Sample data for testing
+            return {
+                metadata: {
+                    total_kanji: 3,
+                    version: '2.0'
+                },
+                kanji: [
+                    {
+                        id: 1,
+                        character: '日',
+                        stroke_count: 4,
+                        radical: '日',
+                        radical_meaning: 'sun, day',
+                        jlpt_level: 'N5',
+                        svg: '<svg viewBox="0 0 100 100"><path d="M20,50 L80,50" stroke="currentColor" stroke-width="3"/><path d="M50,20 L50,80" stroke="currentColor" stroke-width="3"/></svg>',
+                        readings: {
+                            onyomi: [{word: '日', reading: 'ニチ', meaning: 'day'}],
+                            kunyomi: [{word: '日', reading: 'ひ', meaning: 'day, sun'}],
+                            special: []
+                        },
+                        examples: [{
+                            japanese_html: '毎<span class="color">日</span>、日本語を勉強します。',
+                            furigana: 'まいにち、にほんごをべんきょうします。',
+                            romaji: 'mainichi nihongo o benkyou shimasu.',
+                            english: 'I study Japanese every day.'
+                        }],
+                        user_data: {
+                            mastery_level: 0,
+                            last_reviewed: null,
+                            next_review: null,
+                            times_correct: 0,
+                            times_wrong: 0,
+                            bookmarked: false,
+                            notes: ''
+                        }
+                    },
+                    {
+                        id: 2,
+                        character: '月',
+                        stroke_count: 4,
+                        radical: '月',
+                        radical_meaning: 'moon, month',
+                        jlpt_level: 'N5',
+                        svg: '<svg viewBox="0 0 100 100"><path d="M30,30 Q50,20 70,30" stroke="currentColor" stroke-width="3"/></svg>',
+                        readings: {
+                            onyomi: [{word: '月', reading: 'ゲツ', meaning: 'month'}],
+                            kunyomi: [{word: '月', reading: 'つき', meaning: 'moon'}],
+                            special: []
+                        },
+                        examples: [{
+                            japanese_html: '今<span class="color">月</span>は忙しいです。',
+                            furigana: 'こんげつはいそがしいです。',
+                            romaji: 'kongetsu wa isogashii desu.',
+                            english: 'This month is busy.'
+                        }],
+                        user_data: {
+                            mastery_level: 0,
+                            last_reviewed: null,
+                            next_review: null,
+                            times_correct: 0,
+                            times_wrong: 0,
+                            bookmarked: false,
+                            notes: ''
+                        }
+                    },
+                    {
+                        id: 3,
+                        character: '火',
+                        stroke_count: 4,
+                        radical: '火',
+                        radical_meaning: 'fire',
+                        jlpt_level: 'N5',
+                        svg: '<svg viewBox="0 0 100 100"><path d="M50,20 L50,80" stroke="currentColor" stroke-width="3"/></svg>',
+                        readings: {
+                            onyomi: [{word: '火', reading: 'カ', meaning: 'fire'}],
+                            kunyomi: [{word: '火', reading: 'ひ', meaning: 'fire'}],
+                            special: []
+                        },
+                        examples: [{
+                            japanese_html: '<span class="color">火</span>曜日に会いましょう。',
+                            furigana: 'かようびにあいましょう。',
+                            romaji: 'kayoubi ni aimashou.',
+                            english: "Let's meet on Tuesday."
+                        }],
+                        user_data: {
+                            mastery_level: 0,
+                            last_reviewed: null,
+                            next_review: null,
+                            times_correct: 0,
+                            times_wrong: 0,
+                            bookmarked: false,
+                            notes: ''
+                        }
+                    }
+                ]
+            };
+        }
+        
+        // ===== DISPLAY FUNCTIONS =====
+        function displayKanji(index) {
+            if (!KANJI_DATA.kanji || KANJI_DATA.kanji.length === 0) return;
+            
+            if (index < 0) index = 0;
+            if (index >= KANJI_DATA.kanji.length) index = KANJI_DATA.kanji.length - 1;
+            
+            AppState.currentIndex = index;
+            localStorage.setItem('currentIndex', index);
+            
+            const kanji = KANJI_DATA.kanji[index];
+            
+            // Update display
+            document.getElementById('kanji-character').textContent = kanji.character;
+            document.getElementById('kanji-counter').textContent = `${index + 1}/${KANJI_DATA.kanji.length} (${kanji.character})`;
+            
+            // Update SVG
+            const svgContainer = document.getElementById('kanji-svg-container');
+            if (kanji.svg) {
+                svgContainer.innerHTML = kanji.svg;
+                // Animate strokes
+                animateStrokes(svgContainer);
+            }
+            
+            // Update bookmark
+            const bookmarkBtn = document.getElementById('bookmark-btn');
+            if (kanji.user_data.bookmarked) {
+                bookmarkBtn.textContent = '★';
+                bookmarkBtn.classList.add('bookmarked');
+            } else {
+                bookmarkBtn.textContent = '☆';
+                bookmarkBtn.classList.remove('bookmarked');
+            }
+            
+            // Update navigation buttons
+            document.getElementById('prev-btn').disabled = index === 0;
+            document.getElementById('next-btn').disabled = index === KANJI_DATA.kanji.length - 1;
+        }
+        
+        function navigateKanji(direction) {
+            const newIndex = AppState.currentIndex + direction;
+            if (newIndex >= 0 && newIndex < KANJI_DATA.kanji.length) {
+                displayKanji(newIndex);
+            }
+        }
+        
+        function animateStrokes(container) {
+            const paths = container.querySelectorAll('path');
+            paths.forEach((path, index) => {
+                const length = path.getTotalLength();
+                path.style.strokeDasharray = length;
+                path.style.strokeDashoffset = length;
+                path.style.animation = `draw-stroke 1s ease forwards`;
+                path.style.animationDelay = `${index * 0.5}s`;
+            });
+        }
+        
+        // ===== STUDY MODAL =====
+        function openStudyModal() {
+            const kanji = KANJI_DATA.kanji[AppState.currentIndex];
+            const modal = document.getElementById('study-modal');
+            const modalBody = document.getElementById('modal-body');
+            const modalTitle = document.getElementById('modal-title');
+            
+            modalTitle.textContent = `Study: ${kanji.character}`;
+            
+            // Build modal content
+            let html = `
+                <div class="modal-section">
+                    <h3>📖 Basic Info</h3>
+                    <p><strong>Character:</strong> ${kanji.character}</p>
+                    <p><strong>Strokes:</strong> ${kanji.stroke_count || 'N/A'}</p>
+                    <p><strong>Radical:</strong> ${kanji.radical || 'N/A'} ${kanji.radical_meaning ? `(${kanji.radical_meaning})` : ''}</p>
+                    <p><strong>JLPT Level:</strong> ${kanji.jlpt_level || 'N5'}</p>
+                </div>
+            `;
+            
+            // Readings
+            if (kanji.readings) {
+                html += `<div class="modal-section">
+                    <h3>🔊 Readings</h3>
+                    <div class="readings-grid">`;
+                
+                if (kanji.readings.onyomi && kanji.readings.onyomi.length > 0) {
+                    html += `<div><h4>Onyomi (音読み)</h4>`;
+                    kanji.readings.onyomi.forEach(r => {
+                        html += `<div class="reading-item">
+                            <div class="reading-word">${r.word || kanji.character}</div>
+                            <div class="reading-reading">${r.reading}</div>
+                            <div class="reading-meaning">${r.meaning}</div>
+                        </div>`;
+                    });
+                    html += `</div>`;
+                }
+                
+                if (kanji.readings.kunyomi && kanji.readings.kunyomi.length > 0) {
+                    html += `<div><h4>Kunyomi (訓読み)</h4>`;
+                    kanji.readings.kunyomi.forEach(r => {
+                        html += `<div class="reading-item">
+                            <div class="reading-word">${r.word || kanji.character}</div>
+                            <div class="reading-reading">${r.reading}</div>
+                            <div class="reading-meaning">${r.meaning}</div>
+                        </div>`;
+                    });
+                    html += `</div>`;
+                }
+                
+                html += `</div></div>`;
+            }
+            
+            // Examples
+            if (kanji.examples && kanji.examples.length > 0) {
+                html += `<div class="modal-section">
+                    <h3>📝 Example Sentences</h3>`;
+                
+                kanji.examples.forEach(ex => {
+                    html += `<div class="example-item">
+                        <div class="example-japanese">${ex.japanese_html || ex.furigana}</div>
+                        ${ex.furigana ? `<div class="example-furigana">${ex.furigana}</div>` : ''}
+                        ${ex.romaji ? `<div class="example-romaji">${ex.romaji}</div>` : ''}
+                        <div class="example-english">${ex.english}</div>
+                    </div>`;
+                });
+                
+                html += `</div>`;
+            }
+            
+            modalBody.innerHTML = html;
+            modal.classList.add('active');
+        }
+        
+        function closeModals() {
+            document.getElementById('study-modal').classList.remove('active');
+            document.getElementById('search-panel').classList.remove('active');
+            document.getElementById('settings-panel').classList.remove('active');
+        }
+        
+        // ===== QUIZ MODE =====
+        function startQuiz() {
+            AppState.quizMode = true;
+            AppState.quizScore = 0;
+            AppState.quizTotal = 0;
+            AppState.quizCorrect = 0;
+            
+            document.querySelector('.main-container').classList.add('hidden');
+            document.getElementById('quiz-container').classList.remove('hidden');
+            
+            generateQuizQuestion();
+        }
+        
+        function generateQuizQuestion() {
+            if (!KANJI_DATA.kanji || KANJI_DATA.kanji.length === 0) return;
+            
+            const randomKanji = KANJI_DATA.kanji[Math.floor(Math.random() * KANJI_DATA.kanji.length)];
+            const questionTypes = ['reading', 'meaning', 'context'];
+            const questionType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
+            
+            const quizQuestion = document.getElementById('quiz-question');
+            let html = '';
+            
+            if (questionType === 'reading') {
+                // Reading quiz: Show kanji word, ask for reading
+                const word = randomKanji.readings?.onyomi?.[0]?.word || randomKanji.character;
+                html = `
+                    <div class="quiz-question-text">What is the reading of: <strong>${word}</strong>?</div>
+                    <div class="quiz-options" id="quiz-options">`;
+                
+                const correctReading = randomKanji.readings?.onyomi?.[0]?.reading || randomKanji.readings?.kunyomi?.[0]?.reading || 'N/A';
+                const options = [correctReading];
+                
+                // Generate distractors
+                for (let i = 0; i < 3; i++) {
+                    const distractor = KANJI_DATA.kanji[Math.floor(Math.random() * KANJI_DATA.kanji.length)];
+                    const distractorReading = distractor.readings?.onyomi?.[0]?.reading || distractor.readings?.kunyomi?.[0]?.reading || 'N/A';
+                    if (!options.includes(distractorReading)) {
+                        options.push(distractorReading);
+                    }
+                }
+                
+                // Shuffle
+                options.sort(() => Math.random() - 0.5);
+                
+                options.forEach((opt, idx) => {
+                    const isCorrect = opt === correctReading;
+                    html += `<div class="quiz-option" data-correct="${isCorrect}" data-kanji-id="${randomKanji.id}" onclick="selectQuizAnswer(this, ${isCorrect}, ${randomKanji.id})">${opt}</div>`;
+                });
+                
+                html += `</div>`;
+            } else if (questionType === 'meaning') {
+                // Meaning quiz: Show kanji + reading, ask for meaning
+                const reading = randomKanji.readings?.onyomi?.[0]?.reading || randomKanji.readings?.kunyomi?.[0]?.reading || '';
+                html = `
+                    <div class="quiz-question-text">What does <strong>${randomKanji.character}</strong> (${reading}) mean?</div>
+                    <div class="quiz-options" id="quiz-options">`;
+                
+                const correctMeaning = randomKanji.readings?.onyomi?.[0]?.meaning || randomKanji.readings?.kunyomi?.[0]?.meaning || 'N/A';
+                const options = [correctMeaning];
+                
+                // Generate distractors
+                for (let i = 0; i < 3; i++) {
+                    const distractor = KANJI_DATA.kanji[Math.floor(Math.random() * KANJI_DATA.kanji.length)];
+                    const distractorMeaning = distractor.readings?.onyomi?.[0]?.meaning || distractor.readings?.kunyomi?.[0]?.meaning || 'N/A';
+                    if (!options.includes(distractorMeaning)) {
+                        options.push(distractorMeaning);
+                    }
+                }
+                
+                options.sort(() => Math.random() - 0.5);
+                
+                options.forEach((opt, idx) => {
+                    const isCorrect = opt === correctMeaning;
+                    html += `<div class="quiz-option" data-correct="${isCorrect}" data-kanji-id="${randomKanji.id}" onclick="selectQuizAnswer(this, ${isCorrect}, ${randomKanji.id})">${opt}</div>`;
+                });
+                
+                html += `</div>`;
+            }
+            
+            quizQuestion.innerHTML = html;
+            updateQuizStats();
+        }
+        
+        // ===== QUIZ ANSWER HANDLER =====
+        function selectQuizAnswer(element, isCorrect, kanjiId) {
+            const options = document.querySelectorAll('.quiz-option');
+            options.forEach(opt => {
+                opt.classList.add('disabled');
+                if (opt.dataset.correct === 'true') {
+                    opt.classList.add('correct');
+                } else if (opt === element && !isCorrect) {
+                    opt.classList.add('wrong');
+                }
+            });
+            
+            // Get kanji from ID
+            const currentKanji = kanjiId ? KANJI_DATA.kanji.find(k => k.id === kanjiId) : KANJI_DATA.kanji[AppState.currentIndex];
+            if (currentKanji && typeof recordQuizAnswer === 'function') {
+                recordQuizAnswer(currentKanji, isCorrect);
+            }
+            
+            AppState.quizTotal++;
+            if (isCorrect) {
+                AppState.quizScore += 10;
+                AppState.quizCorrect++;
+                AppState.currentStreak++;
+                if (AppState.currentStreak > AppState.bestStreak) {
+                    AppState.bestStreak = AppState.currentStreak;
+                    localStorage.setItem('bestStreak', AppState.bestStreak);
+                }
+                localStorage.setItem('currentStreak', AppState.currentStreak);
+            } else {
+                AppState.currentStreak = 0;
+                localStorage.setItem('currentStreak', 0);
+            }
+            
+            updateQuizStats();
+            updateStreakDisplay();
+            updateProgress();
+            
+            // Show feedback
+            const feedback = document.createElement('div');
+            feedback.className = `quiz-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+            feedback.textContent = isCorrect ? '✓ Correct!' : '✗ Wrong!';
+            document.getElementById('quiz-question').appendChild(feedback);
+            
+            // Next question after delay
+            setTimeout(() => {
+                generateQuizQuestion();
+            }, 2000);
+        }
+        
+        function updateQuizStats() {
+            document.getElementById('quiz-score').textContent = AppState.quizScore;
+            document.getElementById('quiz-question-num').textContent = AppState.quizTotal + 1;
+            const accuracy = AppState.quizTotal > 0 ? Math.round((AppState.quizCorrect / AppState.quizTotal) * 100) : 0;
+            document.getElementById('quiz-accuracy').textContent = accuracy + '%';
+        }
+        
+        // ===== UTILITY FUNCTIONS =====
+        function toggleBookmark() {
+            const kanji = KANJI_DATA.kanji[AppState.currentIndex];
+            kanji.user_data.bookmarked = !kanji.user_data.bookmarked;
+            const btn = document.getElementById('bookmark-btn');
+            if (kanji.user_data.bookmarked) {
+                btn.textContent = '★';
+                btn.classList.add('bookmarked');
+            } else {
+                btn.textContent = '☆';
+                btn.classList.remove('bookmarked');
+            }
+            saveToStorage();
+        }
+        
+        function updateProgress() {
+            if (!KANJI_DATA.kanji || KANJI_DATA.kanji.length === 0) return;
+            
+            const total = KANJI_DATA.kanji.length;
+            const studied = KANJI_DATA.kanji.filter(k => k.user_data.mastery_level > 0).length;
+            const percentage = Math.round((studied / total) * 100);
+            
+            document.getElementById('progress-text').textContent = `Progress: ${studied}/${total} (${percentage}%)`;
+            document.getElementById('progress-bar').style.width = percentage + '%';
+            document.getElementById('progress-bar').textContent = percentage + '%';
+        }
+        
+        function updateStreakDisplay() {
+            document.getElementById('streak-count').textContent = AppState.currentStreak;
+            document.getElementById('best-streak').textContent = AppState.bestStreak;
+        }
+        
+        function updateSessionTimer() {
+            const elapsed = Math.floor((Date.now() - AppState.sessionStartTime) / 1000);
+            const minutes = Math.floor(elapsed / 60);
+            const seconds = elapsed % 60;
+            document.getElementById('session-timer').textContent = `⏱️ Session: ${minutes}m ${seconds}s`;
+        }
+        
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme') || 'default';
+            const themes = ['default', 'midnight'];
+            const nextIndex = (themes.indexOf(currentTheme) + 1) % themes.length;
+            setTheme(themes[nextIndex]);
+        }
+        
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+        
+        function handleSearch(e) {
+            const query = e.target.value.toLowerCase();
+            if (query.length < 1) {
+                document.getElementById('search-results').innerHTML = '';
+                return;
+            }
+            
+            const results = KANJI_DATA.kanji.filter(k => 
+                k.character.includes(query) ||
+                k.readings?.onyomi?.some(r => r.reading.toLowerCase().includes(query)) ||
+                k.readings?.kunyomi?.some(r => r.reading.toLowerCase().includes(query)) ||
+                k.readings?.onyomi?.some(r => r.meaning.toLowerCase().includes(query)) ||
+                k.readings?.kunyomi?.some(r => r.meaning.toLowerCase().includes(query))
+            );
+            
+            const resultsHtml = results.map(k => 
+                `<div style="padding: 1rem; border-bottom: 1px solid var(--border); cursor: pointer;" onclick="jumpToKanji(${k.id - 1})">
+                    <strong>${k.character}</strong> - ${k.readings?.onyomi?.[0]?.meaning || k.readings?.kunyomi?.[0]?.meaning || ''}
+                </div>`
+            ).join('');
+            
+            document.getElementById('search-results').innerHTML = resultsHtml || '<div style="padding: 1rem;">No results found</div>';
+        }
+        
+        function jumpToKanji(index) {
+            displayKanji(index);
+            closeModals();
+        }
+        
+        function exportProgress() {
+            const exportData = {
+                export_date: new Date().toISOString(),
+                total_kanji: KANJI_DATA.kanji.length,
+                user_data: KANJI_DATA.kanji.map(k => ({
+                    id: k.id,
+                    character: k.character,
+                    mastery_level: k.user_data.mastery_level,
+                    times_correct: k.user_data.times_correct,
+                    times_wrong: k.user_data.times_wrong,
+                    last_reviewed: k.user_data.last_reviewed,
+                    next_review: k.user_data.next_review,
+                    notes: k.user_data.notes,
+                    bookmarked: k.user_data.bookmarked
+                })),
+                best_streak: AppState.bestStreak,
+                current_streak: AppState.currentStreak
+            };
+            
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `jlpt_n5_progress_${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+        }
+        
+        function importProgress(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const importData = JSON.parse(event.target.result);
+                    
+                    if (importData.user_data) {
+                        importData.user_data.forEach(imported => {
+                            const kanji = KANJI_DATA.kanji.find(k => k.id === imported.id);
+                            if (kanji) {
+                                kanji.user_data = { ...kanji.user_data, ...imported };
+                            }
+                        });
+                    }
+                    
+                    if (importData.best_streak) {
+                        AppState.bestStreak = importData.best_streak;
+                        localStorage.setItem('bestStreak', AppState.bestStreak);
+                    }
+                    
+                    saveToStorage();
+                    updateProgress();
+                    updateStreakDisplay();
+                    alert('Progress imported successfully!');
+                } catch (error) {
+                    alert('Failed to import: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        // ===== INDEXEDDB STORAGE =====
+        const DB_NAME = 'JLPTKanjiDB';
+        const DB_VERSION = 1;
+        let db = null;
+        
+        function initIndexedDB() {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(DB_NAME, DB_VERSION);
+                
+                request.onerror = () => reject(request.error);
+                request.onsuccess = () => {
+                    db = request.result;
+                    resolve(db);
+                };
+                
+                request.onupgradeneeded = (event) => {
+                    const db = event.target.result;
+                    
+                    // Kanji data store
+                    if (!db.objectStoreNames.contains('kanji_data')) {
+                        const kanjiStore = db.createObjectStore('kanji_data', { keyPath: 'id' });
+                        kanjiStore.createIndex('character', 'character', { unique: true });
+                        kanjiStore.createIndex('radical', 'radical', { unique: false });
+                    }
+                    
+                    // User progress store
+                    if (!db.objectStoreNames.contains('user_progress')) {
+                        const progressStore = db.createObjectStore('user_progress', { keyPath: 'kanji_id' });
+                        progressStore.createIndex('next_review', 'next_review', { unique: false });
+                        progressStore.createIndex('mastery_level', 'mastery_level', { unique: false });
+                    }
+                    
+                    // Quiz history store
+                    if (!db.objectStoreNames.contains('quiz_history')) {
+                        db.createObjectStore('quiz_history', { keyPath: 'id', autoIncrement: true });
+                    }
+                    
+                    // Achievements store
+                    if (!db.objectStoreNames.contains('achievements')) {
+                        db.createObjectStore('achievements', { keyPath: 'id' });
+                    }
+                    
+                    // Settings store
+                    if (!db.objectStoreNames.contains('settings')) {
+                        db.createObjectStore('settings', { keyPath: 'key' });
+                    }
+                };
+            });
+        }
+        
+        async function saveToStorage() {
+            if (!db) {
+                // Fallback to localStorage
+                localStorage.setItem('kanjiData', JSON.stringify(KANJI_DATA));
+                return;
+            }
+            
+            try {
+                const tx = db.transaction(['kanji_data', 'user_progress'], 'readwrite');
+                
+                // Save kanji data
+                const kanjiStore = tx.objectStore('kanji_data');
+                for (const kanji of KANJI_DATA.kanji) {
+                    await kanjiStore.put(kanji);
+                }
+                
+                // Save user progress
+                const progressStore = tx.objectStore('user_progress');
+                for (const kanji of KANJI_DATA.kanji) {
+                    await progressStore.put({
+                        kanji_id: kanji.id,
+                        mastery_level: kanji.user_data.mastery_level,
+                        last_reviewed: kanji.user_data.last_reviewed,
+                        next_review: kanji.user_data.next_review,
+                        times_correct: kanji.user_data.times_correct,
+                        times_wrong: kanji.user_data.times_wrong,
+                        bookmarked: kanji.user_data.bookmarked,
+                        notes: kanji.user_data.notes
+                    });
+                }
+                
+                await tx.complete;
+            } catch (error) {
+                console.error('Error saving to IndexedDB:', error);
+                // Fallback to localStorage
+                localStorage.setItem('kanjiData', JSON.stringify(KANJI_DATA));
+            }
+        }
+        
+        // ===== SRS SYSTEM =====
+        class SRSScheduler {
+            constructor() {
+                this.intervals = [1, 3, 7, 14, 30, 60, 120]; // Days
+            }
+            
+            calculateNextReview(kanji, quality) {
+                /*
+                quality: 0-5 scale
+                0-1: Complete fail (reset)
+                2-3: Hard (shorter interval)
+                4-5: Easy (longer interval)
+                */
+                
+                let currentLevel = kanji.user_data.mastery_level || 0;
+                const today = new Date();
+                
+                if (quality <= 1) {
+                    // Reset to beginning
+                    kanji.user_data.mastery_level = 0;
+                    kanji.user_data.next_review = this.addDays(today, 1).toISOString();
+                } else if (quality <= 3) {
+                    // Repeat current interval
+                    kanji.user_data.next_review = this.addDays(today, this.intervals[currentLevel] || 1).toISOString();
+                } else {
+                    // Advance to next interval
+                    currentLevel = Math.min(currentLevel + 1, this.intervals.length - 1);
+                    kanji.user_data.mastery_level = currentLevel;
+                    kanji.user_data.next_review = this.addDays(today, this.intervals[currentLevel]).toISOString();
+                }
+                
+                kanji.user_data.last_reviewed = today.toISOString();
+                return kanji.user_data.next_review;
+            }
+            
+            addDays(date, days) {
+                const result = new Date(date);
+                result.setDate(result.getDate() + days);
+                return result;
+            }
+            
+            getDueKanji() {
+                const today = new Date();
+                return KANJI_DATA.kanji.filter(k => {
+                    if (!k.user_data.next_review) return true; // Never reviewed
+                    const nextReview = new Date(k.user_data.next_review);
+                    return nextReview <= today;
+                });
+            }
+            
+            getMasteryDistribution() {
+                const distribution = {
+                    0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0
+                };
+                
+                KANJI_DATA.kanji.forEach(k => {
+                    const level = k.user_data.mastery_level || 0;
+                    distribution[level] = (distribution[level] || 0) + 1;
+                });
+                
+                return distribution;
+            }
+        }
+        
+        const srsScheduler = new SRSScheduler();
+        
+        function recordQuizAnswer(kanji, isCorrect) {
+            if (isCorrect) {
+                kanji.user_data.times_correct++;
+                // Quality 4-5 for correct answers
+                const quality = Math.random() > 0.5 ? 4 : 5;
+                srsScheduler.calculateNextReview(kanji, quality);
+            } else {
+                kanji.user_data.times_wrong++;
+                // Quality 0-2 for wrong answers
+                const quality = Math.random() > 0.5 ? 0 : 2;
+                srsScheduler.calculateNextReview(kanji, quality);
+            }
+            saveToStorage();
+        }
+        
+        // ===== ENHANCED QUIZ WITH SRS =====
+        // Note: selectQuizAnswer is defined above in the original quiz section
+        // This enhanced version uses SRS tracking
+        
+        // ===== ANALYTICS =====
+        function getAnalytics() {
+            const total = KANJI_DATA.kanji.length;
+            const mastered = KANJI_DATA.kanji.filter(k => k.user_data.mastery_level >= 5).length;
+            const learning = KANJI_DATA.kanji.filter(k => k.user_data.mastery_level > 0 && k.user_data.mastery_level < 5).length;
+            const newKanji = KANJI_DATA.kanji.filter(k => k.user_data.mastery_level === 0).length;
+            
+            const totalCorrect = KANJI_DATA.kanji.reduce((sum, k) => sum + (k.user_data.times_correct || 0), 0);
+            const totalWrong = KANJI_DATA.kanji.reduce((sum, k) => sum + (k.user_data.times_wrong || 0), 0);
+            const totalAttempts = totalCorrect + totalWrong;
+            const overallAccuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+            
+            const dueKanji = srsScheduler.getDueKanji().length;
+            const masteryDist = srsScheduler.getMasteryDistribution();
+            
+            return {
+                total,
+                mastered,
+                learning,
+                newKanji,
+                overallAccuracy,
+                totalAttempts,
+                dueKanji,
+                masteryDist,
+                currentStreak: AppState.currentStreak,
+                bestStreak: AppState.bestStreak
+            };
+        }
+        
+        // ===== SERVICE WORKER REGISTRATION =====
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((registration) => {
+                        console.log('SW registered:', registration);
+                    })
+                    .catch((error) => {
+                        console.log('SW registration failed:', error);
+                    });
+            });
+        }
+        
+        // ===== INITIALIZE INDEXEDDB =====
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                await initIndexedDB();
+                console.log('IndexedDB initialized');
+            } catch (error) {
+                console.error('IndexedDB initialization failed:', error);
+            }
+        });
+        
+        // Load theme on startup
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "scrape_date": "2026-02-06T00:00:00Z",
+    "total_kanji": 3,
+    "version": "2.0",
+    "source": "jlptsensei.com",
+    "features": ["svg", "flashcards", "srs", "analytics"]
+  },
+  "kanji": [
+    {
+      "id": 1,
+      "character": "日",
+      "stroke_count": 4,
+      "radical": "日",
+      "radical_meaning": "sun, day",
+      "jlpt_level": "N5",
+      "frequency_rank": 12,
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20,50 L80,50\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><path d=\"M50,20 L50,80\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/></svg>",
+      "flashcard_base64": null,
+      "mnemonic": "Picture the sun rising over the horizon - that's 日 (day/sun).",
+      "readings": {
+        "onyomi": [
+          {
+            "word": "日",
+            "reading": "ニチ",
+            "meaning": "day"
+          },
+          {
+            "word": "日本",
+            "reading": "ニホン",
+            "meaning": "Japan"
+          }
+        ],
+        "kunyomi": [
+          {
+            "word": "日",
+            "reading": "ひ",
+            "meaning": "day, sun"
+          }
+        ],
+        "special": [
+          {
+            "word": "今日",
+            "reading": "きょう",
+            "meaning": "today"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "japanese_html": "毎<span class=\"color\">日</span>、<span class=\"color\">日</span>本語を勉強します。",
+          "furigana": "まいにち、にほんごをべんきょうします。",
+          "romaji": "mainichi nihongo o benkyou shimasu.",
+          "english": "I study Japanese every day."
+        }
+      ],
+      "user_data": {
+        "mastery_level": 0,
+        "last_reviewed": null,
+        "next_review": null,
+        "times_correct": 0,
+        "times_wrong": 0,
+        "bookmarked": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": 2,
+      "character": "月",
+      "stroke_count": 4,
+      "radical": "月",
+      "radical_meaning": "moon, month",
+      "jlpt_level": "N5",
+      "frequency_rank": 15,
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M30,30 Q50,20 70,30 T70,50 Q50,60 30,50 Z\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/></svg>",
+      "flashcard_base64": null,
+      "mnemonic": "The crescent moon shape - 月 (moon/month).",
+      "readings": {
+        "onyomi": [
+          {
+            "word": "月",
+            "reading": "ゲツ",
+            "meaning": "month"
+          },
+          {
+            "word": "今月",
+            "reading": "こんげつ",
+            "meaning": "this month"
+          }
+        ],
+        "kunyomi": [
+          {
+            "word": "月",
+            "reading": "つき",
+            "meaning": "moon"
+          }
+        ],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "今<span class=\"color\">月</span>は忙しいです。",
+          "furigana": "こんげつはいそがしいです。",
+          "romaji": "kongetsu wa isogashii desu.",
+          "english": "This month is busy."
+        }
+      ],
+      "user_data": {
+        "mastery_level": 0,
+        "last_reviewed": null,
+        "next_review": null,
+        "times_correct": 0,
+        "times_wrong": 0,
+        "bookmarked": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": 3,
+      "character": "火",
+      "stroke_count": 4,
+      "radical": "火",
+      "radical_meaning": "fire",
+      "jlpt_level": "N5",
+      "frequency_rank": 18,
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50,20 L50,80\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><path d=\"M30,40 L70,40\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/></svg>",
+      "flashcard_base64": null,
+      "mnemonic": "Flames rising up - 火 (fire).",
+      "readings": {
+        "onyomi": [
+          {
+            "word": "火",
+            "reading": "カ",
+            "meaning": "fire"
+          },
+          {
+            "word": "火曜日",
+            "reading": "かようび",
+            "meaning": "Tuesday"
+          }
+        ],
+        "kunyomi": [
+          {
+            "word": "火",
+            "reading": "ひ",
+            "meaning": "fire"
+          }
+        ],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<span class=\"color\">火</span>曜日に会いましょう。",
+          "furigana": "かようびにあいましょう。",
+          "romaji": "kayoubi ni aimashou.",
+          "english": "Let's meet on Tuesday."
+        }
+      ],
+      "user_data": {
+        "mastery_level": 0,
+        "last_reviewed": null,
+        "next_review": null,
+        "times_correct": 0,
+        "times_wrong": 0,
+        "bookmarked": false,
+        "notes": ""
+      }
+    }
+  ]
+}

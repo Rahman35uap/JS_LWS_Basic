@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-06",
+  "source": "Manual enhancement based on Jisho.org and KanjiAlive",
+  
+  "kanji_metadata": {
+    "日": {
+      "radical": "日",
+      "radical_meaning": "sun, day",
+      "frequency_rank": 12,
+      "confusion_pairs": ["目", "曰", "白"],
+      "related_kanji": [2, 17, 70],
+      "mnemonic": "Picture a window with the sun shining through. It's the sun radical itself."
+    },
+    "一": {
+      "radical": "一",
+      "radical_meaning": "one",
+      "frequency_rank": 1,
+      "confusion_pairs": ["ー", "－"],
+      "related_kanji": [8, 13, 22],
+      "mnemonic": "One horizontal stroke - the simplest kanji."
+    },
+    "国": {
+      "radical": "囗",
+      "radical_meaning": "enclosure",
+      "frequency_rank": 45,
+      "confusion_pairs": ["図", "困", "団"],
+      "related_kanji": [80],
+      "mnemonic": "A king (王) inside a boundary (囗) makes a country."
+    },
+    "人": {
+      "radical": "人",
+      "radical_meaning": "person",
+      "frequency_rank": 23,
+      "confusion_pairs": ["入", "八"],
+      "related_kanji": [56, 79],
+      "mnemonic": "Looks like a person walking."
+    }
+  },
+  
+  "radical_meanings": {
+    "日": "sun, day",
+    "月": "moon, month",
+    "火": "fire",
+    "水": "water",
+    "木": "tree, wood",
+    "金": "gold, metal",
+    "土": "earth, soil",
+    "人": "person",
+    "口": "mouth, opening",
+    "手": "hand"
+  },
+  
+  "confusion_sets": [
+    {"kanji": ["日", "目", "曰"], "reason": "Similar rectangular shapes"},
+    {"kanji": ["人", "入", "八"], "reason": "Similar two-stroke characters"},
+    {"kanji": ["土", "士"], "reason": "Similar with different stroke lengths"},
+    {"kanji": ["未", "末"], "reason": "Stroke position differences"},
+    {"kanji": ["千", "干"], "reason": "One extra stroke"}
+  ]
+}

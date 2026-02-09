@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "total": 5,
+    "version": "web-1.0",
+    "scraped_at": "2026-02-06T12:55:30.125435"
+  },
+  "kanji": [
+    {
+      "id": 1,
+      "character": "日",
+      "meaning": "Meaning not found",
+      "stroke_count": 4,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">毎日</span>、<span class=\"kanji-highlight\">日本語</span>を勉強します。</p>",
+          "furigana": "まいにち、にほんごをべんきょうします。",
+          "romaji": "mainichi nihongo o benkyou shimasu.",
+          "english": "I study Japanese everyday."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">ある<span class=\"kanji-highlight\">日</span>、私は彼に会った。</p>",
+          "furigana": "あるひ、わたしはかれにあった。",
+          "romaji": "aru hi, watashi wa kare ni atta.",
+          "english": "One day I met him."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"kanji-highlight\">数日間</span>休みます。</p>",
+          "furigana": "わたしはすうじつかんやすみます。",
+          "romaji": "watashi wa suujitsukan yasumimasu.",
+          "english": "I'm going to take off a few days."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"kanji-highlight\">毎日</span>仕事が忙しい。</p>",
+          "furigana": "わたしはまいにちしごとがいそがしい。",
+          "romaji": "watashi wa mainichi shigoto ga isogashii.",
+          "english": "I'm busy with work everyday."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">明日</span>あなたは何をするのですか。</p>",
+          "furigana": "あしたあなたはなにをするのですか。",
+          "romaji": "ashita anata wa nani o suru no desu ka.",
+          "english": "What are you doing tomorrow?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">日本</span>の中であなたはどこに行きたいですか？</p>",
+          "furigana": "にほんのなかであなたはどこにいきたいですか？",
+          "romaji": "nihon no naka de anata wa doko ni ikitai desu ka?",
+          "english": "Where you want to go in Japan?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "character": "一",
+      "meaning": "Meaning not found",
+      "stroke_count": 1,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">一人</span>で学校へ行きます。</p>",
+          "furigana": "ひとりでがっこうへいきます。",
+          "romaji": "hitori de gakkou he ikimasu.",
+          "english": "I go to school alone."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">たい焼き<span class=\"kanji-highlight\">一匹</span>ください。</p>",
+          "furigana": "たいやきいっぴきください。",
+          "romaji": "taiyaki ippiki kudasai.",
+          "english": "One taiyaki please."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">一週間</span>ずっと日本語を勉強しました。</p>",
+          "furigana": "いっしゅうかんずっとにほんごをべんきょうしました。",
+          "romaji": "isshuukan zutto nihongo o benkyou shimashita.",
+          "english": "I studied Japanese all week long."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の誕生日は<span class=\"kanji-highlight\">一月一日</span>です。</p>",
+          "furigana": "わたひのたんじょうびはいちがつついたちです。",
+          "romaji": "watashi no tanjoubi wa ichi gatsu tsuitachi desu.",
+          "english": "My birthday is January 1st."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">一緒に</span>行きませんか？</p>",
+          "furigana": "いっしょにいきませんか？",
+          "romaji": "issho ni ikimasen ka?",
+          "english": "Why don't we go together?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">申し訳ありませんが、<span class=\"kanji-highlight\">もう一度</span>言っていただけませんか？</p>",
+          "furigana": "もうしわけありませんが、もういちどいっていただけませんか？",
+          "romaji": "moushiwake arimasenga, mou ichido itte itadakemasenka?",
+          "english": "Pardon? Could you say that again please."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "character": "国",
+      "meaning": "Meaning not found",
+      "stroke_count": 8,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたはどこの<span class=\"kanji-highlight\">国</span>から来ましたか？</p>",
+          "furigana": "あなたはどこのくにからきましたか？",
+          "romaji": "anata wa doko no kuni kara kimashita ka?",
+          "english": "What country did you come from?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は<span class=\"kanji-highlight\">外国</span>に長年住んでいた。</p>",
+          "furigana": "かれはがいこくにながねんすんでいた。",
+          "romaji": "kare wa gaikoku ni naganen sundeita.",
+          "english": "He lived abroad for many years."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"kanji-highlight\">米国</span>から来ました。</p>",
+          "furigana": "わたしはべいこくからきました。",
+          "romaji": "watashi wa beikoku kara kimashita.",
+          "english": "I came here from the USA."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">アメリカ人はビザなしで日本に<span class=\"kanji-highlight\">入国</span>できます。</p>",
+          "furigana": "アメリカ人はビザなしでにほんににゅうこくできます。",
+          "romaji": "amerikajin wa biza nashi de nihon ni nyukoku dekimasu.",
+          "english": "American's can enter Japan without a visa."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">国際</span>電話をかけたいのですが。</p>",
+          "furigana": "こくさいでんわをかけたいのですが。",
+          "romaji": "kokusai denwa o kaketai no desu ga.",
+          "english": "I'd like to make an overseas call."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼らはフランス<span class=\"kanji-highlight\">国境</span>を越えた。</p>",
+          "furigana": "かれらはフランスこっきょうをこえた。",
+          "romaji": "karera wa furansu kokkyou o koeta.",
+          "english": "They crossed the French border."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">日本<span class=\"kanji-highlight\">全国</span>を旅行したいです。</p>",
+          "furigana": "にほんぜんこくをりょこうしたいです。",
+          "romaji": "nihon zenkoku o ryokou shitai desu.",
+          "english": "I want to travel all around Japan."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼が死んだのは<span class=\"kanji-highlight\">国家</span>の災難だ。</p>",
+          "furigana": "かれがしんだのはこっかのさいなんだ。",
+          "romaji": "kare ga shinda no wa kokka no sainan da.",
+          "english": "His death is a calamity to the nation."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたは英語と<span class=\"kanji-highlight\">国語</span>どちらが好きですか。</p>",
+          "furigana": "あなたはえいごとこくごどちらがすきですか。",
+          "romaji": "anata wa eigo to kokugo dochira ga suki desu ka.",
+          "english": "Do you like Japanese or English?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の地元にいい<span class=\"kanji-highlight\">国立</span>大学があります。</p>",
+          "furigana": "わたしのじもとにいいこくりつだいがくがあります。",
+          "romaji": "watashi no jimoto ni ii kokuritsu daigaku ga arimasu.",
+          "english": "There is a good national university in my hometown."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "character": "人",
+      "meaning": "Meaning not found",
+      "stroke_count": 2,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"kanji-highlight\">アメリカ人</span>です。</p>",
+          "furigana": "わたしはあめりかじんです。",
+          "romaji": "watashi wa amerikajin desu.",
+          "english": "I am American."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の兄は<span class=\"kanji-highlight\">人気</span>がある。</p>",
+          "furigana": "わたしのあにはにんきがある。",
+          "romaji": "watashi no ani wa ninki ga aru.",
+          "english": "My older brother is popular."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">君は僕のただ <span class=\"kanji-highlight\">1人</span>の<span class=\"kanji-highlight\">友人</span>だ。</p>",
+          "furigana": "きみはぼくのただひとりのゆうじんだ。",
+          "romaji": "kimi wa boku no tada hitori no yuujin da.",
+          "english": "You're my one and only true friend."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">一人</span>暮らしですか。</p>",
+          "furigana": "ひとりぐらしですか。",
+          "romaji": "hitori gurashi desu ka.",
+          "english": "Do you live alone?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は母と<span class=\"kanji-highlight\">二人</span>で暮らしている。</p>",
+          "furigana": "わたしはははとふたりでくらしている。",
+          "romaji": "watashi wa haha to futari de kurashiteiru.",
+          "english": "I live with my mom, just the two of us."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の母は家族の中で一番早く起きる<span class=\"kanji-highlight\">人</span>です。</p>",
+          "furigana": "わたしのはははかぞくのなかでいちばんはやくおきるひとです。",
+          "romaji": "watashi no haha wa kazoku no naka de ichiban hayaku okiru hito desu.",
+          "english": "My mom is the earliest person in the family to wake up."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "character": "年",
+      "meaning": "Meaning not found",
+      "stroke_count": 6,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">お年</span>はいくつですか？</p>",
+          "furigana": "おとしはいくつですか？",
+          "romaji": "otoshi wa ikutsu desu ka?",
+          "english": "How old are you?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">去年</span>日本へ行きました。</p>",
+          "furigana": "きょねんにほんへいきました。",
+          "romaji": "kyonen nihon he ikimashita.",
+          "english": "I went to Japan last year."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">今年</span>毎日ランニングをします。</p>",
+          "furigana": "ことしまいにちらんにんぐをします。",
+          "romaji": "kotoshi mainichi ranningu o shimasu.",
+          "english": "I will go running every day this year."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"kanji-highlight\">来年</span>社会人になる。</p>",
+          "furigana": "わたしはらいねんしゃかいじんになる。",
+          "romaji": "watashi wa rainen shakaijin ni naru.",
+          "english": "I will become a working adult next year."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼女は私より<span class=\"kanji-highlight\">年上</span>です。</p>",
+          "furigana": "かのじょはわたしよりとしうえです。",
+          "romaji": "kanojo wa watashi yori toshi ue desu.",
+          "english": "She is older than I am."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"kanji-highlight\">一年間</span>くらい日本語を勉強しています。</p>",
+          "furigana": "いちねんかんくらいにほんごをべんきょうしています。",
+          "romaji": "ichinenkan kurai nihongo o benkyou shiteimasu.",
+          "english": "I've been studying Japanese for about a year."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私たちは<span class=\"kanji-highlight\">毎年</span>1月にそこへ行きます。</p>",
+          "furigana": "わたしたちはまいとしいちがつにそこへいきます。",
+          "romaji": "watashitachi maitoshi ichigatsu ni soko he ikimasu.",
+          "english": "We go there every year in January."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">よい<span class=\"kanji-highlight\">お年</span>をお迎えください。</p>",
+          "furigana": "よいおとしをおむかえください。",
+          "romaji": "yoi otoshi o mukae kudasai.",
+          "english": "I wish you a Happy New Year."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"kanji-highlight\">万年筆</span>はインクの出が悪い。</p>",
+          "furigana": "このまんねんひつはインクのでがわるい。",
+          "romaji": "kono mannenhitsu wa inku no de ga warui.",
+          "english": "The ink doesn't flow smoothly from this pen."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">近頃の<span class=\"kanji-highlight\">青年</span>には夢がない。</p>",
+          "furigana": "ちかごろのせいねんにはゆめがない。",
+          "romaji": "chikagoro no seinen ni wa yume ga nai.",
+          "english": "The youngsters of today don't set their sights high enough."
+        }
+      ]
+    }
+  ]
+}

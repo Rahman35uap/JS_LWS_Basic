@@ -1,0 +1,66 @@
+{
+  "name": "JLPT N5 Kanji Master",
+  "short_name": "Kanji N5",
+  "description": "Complete JLPT N5 Kanji Learning with SRS, Quizzes, and Stroke Practice",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "orientation": "any",
+  "categories": ["education", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>日</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/3498db/ffffff?text=日",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/3498db/ffffff?text=日",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Study Mode",
+      "short_name": "Study",
+      "description": "Study kanji with stroke diagrams",
+      "url": "./index.html?mode=study"
+    },
+    {
+      "name": "Quiz Mode",
+      "short_name": "Quiz",
+      "description": "Test your knowledge",
+      "url": "./index.html?mode=quiz"
+    },
+    {
+      "name": "Review Due",
+      "short_name": "Review",
+      "description": "Review due kanji (SRS)",
+      "url": "./index.html?mode=review"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x720/3498db/ffffff?text=JLPT+N5+Kanji+Master",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard view"
+    },
+    {
+      "src": "https://via.placeholder.com/720x1280/3498db/ffffff?text=Study+Mode",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile study view"
+    }
+  ]
+}

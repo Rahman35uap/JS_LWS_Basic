@@ -1,0 +1,42 @@
+{
+    "name": "JLPT N5 Kanji Master",
+    "short_name": "Kanji N5",
+    "description": "Learn 80 JLPT N5 Kanji with SRS, quizzes, stroke practice, and analytics",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["education", "lifestyle"],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Start Quiz",
+            "short_name": "Quiz",
+            "description": "Start a quick quiz session",
+            "url": "/?mode=quiz",
+            "icons": []
+        },
+        {
+            "name": "Review Due",
+            "short_name": "Review",
+            "description": "Review kanji due for SRS",
+            "url": "/?mode=review",
+            "icons": []
+        }
+    ]
+}
