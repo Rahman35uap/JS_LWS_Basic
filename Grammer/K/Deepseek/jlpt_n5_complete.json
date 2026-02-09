@@ -1,0 +1,843 @@
+{
+  "metadata": {
+    "jlpt_level": "N5",
+    "scraped_at": "2026-02-09T09:13:10.140414",
+    "count": 10
+  },
+  "kanji": [
+    {
+      "character": "日",
+      "meaning": "day, sun, Japan, counter for days. Common words & example sentences: 日曜日、毎日、休日\",\"breadcrumb\":{\"@id\":\"https://jlptsensei.com/learn-japanese-kanji/%e6%97%a5-nichi-jitsu-day-sun/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://jlptsensei.com/learn-japanese-kanji/%e6%97%a5-nichi-jitsu-day-sun/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://jlptsensei.com/learn-japanese-kanji/%e6%97%a5-nichi-jitsu-day-sun/#primaryimage\",\"url\":\"https://jlptsensei.com/wp-content/uploads/2020/01/jlpt-n5-kanji-meaning.png\",\"contentUrl\":\"https://jlptsensei.com/wp-content/uploads/2020/01/jlpt-n5-kanji-meaning.png\",\"width\":1000,\"height\":563,\"caption\":\"jlpt n5 kanji meaning\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://jlptsensei.com/learn-japanese-kanji/%e6%97%a5-nichi-jitsu-day-sun/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://jlptsensei.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://jlptsensei.com/blog/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"JLPT N5 Kanji: 日 (nichi, jitsu) day, sun\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://jlptsensei.com/#website\",\"url\":\"https://jlptsensei.com/\",\"name\":\"JLPT Sensei\",\"description\":\"Learn Japanese Grammar &amp; Study for the JLPT\",\"publisher\":{\"@id\":\"https://jlptsensei.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://jlptsensei.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://jlptsensei.com/#organization\",\"name\":\"JLPT Sensei\",\"url\":\"https://jlptsensei.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://jlptsensei.com/#/schema/logo/image/\",\"url\":\"https://jlptsensei.com/wp-content/uploads/2017/09/JLPT-Sensei-logo-circle-red.png\",\"contentUrl\":\"https://jlptsensei.com/wp-content/uploads/2017/09/JLPT-Sensei-logo-circle-red.png\",\"width\":500,\"height\":500,\"caption\":\"JLPT Sensei\"},\"image\":{\"@id\":\"https://jlptsensei.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/jlptsensei\",\"https://www.instagram.com/jlptsensei/\",\"http://pinterest.com/jlptsensei\",\"https://www.youtube.com/channel/UCubV75tHSAp4_8c1Zsq0wiA\"]},{\"@type\":\"Person\",\"@id\":\"https://jlptsensei.com/#/schema/person/d389914b57600a30c9815bfa480e4871\",\"name\":\"Cruise Bogedin\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://jlptsensei.com/#/schema/person/image/\",\"url\":\"https://secure.gravatar.com/avatar/3e7546ebb93e9cff1a662cc9722013a9a9a9aba65a50bf91615ac72fe6fddcec?s=96&d=mm&r=pg\",\"contentUrl\":\"https://secure.gravatar.com/avatar/3e7546ebb93e9cff1a662cc9722013a9a9a9aba65a50bf91615ac72fe6fddcec?s=96&d=mm&r=pg\",\"caption\":\"Cruise Bogedin\"},\"description\":\"Cruise works full time at a Japanese company in Nagoya, Japan. He worked for 4 years as a University lecturer teaching English before making the move to a 100% Japanese speaking environment to continue improving his Japanese. In his free time, he is either cycling around Japan making YouTube videos or adding new Japanese lessons to this blog.\",\"sameAs\":[\"https://twowheelcruise.com\",\"https://facebook.com/jlptsensei\",\"https://x.com/jlptsensei\"],\"url\":\"https://jlptsensei.com/author/cruise-bogedin/\"}]}",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/01-日-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866291d5dda79658000870\" style=\"height: 100px; width: 400px;\" viewbox=\"0 0 400 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"399\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"399\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"400\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M31.5,24.5c1.12,1.12,1.74,2.75,1.74,4.75c0,1.6-0.16,38.11-0.09,53.5c0.02,3.82,0.05,6.35,0.09,6.75\" id=\"kvg:065e5-s1\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M31.5,24.5c1.12,1.12,1.74,2.75,1.74,4.75c0,1.6-0.16,38.11-0.09,53.5c0.02,3.82,0.05,6.35,0.09,6.75\" id=\"Sk0uogbtqd\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"31.5\" cy=\"24.5\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M31.5,24.5c1.12,1.12,1.74,2.75,1.74,4.75c0,1.6-0.16,38.11-0.09,53.5c0.02,3.82,0.05,6.35,0.09,6.75\" id=\"Sk0uogbtqg\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.48,26c0.8-0.05,37.67-3.01,40.77-3.25c3.19-0.25,5,1.75,5,4.25c0,4-0.22,40.84-0.23,56c0,3.48,0,5.72,0,6\" id=\"kvg:065e5-s2\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.48,26c0.8-0.05,37.67-3.01,40.77-3.25c3.19-0.25,5,1.75,5,4.25c0,4-0.22,40.84-0.23,56c0,3.48,0,5.72,0,6\" id=\"Sk0uogbtqi\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"33.48\" cy=\"26\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M31.5,24.5c1.12,1.12,1.74,2.75,1.74,4.75c0,1.6-0.16,38.11-0.09,53.5c0.02,3.82,0.05,6.35,0.09,6.75\" id=\"Sk0uogbtql\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M33.48,26c0.8-0.05,37.67-3.01,40.77-3.25c3.19-0.25,5,1.75,5,4.25c0,4-0.22,40.84-0.23,56c0,3.48,0,5.72,0,6\" id=\"Sk0uogbtqm\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M34.22,55.25c7.78-0.5,35.9-2.5,44.06-2.75\" id=\"kvg:065e5-s3\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M34.22,55.25c7.78-0.5,35.9-2.5,44.06-2.75\" id=\"Sk0uogbtqo\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"34.22\" cy=\"55.25\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"350\" x2=\"350\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"399\" x2=\"399\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M31.5,24.5c1.12,1.12,1.74,2.75,1.74,4.75c0,1.6-0.16,38.11-0.09,53.5c0.02,3.82,0.05,6.35,0.09,6.75\" id=\"Sk0uogbtqr\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M33.48,26c0.8-0.05,37.67-3.01,40.77-3.25c3.19-0.25,5,1.75,5,4.25c0,4-0.22,40.84-0.23,56c0,3.48,0,5.72,0,6\" id=\"Sk0uogbtqs\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M34.22,55.25c7.78-0.5,35.9-2.5,44.06-2.75\" id=\"Sk0uogbtqt\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M34.23,86.5c10.52-0.75,34.15-2.12,43.81-2.25\" id=\"kvg:065e5-s4\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M34.23,86.5c10.52-0.75,34.15-2.12,43.81-2.25\" id=\"Sk0uogbtqv\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"34.23\" cy=\"86.5\" r=\"4\" transform=\"matrix(1,0,0,1,296,-4)\"></circle></svg>",
+      "stroke_count": 4,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">毎日</span>、<span class=\"color\">日本語</span>を勉強します。</p>",
+          "english": "Toggle all hints!Example #1毎日、日本語を勉強します。ふりがなromajiEnglishまいにち、にほんごをべんきょうします。mainichi nihongo o benkyou shimasu.I study Japanese everyday.Example #2ある日、私は彼に会った。ふりがなromajiEnglishあるひ、わたしはかれにあった。aru hi, watashi wa kare ni atta.One day I met him.Example #3私は数日間休みます。ふりがなromajiEnglishわたしはすうじつかんやすみます。watashi wa suujitsukan yasumimasu.I'm going to take off a few days.Example #4私は毎日仕事が忙しい。ふりがなromajiEnglishわたしはまいにちしごとがいそがしい。watashi wa mainichi shigoto ga isogashii.I'm busy with work everyday.Example #5明日あなたは何をするのですか。ふりがなromajiEnglishあしたあなたはなにをするのですか。ashita anata wa nani o suru no desu ka.What are you doing tomorrow?Example #6日本の中であなたはどこに行きたいですか？ふりがなromajiEnglishにほんのなかであなたはどこにいきたいですか？nihon no naka de anata wa doko ni ikitai desu ka?Where you want to go in Japan?"
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">毎日</span>、<span class=\"color\">日本語</span>を勉強します。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">毎日</span>、<span class=\"color\">日本語</span>を勉強します。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">ある<span class=\"color\">日</span>、私は彼に会った。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">ある<span class=\"color\">日</span>、私は彼に会った。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">数日間</span>休みます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">数日間</span>休みます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">毎日</span>仕事が忙しい。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">毎日</span>仕事が忙しい。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">明日</span>あなたは何をするのですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">明日</span>あなたは何をするのですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">日本</span>の中であなたはどこに行きたいですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">日本</span>の中であなたはどこに行きたいですか？</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e6%97%a5-nichi-jitsu-day-sun/",
+      "id": 1
+    },
+    {
+      "character": "一",
+      "meaning": "one.2 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/02-一-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866272d5dda7965800004c\" style=\"height: 100px; width: 100px;\" viewbox=\"0 0 100 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"99\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"99\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"100\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M11,54.25c3.19,0.62,6.25,0.75,9.73,0.5c20.64-1.5,50.39-5.12,68.58-5.24c3.6-0.02,5.77,0.24,7.57,0.49\" id=\"kvg:04e00-s1\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M11,54.25c3.19,0.62,6.25,0.75,9.73,0.5c20.64-1.5,50.39-5.12,68.58-5.24c3.6-0.02,5.77,0.24,7.57,0.49\" id=\"Sk0uocxufa\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"11\" cy=\"54.25\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle></svg>",
+      "stroke_count": 1,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一人</span>で学校へ行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一人</span>で学校へ行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一人</span>で学校へ行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">たい焼き<span class=\"color\">一匹</span>ください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">たい焼き<span class=\"color\">一匹</span>ください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一週間</span>ずっと日本語を勉強しました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一週間</span>ずっと日本語を勉強しました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の誕生日は<span class=\"color\">一月一日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の誕生日は<span class=\"color\">一月一日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一緒に</span>行きませんか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一緒に</span>行きませんか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">申し訳ありませんが、<span class=\"color\">もう一度</span>言っていただけませんか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">申し訳ありませんが、<span class=\"color\">もう一度</span>言っていただけませんか？</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e4%b8%80-ichi-hito-tsu-one/",
+      "id": 2
+    },
+    {
+      "character": "国",
+      "meaning": "country.3 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/03-国-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_5186627fd5dda7965800039f\" style=\"height: 100px; width: 800px;\" viewbox=\"0 0 800 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"799\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"799\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"800\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"kvg:056fd-s1\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c7h\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"19\" cy=\"16.82\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c7k\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"kvg:056fd-s2\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c7m\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"21.52\" cy=\"18.67\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c7p\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c7q\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"kvg:056fd-s3\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c7s\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"35.12\" cy=\"33.88\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"350\" x2=\"350\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"399\" x2=\"399\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c7v\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c7w\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c7x\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"kvg:056fd-s4\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"Sk0uob2c7z\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"52.8\" cy=\"34.89\" r=\"4\" transform=\"matrix(1,0,0,1,296,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"450\" x2=\"450\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"499\" x2=\"499\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c712\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c713\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c714\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"Sk0uob2c715\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M37.58,52.16c1.79,0.22,3.41,0.14,5.36-0.08c7.56-0.83,17.56-1.99,25.38-2.8c1.25-0.13,4.02-0.15,5.89,0.17\" id=\"kvg:056fd-s5\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M37.58,52.16c1.79,0.22,3.41,0.14,5.36-0.08c7.56-0.83,17.56-1.99,25.38-2.8c1.25-0.13,4.02-0.15,5.89,0.17\" id=\"Sk0uob2c717\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"37.58\" cy=\"52.16\" r=\"4\" transform=\"matrix(1,0,0,1,396,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"550\" x2=\"550\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"599\" x2=\"599\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c71a\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c71b\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c71c\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"Sk0uob2c71d\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M37.58,52.16c1.79,0.22,3.41,0.14,5.36-0.08c7.56-0.83,17.56-1.99,25.38-2.8c1.25-0.13,4.02-0.15,5.89,0.17\" id=\"Sk0uob2c71e\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M31.08,75.14c1.54,0.36,3.85,0.28,5.19,0.16c9.98-0.92,25.85-2.67,37.03-3.54c2.15-0.17,5.04-0.18,6.12,0.13\" id=\"kvg:056fd-s6\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M31.08,75.14c1.54,0.36,3.85,0.28,5.19,0.16c9.98-0.92,25.85-2.67,37.03-3.54c2.15-0.17,5.04-0.18,6.12,0.13\" id=\"Sk0uob2c71g\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"31.08\" cy=\"75.14\" r=\"4\" transform=\"matrix(1,0,0,1,496,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"650\" x2=\"650\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"699\" x2=\"699\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c71j\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c71k\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c71l\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"Sk0uob2c71m\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M37.58,52.16c1.79,0.22,3.41,0.14,5.36-0.08c7.56-0.83,17.56-1.99,25.38-2.8c1.25-0.13,4.02-0.15,5.89,0.17\" id=\"Sk0uob2c71n\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M31.08,75.14c1.54,0.36,3.85,0.28,5.19,0.16c9.98-0.92,25.85-2.67,37.03-3.54c2.15-0.17,5.04-0.18,6.12,0.13\" id=\"Sk0uob2c71o\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M67.75,56.62c3,1.75,6.12,5.12,8,8.38\" id=\"kvg:056fd-s7\" kvg:type=\"㇔\" transform=\"matrix(1,0,0,1,596,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M67.75,56.62c3,1.75,6.12,5.12,8,8.38\" id=\"Sk0uob2c71q\" kvg:type=\"㇔\" transform=\"matrix(1,0,0,1,596,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"67.75\" cy=\"56.62\" r=\"4\" transform=\"matrix(1,0,0,1,596,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"750\" x2=\"750\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"799\" x2=\"799\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19,16.82c1.09,1.09,1.61,2.51,1.61,4.41c0,14.65-0.22,44.9-0.22,71.53c0,1.95-0.06,3.86-0.09,5.75\" id=\"Sk0uob2c71t\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M21.52,18.67C41.38,16.75,74.03,13.5,85,13.5c3.38,0,5,1.85,5,5.25c0,15.36-0.04,47.89-0.08,70.62c0,1.68,0,3.31,0,4.88\" id=\"Sk0uob2c71u\" kvg:type=\"㇕a\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M35.12,33.88c1.32,0.28,4.2,0.44,5.51,0.28c10.47-1.29,20.62-2.54,28.62-3.13c2.02-0.15,3.88-0.19,5.56,0.04\" id=\"Sk0uob2c71v\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.8,34.89c0.96,0.97,1.47,2.48,1.47,3.81c0,3.99-0.13,24.74-0.09,33.55\" id=\"Sk0uob2c71w\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M37.58,52.16c1.79,0.22,3.41,0.14,5.36-0.08c7.56-0.83,17.56-1.99,25.38-2.8c1.25-0.13,4.02-0.15,5.89,0.17\" id=\"Sk0uob2c71x\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M31.08,75.14c1.54,0.36,3.85,0.28,5.19,0.16c9.98-0.92,25.85-2.67,37.03-3.54c2.15-0.17,5.04-0.18,6.12,0.13\" id=\"Sk0uob2c71y\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M67.75,56.62c3,1.75,6.12,5.12,8,8.38\" id=\"Sk0uob2c71z\" kvg:type=\"㇔\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M21.5,93.01c14.25-0.51,48.38-1.89,67-2.51\" id=\"kvg:056fd-s8\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,696,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M21.5,93.01c14.25-0.51,48.38-1.89,67-2.51\" id=\"Sk0uob2c721\" kvg:type=\"㇐a\" transform=\"matrix(1,0,0,1,696,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"21.5\" cy=\"93.01\" r=\"4\" transform=\"matrix(1,0,0,1,696,-4)\"></circle></svg>",
+      "stroke_count": 8,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたはどこの<span class=\"color\">国</span>から来ましたか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたはどこの<span class=\"color\">国</span>から来ましたか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたはどこの<span class=\"color\">国</span>から来ましたか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は<span class=\"color\">外国</span>に長年住んでいた。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は<span class=\"color\">外国</span>に長年住んでいた。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">米国</span>から来ました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">米国</span>から来ました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">アメリカ人はビザなしで日本に<span class=\"color\">入国</span>できます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">アメリカ人はビザなしで日本に<span class=\"color\">入国</span>できます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">国際</span>電話をかけたいのですが。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">国際</span>電話をかけたいのですが。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼らはフランス<span class=\"color\">国境</span>を越えた。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼らはフランス<span class=\"color\">国境</span>を越えた。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">日本<span class=\"color\">全国</span>を旅行したいです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">日本<span class=\"color\">全国</span>を旅行したいです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼が死んだのは<span class=\"color\">国家</span>の災難だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼が死んだのは<span class=\"color\">国家</span>の災難だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたは英語と<span class=\"color\">国語</span>どちらが好きですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたは英語と<span class=\"color\">国語</span>どちらが好きですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の地元にいい<span class=\"color\">国立</span>大学があります。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の地元にいい<span class=\"color\">国立</span>大学があります。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e5%9b%bd-koku-kuni-country/",
+      "id": 3
+    },
+    {
+      "character": "人",
+      "meaning": "person.5 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/04-人-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866287d5dda796580005af\" style=\"height: 100px; width: 200px;\" viewbox=\"0 0 200 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"200\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M54.5,20c0.37,2.12,0.23,4.03-0.22,6.27C51.68,39.48,38.25,72.25,16.5,87.25\" id=\"kvg:04eba-s1\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M54.5,20c0.37,2.12,0.23,4.03-0.22,6.27C51.68,39.48,38.25,72.25,16.5,87.25\" id=\"Sk0unyql9b\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"54.5\" cy=\"20\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M54.5,20c0.37,2.12,0.23,4.03-0.22,6.27C51.68,39.48,38.25,72.25,16.5,87.25\" id=\"Sk0unyql9e\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M46,54.25c6.12,6,25.51,22.24,35.52,29.72c3.66,2.73,6.94,4.64,11.48,5.53\" id=\"kvg:04eba-s2\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M46,54.25c6.12,6,25.51,22.24,35.52,29.72c3.66,2.73,6.94,4.64,11.48,5.53\" id=\"Sk0unyql9g\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"46\" cy=\"54.25\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle></svg>",
+      "stroke_count": 2,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">アメリカ人</span>です。</p>",
+          "english": "Toggle all hints!Example #1私はアメリカ人です。ふりがなromajiEnglishわたしはあめりかじんです。watashi wa amerikajin desu.I am American.Example #2私の兄は人気がある。ふりがなromajiEnglishわたしのあにはにんきがある。watashi no ani wa ninki ga aru.My older brother is popular.Example #3君は僕のただ1人の友人だ。ふりがなromajiEnglishきみはぼくのただひとりのゆうじんだ。kimi wa boku no tada hitori no yuujin da.You're my one and only true friend.Example #4一人暮らしですか。ふりがなromajiEnglishひとりぐらしですか。hitori gurashi desu ka.Do you live alone?Example #5私は母と二人で暮らしている。ふりがなromajiEnglishわたしはははとふたりでくらしている。watashi wa haha to futari de kurashiteiru.I live with my mom, just the two of us.Example #6私の母は家族の中で一番早く起きる人です。ふりがなromajiEnglishわたしのはははかぞくのなかでいちばんはやくおきるひとです。watashi no haha wa kazoku no naka de ichiban hayaku okiru hito desu.My mom is the earliest person in the family to wake up."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">アメリカ人</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">アメリカ人</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の兄は<span class=\"color\">人気</span>がある。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の兄は<span class=\"color\">人気</span>がある。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">君は僕のただ <span class=\"color\">1人</span>の<span class=\"color\">友人</span>だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">君は僕のただ <span class=\"color\">1人</span>の<span class=\"color\">友人</span>だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一人</span>暮らしですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一人</span>暮らしですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は母と<span class=\"color\">二人</span>で暮らしている。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は母と<span class=\"color\">二人</span>で暮らしている。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の母は家族の中で一番早く起きる<span class=\"color\">人</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の母は家族の中で一番早く起きる<span class=\"color\">人</span>です。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e4%ba%ba-jin-hito-person/",
+      "id": 4
+    },
+    {
+      "character": "年",
+      "meaning": "year, counter for years.6 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/05-年-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866292d5dda79658000881\" style=\"height: 100px; width: 600px;\" viewbox=\"0 0 600 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"599\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"599\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"600\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"kvg:05e74-s1\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkpf\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"40.01\" cy=\"11.89\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkpi\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"kvg:05e74-s2\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"Sk0uncdkpk\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"39.13\" cy=\"23.62\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkpn\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"Sk0uncdkpo\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M30.13,43.59c1.36,0.33,3.87,0.46,5.21,0.33c10.91-1.05,28.53-3.42,40.78-4.26c2.26-0.15,3.63,0.16,4.76,0.32\" id=\"kvg:05e74-s3\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M30.13,43.59c1.36,0.33,3.87,0.46,5.21,0.33c10.91-1.05,28.53-3.42,40.78-4.26c2.26-0.15,3.63,0.16,4.76,0.32\" id=\"Sk0uncdkpq\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"30.13\" cy=\"43.59\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"350\" x2=\"350\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"399\" x2=\"399\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkpt\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"Sk0uncdkpu\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M30.13,43.59c1.36,0.33,3.87,0.46,5.21,0.33c10.91-1.05,28.53-3.42,40.78-4.26c2.26-0.15,3.63,0.16,4.76,0.32\" id=\"Sk0uncdkpv\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.75,44.5c1,1.25,1,1.97,1.01,3.5C34.8,52.33,35,65.29,35,66.25\" id=\"kvg:05e74-s4\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.75,44.5c1,1.25,1,1.97,1.01,3.5C34.8,52.33,35,65.29,35,66.25\" id=\"Sk0uncdkpx\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,296,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"33.75\" cy=\"44.5\" r=\"4\" transform=\"matrix(1,0,0,1,296,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"450\" x2=\"450\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"499\" x2=\"499\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkp10\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"Sk0uncdkp11\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M30.13,43.59c1.36,0.33,3.87,0.46,5.21,0.33c10.91-1.05,28.53-3.42,40.78-4.26c2.26-0.15,3.63,0.16,4.76,0.32\" id=\"Sk0uncdkp12\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M33.75,44.5c1,1.25,1,1.97,1.01,3.5C34.8,52.33,35,65.29,35,66.25\" id=\"Sk0uncdkp13\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M13.88,67.74c1.97,0.47,5.61,0.66,7.57,0.47c20.21-2.03,36.35-4.62,66.65-5.31c3.29-0.08,5.26,0.22,6.91,0.46\" id=\"kvg:05e74-s5\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M13.88,67.74c1.97,0.47,5.61,0.66,7.57,0.47c20.21-2.03,36.35-4.62,66.65-5.31c3.29-0.08,5.26,0.22,6.91,0.46\" id=\"Sk0uncdkp15\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"13.88\" cy=\"67.74\" r=\"4\" transform=\"matrix(1,0,0,1,396,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"550\" x2=\"550\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"599\" x2=\"599\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M40.01,11.89c0.24,1.61-0.01,2.86-0.84,4.46c-2.53,4.84-6.91,11.4-15.86,19.62\" id=\"Sk0uncdkp18\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M39.13,23.62c2.25,0.38,4.4,0.18,5.79,0.03c11.7-1.27,21.33-2.9,33.22-4.07c2.3-0.23,4.2,0,5.35,0.26\" id=\"Sk0uncdkp19\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M30.13,43.59c1.36,0.33,3.87,0.46,5.21,0.33c10.91-1.05,28.53-3.42,40.78-4.26c2.26-0.15,3.63,0.16,4.76,0.32\" id=\"Sk0uncdkp1a\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M33.75,44.5c1,1.25,1,1.97,1.01,3.5C34.8,52.33,35,65.29,35,66.25\" id=\"Sk0uncdkp1b\" kvg:type=\"㇑a\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M13.88,67.74c1.97,0.47,5.61,0.66,7.57,0.47c20.21-2.03,36.35-4.62,66.65-5.31c3.29-0.08,5.26,0.22,6.91,0.46\" id=\"Sk0uncdkp1c\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M56.56,25.46c1.12,1.12,1.79,3.54,1.79,4.94c0,0.89-0.05,44.26-0.13,61.6c-0.01,3.12-0.03,5.39-0.05,6.38\" id=\"kvg:05e74-s6\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,496,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M56.56,25.46c1.12,1.12,1.79,3.54,1.79,4.94c0,0.89-0.05,44.26-0.13,61.6c-0.01,3.12-0.03,5.39-0.05,6.38\" id=\"Sk0uncdkp1e\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,496,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"56.56\" cy=\"25.46\" r=\"4\" transform=\"matrix(1,0,0,1,496,-4)\"></circle></svg>",
+      "stroke_count": 6,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">お年</span>はいくつですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">お年</span>はいくつですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">お年</span>はいくつですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">去年</span>日本へ行きました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">去年</span>日本へ行きました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">今年</span>毎日ランニングをします。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">今年</span>毎日ランニングをします。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">来年</span>社会人になる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">来年</span>社会人になる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼女は私より<span class=\"color\">年上</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼女は私より<span class=\"color\">年上</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一年間</span>くらい日本語を勉強しています。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">一年間</span>くらい日本語を勉強しています。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私たちは<span class=\"color\">毎年</span>1月にそこへ行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私たちは<span class=\"color\">毎年</span>1月にそこへ行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">よい<span class=\"color\">お年</span>をお迎えください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">よい<span class=\"color\">お年</span>をお迎えください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">万年筆</span>はインクの出が悪い。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">万年筆</span>はインクの出が悪い。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">近頃の<span class=\"color\">青年</span>には夢がない。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">近頃の<span class=\"color\">青年</span>には夢がない。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e5%b9%b4-nen-toshi-year/",
+      "id": 5
+    },
+    {
+      "character": "大",
+      "meaning": "large, big.7 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/06-大-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_5186628cd5dda796580006e3\" style=\"height: 100px; width: 300px;\" viewbox=\"0 0 300 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"299\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"299\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"300\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M19.38,48.25c1.49,0.51,5.03,0.89,7.6,0.49C41.12,46.5,63,43,77.19,42.44c2.7-0.11,4.87-0.06,7.31,0.33\" id=\"kvg:05927-s1\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M19.38,48.25c1.49,0.51,5.03,0.89,7.6,0.49C41.12,46.5,63,43,77.19,42.44c2.7-0.11,4.87-0.06,7.31,0.33\" id=\"Sk0uo8xlrc\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"19.38\" cy=\"48.25\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19.38,48.25c1.49,0.51,5.03,0.89,7.6,0.49C41.12,46.5,63,43,77.19,42.44c2.7-0.11,4.87-0.06,7.31,0.33\" id=\"Sk0uo8xlrf\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M49.5,18c0.88,2.12,1.03,4.16,0.99,6.32C50,57,37.75,81.12,18,91.75\" id=\"kvg:05927-s2\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M49.5,18c0.88,2.12,1.03,4.16,0.99,6.32C50,57,37.75,81.12,18,91.75\" id=\"Sk0uo8xlrh\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"49.5\" cy=\"18\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19.38,48.25c1.49,0.51,5.03,0.89,7.6,0.49C41.12,46.5,63,43,77.19,42.44c2.7-0.11,4.87-0.06,7.31,0.33\" id=\"Sk0uo8xlrk\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M49.5,18c0.88,2.12,1.03,4.16,0.99,6.32C50,57,37.75,81.12,18,91.75\" id=\"Sk0uo8xlrl\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M49.5,46c9,10.5,28.5,36.25,37.49,43.28c3.06,2.39,5.62,3.75,7.01,3.97\" id=\"kvg:05927-s3\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M49.5,46c9,10.5,28.5,36.25,37.49,43.28c3.06,2.39,5.62,3.75,7.01,3.97\" id=\"Sk0uo8xlrn\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"49.5\" cy=\"46\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle></svg>",
+      "stroke_count": 3,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたのことが<span class=\"color\">大好き</span>だ。</p>",
+          "english": "Toggle all hints!Example #1あなたのことが大好きだ。ふりがなromajiEnglishあなたのことがだいすきだ。anata no koto ga daisuki da.I love you! (or like you a lot)Example #2このハンバーガーは大きいですね。ふりがなromajiEnglishこのハンバーガーはおおきいですね。kono hanbaagaa wa ookii desune.This hamburger is huge.Example #3来週アメリカの大使館に行きます。ふりがなromajiEnglishらいしゅうあめりかのたいしかんにいきます。raishuu amerika no taishikan ni ikimasu.I'm going to the American embassy next week.Example #4そこには大ぜいの人々がいる。ふりがなromajiEnglishそこにはおおぜいのひとびとがいる。soko ni wa oozei no hitobito ga iru.There are a bunch of people over there.Example #5天気は大丈夫だった？ふりがなromajiEnglishてんきはだいじょうぶだった？tenki wa daijoubu datta?Was the weather OK?Example #6私にとって家族が一番大切です。ふりがなromajiEnglishわたしにとってかぞくがいちばんたいせつです。watashi ni totte kazoku ga ichiban taisetsu desu.To me, family is the most precious thing.Example #7子どもはいつか大人になる。ふりがなromajiEnglishこどもはいつかおとなになる。kodomo wa itsuka otona ni naru.Children grow up someday.Example #8もう少し大きな声で話してください。ふりがなromajiEnglishもうすこしおおきなこえではなしてください。mou sukoshi ookina koe de hanashite kudasai.Please speak slightly louder.Example #9彼は人生の大半を外国で過ごした。ふりがなromajiEnglishかれはじんせいのたいはんをがいこくですごした。kare wa jinsei no taihan o gaikoku de sugoshita.He spent the majority of his life abroad.Example #10この家には大分金がかかりました。ふりがなromajiEnglishこのいえにはだいぶかねがかかりました。kono ie ni wa daibu kane ga kakarimashita.This house cost a considerable amount of money to build.Example #11メンバーの大部分は女性だ。ふりがなromajiEnglishメンバーのだいぶぶんはじょせいだ。menbaa no daibubun wa josei da.The majority of the members are women."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたのことが<span class=\"color\">大好き</span>だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">あなたのことが<span class=\"color\">大好き</span>だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このハンバーガーは<span class=\"color\">大きい</span>ですね。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このハンバーガーは<span class=\"color\">大きい</span>ですね。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来週アメリカの<span class=\"color\">大使館</span>に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来週アメリカの<span class=\"color\">大使館</span>に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">そこには<span class=\"color\">大ぜい</span>の人々がいる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">そこには<span class=\"color\">大ぜい</span>の人々がいる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">天気は<span class=\"color\">大丈夫</span>だった？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">天気は<span class=\"color\">大丈夫</span>だった？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私にとって家族が一番<span class=\"color\">大切</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私にとって家族が一番<span class=\"color\">大切</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">子どもはいつか<span class=\"color\">大人</span>になる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">子どもはいつか<span class=\"color\">大人</span>になる。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">もう少し<span class=\"color\">大きな</span>声で話してください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">もう少し<span class=\"color\">大きな</span>声で話してください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は人生の<span class=\"color\">大半</span>を外国で過ごした。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は人生の<span class=\"color\">大半</span>を外国で過ごした。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この家には<span class=\"color\">大分</span>金がかかりました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この家には<span class=\"color\">大分</span>金がかかりました。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">メンバーの<span class=\"color\">大部分</span>は女性だ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">メンバーの<span class=\"color\">大部分</span>は女性だ。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e5%a4%a7-dai-tai-ookii-large-big/",
+      "id": 6
+    },
+    {
+      "character": "十",
+      "meaning": "ten, 10.8 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/07-十-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866284d5dda796580004e3\" style=\"height: 100px; width: 200px;\" viewbox=\"0 0 200 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"200\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M11.88,50.98c3.18,0.89,6.62,0.61,9.87,0.35c19.92-1.58,45.23-4.76,63.38-5.82c3.85-0.23,7.23-0.07,11,0.56\" id=\"kvg:05341-s1\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M11.88,50.98c3.18,0.89,6.62,0.61,9.87,0.35c19.92-1.58,45.23-4.76,63.38-5.82c3.85-0.23,7.23-0.07,11,0.56\" id=\"Sk0vu7gjib\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"11.88\" cy=\"50.98\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M11.88,50.98c3.18,0.89,6.62,0.61,9.87,0.35c19.92-1.58,45.23-4.76,63.38-5.82c3.85-0.23,7.23-0.07,11,0.56\" id=\"Sk0vu7gjie\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.22,11.63c1.4,1.4,2.2,3.96,2.2,6.26c0,1.13-0.03,51.22-0.19,73.41c-0.03,3.96-0.06,6.83-0.08,8.08\" id=\"kvg:05341-s2\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.22,11.63c1.4,1.4,2.2,3.96,2.2,6.26c0,1.13-0.03,51.22-0.19,73.41c-0.03,3.96-0.06,6.83-0.08,8.08\" id=\"Sk0vu7gjig\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"52.22\" cy=\"11.63\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle></svg>",
+      "stroke_count": 2,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">今日は<span class=\"color\">十四日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">今日は<span class=\"color\">十四日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">今日は<span class=\"color\">十四日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来月<span class=\"color\">二十歳</span>になります。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来月<span class=\"color\">二十歳</span>になります。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">十月</span>の天気が大好きです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">十月</span>の天気が大好きです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">客の数は<span class=\"color\">十人</span>だった。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">客の数は<span class=\"color\">十人</span>だった。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">二月<span class=\"color\">二十日</span>に日本に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">二月<span class=\"color\">二十日</span>に日本に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼女は<span class=\"color\">二十歳</span>のときに最初の子供を産んだ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼女は<span class=\"color\">二十歳</span>のときに最初の子供を産んだ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">十分</span>なスペースです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">十分</span>なスペースです。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e5%8d%81-juu-ten-10/",
+      "id": 7
+    },
+    {
+      "character": "二",
+      "meaning": "two, 2.9 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/08-二-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866291d5dda79658000867\" style=\"height: 100px; width: 200px;\" viewbox=\"0 0 200 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"199\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"200\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M25.25,32.4c1.77,0.37,4.78,0.56,6.55,0.37c10.82-1.15,28.82-3.4,41.24-3.76c2.95-0.09,4.73,0.18,6.21,0.36\" id=\"kvg:04e8c-s1\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M25.25,32.4c1.77,0.37,4.78,0.56,6.55,0.37c10.82-1.15,28.82-3.4,41.24-3.76c2.95-0.09,4.73,0.18,6.21,0.36\" id=\"Sk0vqufyib\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"25.25\" cy=\"32.4\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M25.25,32.4c1.77,0.37,4.78,0.56,6.55,0.37c10.82-1.15,28.82-3.4,41.24-3.76c2.95-0.09,4.73,0.18,6.21,0.36\" id=\"Sk0vqufyie\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M12,80.75c2.37,0.5,6.73,0.67,9.09,0.5c23.79-1.75,45.04-4.12,67.49-4.74c3.95-0.11,6.32,0.24,8.3,0.49\" id=\"kvg:04e8c-s2\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M12,80.75c2.37,0.5,6.73,0.67,9.09,0.5c23.79-1.75,45.04-4.12,67.49-4.74c3.95-0.11,6.32,0.24,8.3,0.49\" id=\"Sk0vqufyig\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"12\" cy=\"80.75\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle></svg>",
+      "stroke_count": 2,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">水を<span class=\"color\">二つ</span>ください！</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">水を<span class=\"color\">二つ</span>ください！</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">水を<span class=\"color\">二つ</span>ください！</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">二月</span>はとても寒いです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">二月</span>はとても寒いです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の誕生日は<span class=\"color\">二月二十日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の誕生日は<span class=\"color\">二月二十日</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">一つ<span class=\"color\">二つ</span>の間違いはしかたがない。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">一つ<span class=\"color\">二つ</span>の間違いはしかたがない。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は<span class=\"color\">二十歳</span>のときにこの本を書いた。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">彼は<span class=\"color\">二十歳</span>のときにこの本を書いた。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e4%ba%8c-ni-futatsu-two-2/",
+      "id": 8
+    },
+    {
+      "character": "本",
+      "meaning": "book, present, main, origin, true, real, counter for long cylindrical things.10 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/09-本-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_51866298d5dda79658000a26\" style=\"height: 100px; width: 500px;\" viewbox=\"0 0 500 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"499\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"499\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"500\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"kvg:0672c-s1\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"Sk0vztwuze\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"20.5\" cy=\"33.5\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"Sk0vztwuzh\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.1,11.12c1.25,1.25,2.05,3.23,2.05,4.99c0,0.84,0,57.16-0.02,76.76c-0.01,3.96-0.01,6.42-0.02,6.62\" id=\"kvg:0672c-s2\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.1,11.12c1.25,1.25,2.05,3.23,2.05,4.99c0,0.84,0,57.16-0.02,76.76c-0.01,3.96-0.01,6.42-0.02,6.62\" id=\"Sk0vztwuzj\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"52.1\" cy=\"11.12\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"Sk0vztwuzm\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.1,11.12c1.25,1.25,2.05,3.23,2.05,4.99c0,0.84,0,57.16-0.02,76.76c-0.01,3.96-0.01,6.42-0.02,6.62\" id=\"Sk0vztwuzn\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M51.75,33.5c0,1-0.41,2.22-1.29,3.88C43.62,50.25,30.12,65.5,13.25,75.5\" id=\"kvg:0672c-s3\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M51.75,33.5c0,1-0.41,2.22-1.29,3.88C43.62,50.25,30.12,65.5,13.25,75.5\" id=\"Sk0vztwuzp\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"51.75\" cy=\"33.5\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"350\" x2=\"350\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"399\" x2=\"399\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"Sk0vztwuzs\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.1,11.12c1.25,1.25,2.05,3.23,2.05,4.99c0,0.84,0,57.16-0.02,76.76c-0.01,3.96-0.01,6.42-0.02,6.62\" id=\"Sk0vztwuzt\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M51.75,33.5c0,1-0.41,2.22-1.29,3.88C43.62,50.25,30.12,65.5,13.25,75.5\" id=\"Sk0vztwuzu\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M54.75,35.5c4.92,5.74,23.48,23.33,32.85,31.27c2.58,2.18,5.16,4.41,8.52,5.23\" id=\"kvg:0672c-s4\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M54.75,35.5c4.92,5.74,23.48,23.33,32.85,31.27c2.58,2.18,5.16,4.41,8.52,5.23\" id=\"Sk0vztwuzw\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,296,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"54.75\" cy=\"35.5\" r=\"4\" transform=\"matrix(1,0,0,1,296,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"450\" x2=\"450\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"499\" x2=\"499\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M20.5,33.5c1.93,0.62,4.91,1.07,8.1,0.75C42.43,32.88,66,30.75,79.64,30c3.2-0.18,7.22,0.25,9.23,0.5\" id=\"Sk0vztwuzz\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M52.1,11.12c1.25,1.25,2.05,3.23,2.05,4.99c0,0.84,0,57.16-0.02,76.76c-0.01,3.96-0.01,6.42-0.02,6.62\" id=\"Sk0vztwuz10\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M51.75,33.5c0,1-0.41,2.22-1.29,3.88C43.62,50.25,30.12,65.5,13.25,75.5\" id=\"Sk0vztwuz11\" kvg:type=\"㇒\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M54.75,35.5c4.92,5.74,23.48,23.33,32.85,31.27c2.58,2.18,5.16,4.41,8.52,5.23\" id=\"Sk0vztwuz12\" kvg:type=\"㇏\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.88,73.92c1.5,0.46,2.74,0.75,5.3,0.59c9.95-0.63,21.2-2.13,27.96-2.95c1.93-0.23,3.62-0.31,6-0.02\" id=\"kvg:0672c-s5\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M33.88,73.92c1.5,0.46,2.74,0.75,5.3,0.59c9.95-0.63,21.2-2.13,27.96-2.95c1.93-0.23,3.62-0.31,6-0.02\" id=\"Sk0vztwuz14\" kvg:type=\"㇐\" transform=\"matrix(1,0,0,1,396,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"33.88\" cy=\"73.92\" r=\"4\" transform=\"matrix(1,0,0,1,396,-4)\"></circle></svg>",
+      "stroke_count": 5,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">本</span>を読んだことがありますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">本</span>を読んだことがありますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">本</span>を読んだことがありますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来月<span class=\"color\">日本</span>に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">来月<span class=\"color\">日本</span>に行きます。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">本当</span>のことを教えてください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">本当</span>のことを教えてください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">本</span>を読むのが好きです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私は<span class=\"color\">本</span>を読むのが好きです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私のお母さんは<span class=\"color\">日本人</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私のお母さんは<span class=\"color\">日本人</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">日本</span>の中であなたはどこに行きたいですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">日本</span>の中であなたはどこに行きたいですか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">本棚</span>は組み立てやすいです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">この<span class=\"color\">本棚</span>は組み立てやすいです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">その計画に必要な<span class=\"color\">資本</span>を準備しなければならない。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">その計画に必要な<span class=\"color\">資本</span>を準備しなければならない。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の仕事は<span class=\"color\">基本的</span>に平日が休みです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">私の仕事は<span class=\"color\">基本的</span>に平日が休みです。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このダイヤは<span class=\"color\">本物</span>ですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このダイヤは<span class=\"color\">本物</span>ですか。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">本人</span>確認書類として運転免許証、健康保険証、パスポートのいずれかをお持ち下さい。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">本人</span>確認書類として運転免許証、健康保険証、パスポートのいずれかをお持ち下さい。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e6%9c%ac-hon-moto-book-true/",
+      "id": 9
+    },
+    {
+      "character": "中",
+      "meaning": "in, inside, middle, mean, center.11 of 2,500 most used kanji in newspapers.View JLPT N5 kanji list",
+      "flashcard_url": "https://jlptsensei.com/wp-content/uploads/2019/09/10-中-kanji-meaning-JLPT-N5-Kanji-Flashcard-200x200.png",
+      "stroke_diagram": "<svg class=\"stroke_order_diagram--svg_container_for_5186628dd5dda79658000740\" style=\"height: 100px; width: 400px;\" viewbox=\"0 0 400 100\"><desc>Created with Snap</desc><defs></defs><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"399\" y1=\"1\" y2=\"1\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"1\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"1\" x2=\"399\" y1=\"99\" y2=\"99\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"0\" x2=\"400\" y1=\"50\" y2=\"50\"></line><line class=\"stroke_order_diagram--guide_line\" x1=\"50\" x2=\"50\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"99\" x2=\"99\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--current_path\" d=\"M19.89,36.87c1,1,1.74,2.25,2.01,3.65c1.13,5.71,2.58,13.06,4.17,22.97c0.27,1.68,0.55,4.43,0.83,6.26\" id=\"kvg:04e2d-s1\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M19.89,36.87c1,1,1.74,2.25,2.01,3.65c1.13,5.71,2.58,13.06,4.17,22.97c0.27,1.68,0.55,4.43,0.83,6.26\" id=\"Sk0uo9sx1d\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,-4,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"19.89\" cy=\"36.87\" r=\"4\" transform=\"matrix(1,0,0,1,-4,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"150\" x2=\"150\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"199\" x2=\"199\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19.89,36.87c1,1,1.74,2.25,2.01,3.65c1.13,5.71,2.58,13.06,4.17,22.97c0.27,1.68,0.55,4.43,0.83,6.26\" id=\"Sk0uo9sx1g\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M23.33,39.51C37.12,37.62,70.88,34,84,33.24c4.38-0.25,6,1.14,5.12,4.42c-1.53,5.7-5.61,20.18-6.12,22.09\" id=\"kvg:04e2d-s2\" kvg:type=\"㇕b\" transform=\"matrix(1,0,0,1,96,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M23.33,39.51C37.12,37.62,70.88,34,84,33.24c4.38-0.25,6,1.14,5.12,4.42c-1.53,5.7-5.61,20.18-6.12,22.09\" id=\"Sk0uo9sx1i\" kvg:type=\"㇕b\" transform=\"matrix(1,0,0,1,96,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"23.33\" cy=\"39.51\" r=\"4\" transform=\"matrix(1,0,0,1,96,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"250\" x2=\"250\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"299\" x2=\"299\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19.89,36.87c1,1,1.74,2.25,2.01,3.65c1.13,5.71,2.58,13.06,4.17,22.97c0.27,1.68,0.55,4.43,0.83,6.26\" id=\"Sk0uo9sx1l\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M23.33,39.51C37.12,37.62,70.88,34,84,33.24c4.38-0.25,6,1.14,5.12,4.42c-1.53,5.7-5.61,20.18-6.12,22.09\" id=\"Sk0uo9sx1m\" kvg:type=\"㇕b\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M27.74,64.84C40.12,63.62,61.86,62.2,79,60.77c2.36-0.2,5.75-0.27,7.25-0.27\" id=\"kvg:04e2d-s3\" kvg:type=\"㇐b\" transform=\"matrix(1,0,0,1,196,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M27.74,64.84C40.12,63.62,61.86,62.2,79,60.77c2.36-0.2,5.75-0.27,7.25-0.27\" id=\"Sk0uo9sx1o\" kvg:type=\"㇐b\" transform=\"matrix(1,0,0,1,196,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"27.74\" cy=\"64.84\" r=\"4\" transform=\"matrix(1,0,0,1,196,-4)\"></circle><line class=\"stroke_order_diagram--guide_line\" x1=\"350\" x2=\"350\" y1=\"1\" y2=\"99\"></line><line class=\"stroke_order_diagram--bounding_box\" x1=\"399\" x2=\"399\" y1=\"1\" y2=\"99\"></line><path class=\"stroke_order_diagram--existing_path\" d=\"M19.89,36.87c1,1,1.74,2.25,2.01,3.65c1.13,5.71,2.58,13.06,4.17,22.97c0.27,1.68,0.55,4.43,0.83,6.26\" id=\"Sk0uo9sx1r\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M23.33,39.51C37.12,37.62,70.88,34,84,33.24c4.38-0.25,6,1.14,5.12,4.42c-1.53,5.7-5.61,20.18-6.12,22.09\" id=\"Sk0uo9sx1s\" kvg:type=\"㇕b\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--existing_path\" d=\"M27.74,64.84C40.12,63.62,61.86,62.2,79,60.77c2.36-0.2,5.75-0.27,7.25-0.27\" id=\"Sk0uo9sx1t\" kvg:type=\"㇐b\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.5,11.5c1.44,1.44,2.25,3.5,2.25,5.06c0,0.9,0.06,56.6-0.15,76.69c-0.03,3.3-0.07,5.6-0.1,6.5\" id=\"kvg:04e2d-s4\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><path class=\"stroke_order_diagram--current_path\" d=\"M52.5,11.5c1.44,1.44,2.25,3.5,2.25,5.06c0,0.9,0.06,56.6-0.15,76.69c-0.03,3.3-0.07,5.6-0.1,6.5\" id=\"Sk0uo9sx1v\" kvg:type=\"㇑\" transform=\"matrix(1,0,0,1,296,-4)\"></path><circle class=\"stroke_order_diagram--path_start\" cx=\"52.5\" cy=\"11.5\" r=\"4\" transform=\"matrix(1,0,0,1,296,-4)\"></circle></svg>",
+      "stroke_count": 4,
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [],
+        "special": []
+      },
+      "examples": [
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">中国</span>に行ったことがありますか？</p>",
+          "english": "Toggle all hints!Example #1中国に行ったことがありますか？ふりがなromajiEnglishちゅうごくにいったことがありますか？chuugoku ni itta koto ga arimasu ka?Have you ever been to China before?Example #2今は家の中にいますよ。ふりがなromajiEnglishいまはいえのなかにいますよ。ima wa ie no naka ni imasu yo.I'm inside the house right now.Example #3写真の中に何が見えますか？ふりがなromajiEnglishしゃしんのなかになにがみえますか？shashin no naka ni nani ga miemasu ka?What do you see in the picture?Example #4部屋の中に入らせてください。ふりがなromajiEnglishへやのなかにはいらせてください。heya no naka ni hairasete kudasai.Please let me in the room.Example #5凄い集中力だね。ふりがなromajiEnglishすといしゅうちゅうりょくだね。sugoi shuuchuuryoku dane.That is some serious concentration skill you have.Example #6このパソコンは現在使用中です。ふりがなromajiEnglishこのパソコンはげんざいしようちゅうです。kono pasokon wa genzai shiyou chuu desu.This computer is currently being used."
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">中国</span>に行ったことがありますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\"><span class=\"color\">中国</span>に行ったことがありますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">今は家の<span class=\"color\">中</span>にいますよ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">今は家の<span class=\"color\">中</span>にいますよ。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">写真の<span class=\"color\">中</span>に何が見えますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">写真の<span class=\"color\">中</span>に何が見えますか？</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">部屋の<span class=\"color\">中</span>に入らせてください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">部屋の<span class=\"color\">中</span>に入らせてください。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">凄い<span class=\"color\">集中力</span>だね。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">凄い<span class=\"color\">集中力</span>だね。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このパソコンは現在使用<span class=\"color\">中</span>です。</p>",
+          "english": ""
+        },
+        {
+          "japanese_html": "<p class=\"m-0 jp\">このパソコンは現在使用<span class=\"color\">中</span>です。</p>",
+          "english": ""
+        }
+      ],
+      "jlpt_level": "n5",
+      "page_url": "https://jlptsensei.com/learn-japanese-kanji/%e4%b8%ad-chuu-naka-inside-center/",
+      "id": 10
+    }
+  ]
+}
